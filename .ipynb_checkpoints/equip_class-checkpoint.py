@@ -1,3 +1,6 @@
+import serial
+from datetime import datetime
+import time
 # -*- coding: utf-8 -*-
 
 import datetime, time
@@ -8,6 +11,126 @@ import regex as re
 from math import isclose
 
 from loguru import logger
+
+def log_action(filename, data):
+    timestamp = datetime.datetime.now().strftime("%d/%m/%y %H:%M:%S")
+    with open('test_log.txt', 'a') as file:
+        file.write(f'[{timestamp}] {data}\n')
+
+class ViciValco:
+    def __init__(self, serial, device_name, ID):
+        
+        self.serial = serial
+        self.device_name = device_name
+        self.ID = ID
+        self.connection_repeats = 5 # was 100...
+    
+    def connect(self): 
+        """"" Connection of the valve to the computer via serial port """
+        COMPORT = 'COM9'
+        global ser
+        ser = serial.Serial()
+        ser.baudrate = 9600
+        ser.port = COMPORT #counter for port name starts at 0
+        parity=serial.PARITY_NONE
+        stopbits=serial.STOPBITS_ONE
+        bytesize=serial.EIGHTBITS
+  
+        if (ser.isOpen() == False):
+            ser.timeout = 1
+            ser.open()
+            print("Device is connected")
+            log_action('test_log.txt', "ViciValco device is connected.")
+
+        else:
+            print ('The Port is closed: ' + ser1.portstr)
+            log_action('test_log.txt', "Connection has failed.")
+
+    def go_to_pos(self, pos):
+
+        ser.write(b'CP\r')
+        byteData = ser.readline().decode()
+        position = byteData[-2]
+
+        if position != pos:
+            if pos == 'A':
+                ser.write(b'CW\r')
+                print('Valve moved to position A')
+                log_action('test_log.txt', "ViciValco moved to position A.")
+            elif pos == 'B':
+                ser.write(b'CC\r')
+                print('Valve moved to position B')
+                log_action('test_log.txt', "ViciValco moved to position B.")
+        else:
+                print('Valve already at that position')
+                log_action('test_log.txt', "ViciValco already at the desired position.")
+
+    def read_pos(self):
+        ser.write(b'CP\r')
+        byteData = ser.readline().decode()
+        return byteData[-2]
+        log_action('test_log.txt', "ViciValco at the position {byteData[-2]}.")
+
+
+class K100Pump :
+    def __init__(self, serial, device_name, ID):
+        
+        self.serial = serial
+        self.device_name = device_name
+        self.ID = ID
+        self.connection_repeats = 5 # was 100...
+
+    def connect(self): 
+        """"" Connection of the valve to the computer via serial port """
+        COMPORT = 'COM7'
+        global ser
+        ser = serial.Serial()
+        ser.baudrate = 9600
+        ser.port = COMPORT #counter for port name starts at 0
+        parity=serial.PARITY_NONE
+        stopbits=serial.STOPBITS_ONE
+        bytesize=serial.EIGHTBITS
+  
+        if (ser.isOpen() == False):
+            ser.timeout = 1
+            ser.open()
+            print("Device is connected")
+            log_action('test_log.txt', "Knauer pump is connected.")
+            
+        else:
+            print ('The Port is closed: ' + ser1.portstr)
+            log_action('test_log.txt', "Not connected to Knauer pump.")
+        
+    def command(self, code):
+        ser.write(f'{code}\r'.encode())
+        byteData = ser.readline().decode().strip()
+        return byteData
+
+    def set_flow(self, flow_rate):
+        byteData = pump.command(f"F{flow_rate}")
+        return byteData
+        print('Flow rate set to {flow_rate} ml/min')
+        log_action('test_log.txt', "Knauer pump flow rate has been set to {flow_rate} ml/min.")
+
+    def get_flow(self):
+        byteData = pump.command(f"F?")
+        return byteData
+        print('Flow rate set to {byteData} ml/min')
+        log_action('test_log.txt', "Knauer pump flow rate is set to {byteData} ml/min.")
+
+    def start_flow(self):
+        byteData = pump.command(f"M1")
+        return byteData
+        print('Pump to begin flow')
+        log_action('test_log.txt', "Knauer pump has started flow.")
+
+    def stop_flow(self):
+        byteData = pump.command(f"M0")
+        return byteData
+        print('Pump to stop flow')
+        log_action('test_log.txt', "Knauer pump has stopped flow.")
+
+        
 
 class gsioc_Protocol:
 
@@ -38,7 +161,7 @@ class gsioc_Protocol:
 
         # Create handlers
         c_handler = logging.StreamHandler()
-        f_handler = logging.FileHandler('logs/gsioc_protocol.log')
+        f_handler = logging.FileHandler('test_log.txt')
         c_handler.setLevel(logging.DEBUG)
         f_handler.setLevel(logging.DEBUG)
 
@@ -101,6 +224,7 @@ class gsioc_Protocol:
             if self.connection_repeats > 0:
                 self.connection_repeats = (self.connection_repeats - 1)
                 logger.error(f'Attempt {100-self.connection_repeats}/100: {str(datetime.datetime.now())} No response from device {byte_ID-128}')
+                log_action('test_log.txt', "Unable to connect to Gilson autosampler.")
                 self.connect()
             else:
                 raise Exception(str(datetime.datetime.now()) + "No response from device")
@@ -109,6 +233,7 @@ class gsioc_Protocol:
         if self.verify_device():
             
             logger.debug(f"Connected to device {byte_ID-128}")
+            log_action('test_log.txt', "Connected to Gilson autosampler.")
         # Wrong Device ID
         else:
             logger.error(f'Connected to wrong device: connecting to device {byte_ID-128} failed.')
@@ -288,6 +413,60 @@ class gsioc_Protocol:
         time.sleep(0.1)
         self.connect()
 
+
+class DeviceController:
+    def __init__(self, serial_connection, max_repeats=100):
+        self.serial = serial_connection
+        self.max_repeats = max_repeats
+        self.connection_repeats = max_repeats
+
+    # 3. Method Definition
+    def iCommand(self, commandstring):
+        logger.debug(f'Sending immediate command {commandstring} to device.')
+        
+        # Convert to binary
+        command = binascii.a2b_qp(commandstring)
+        logger.debug(f'Converted command to binary: {command}')
+
+        # Write command
+        self.serial.flushInput()
+        self.serial.write(command)
+        logger.debug('Command written to serial port.')
+
+        # Retrieve Response
+        resp = bytearray()
+        while True:
+            resp_raw = self.serial.read(10)    # Will return empty array after timeout
+            logger.debug(f'Received raw response: {resp_raw}')
+
+            if len(resp_raw) == 0:
+                logger.debug(f'No response received. Connection repeats left: {self.connection_repeats}')
+                if self.connection_repeats > 0:
+                    self.connection_repeats -= 1
+                    logger.error(f'Attempt {self.max_repeats - self.connection_repeats}/{self.max_repeats}: sent Immediate Command {commandstring}, in binascii: {command}')
+                    return self.iCommand(commandstring)  # Safe recursion
+                else:
+                    logger.critical('No response from device after maximum retries.')
+                    raise Exception(str(datetime.datetime.now()) + " No response from device")
+
+            resp.extend(resp_raw)
+            logger.debug(f'Current response buffer: {resp}')
+
+            # Extended ASCII represents end of message
+            if resp[-1] > 127:
+                resp[-1] -= 128
+                logger.debug(f'End of message detected, adjusted last byte: {resp[-1]}')
+                logger.debug('Sending immediate command complete.')
+                break
+
+            # Write Acknowledge to Device to signal next byte can be retrieved
+            else:
+                self.serial.flushInput()
+                self.serial.write(bytes.fromhex("06"))
+                logger.debug('Acknowledgement sent to device.')
+
+        logger.debug(f'Received full response: {resp}')
+        return resp.decode("ascii")
 
 def check_xy_position_change(gsioc_lh, logging_entity, destination_command, TESTING_ACTIVE=False):
     """Checks if current x/y-position is close to the expected destination. 

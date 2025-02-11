@@ -1,0 +1,6 @@
+[11/02/25 10:32:29] ViciValco device is connected.
+[11/02/25 10:33:39] ViciValco already at the desired position.
+[11/02/25 10:33:44] ViciValco moved to position B.
+[11/02/25 10:33:51] ViciValco moved to position A.
+[11/02/25 10:33:54] ViciValco already at the desired position.
+[11/02/25 11:07:14] Connected to Gilson autosampler.
