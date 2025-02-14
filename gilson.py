@@ -1,6 +1,3 @@
-import serial
-from datetime import datetime
-import time
 # -*- coding: utf-8 -*-
 
 import datetime, time
@@ -9,6 +6,7 @@ import binascii
 import logging
 import regex as re
 from math import isclose
+import numpy as np
 
 from loguru import logger
 
@@ -17,120 +15,6 @@ def log_action(filename, data):
     with open('test_log.txt', 'a') as file:
         file.write(f'[{timestamp}] {data}\n')
 
-class ViciValco:
-    def __init__(self, serial, device_name, ID):
-        
-        self.serial = serial
-        self.device_name = device_name
-        self.ID = ID
-        self.connection_repeats = 5 # was 100...
-    
-    def connect(self): 
-        """"" Connection of the valve to the computer via serial port """
-        COMPORT = 'COM9'
-        global ser
-        ser = serial.Serial()
-        ser.baudrate = 9600
-        ser.port = COMPORT #counter for port name starts at 0
-        parity=serial.PARITY_NONE
-        stopbits=serial.STOPBITS_ONE
-        bytesize=serial.EIGHTBITS
-  
-        if (ser.isOpen() == False):
-            ser.timeout = 1
-            ser.open()
-            print("Device is connected")
-            log_action('test_log.txt', "ViciValco device is connected.")
-
-        else:
-            print ('The Port is closed: ' + ser1.portstr)
-            log_action('test_log.txt', "Connection has failed.")
-
-    def go_to_pos(self, pos):
-
-        ser.write(b'CP\r')
-        byteData = ser.readline().decode()
-        position = byteData[-2]
-
-        if position != pos:
-            if pos == 'A':
-                ser.write(b'CW\r')
-                print('Valve moved to position A')
-                log_action('test_log.txt', "ViciValco moved to position A.")
-            elif pos == 'B':
-                ser.write(b'CC\r')
-                print('Valve moved to position B')
-                log_action('test_log.txt', "ViciValco moved to position B.")
-        else:
-                print('Valve already at that position')
-                log_action('test_log.txt', "ViciValco already at the desired position.")
-
-    def read_pos(self):
-        ser.write(b'CP\r')
-        byteData = ser.readline().decode()
-        return byteData[-2]
-        log_action('test_log.txt', "ViciValco at the position {byteData[-2]}.")
-
-
-class K100Pump :
-    def __init__(self, serial, device_name, ID):
-        
-        self.serial = serial
-        self.device_name = device_name
-        self.ID = ID
-        self.connection_repeats = 5 # was 100...
-
-    def connect(self): 
-        """"" Connection of the valve to the computer via serial port """
-        COMPORT = 'COM7'
-        global ser
-        ser = serial.Serial()
-        ser.baudrate = 9600
-        ser.port = COMPORT #counter for port name starts at 0
-        parity=serial.PARITY_NONE
-        stopbits=serial.STOPBITS_ONE
-        bytesize=serial.EIGHTBITS
-  
-        if (ser.isOpen() == False):
-            ser.timeout = 1
-            ser.open()
-            print("Device is connected")
-            log_action('test_log.txt', "Knauer pump is connected.")
-            
-        else:
-            print ('The Port is closed: ' + ser1.portstr)
-            log_action('test_log.txt', "Not connected to Knauer pump.")
-        
-    def command(self, code):
-        ser.write(f'{code}\r'.encode())
-        byteData = ser.readline().decode().strip()
-        return byteData
-
-    def set_flow(self, flow_rate):
-        byteData = pump.command(f"F{flow_rate}")
-        return byteData
-        print('Flow rate set to {flow_rate} ml/min')
-        log_action('test_log.txt', "Knauer pump flow rate has been set to {flow_rate} ml/min.")
-
-    def get_flow(self):
-        byteData = pump.command(f"F?")
-        return byteData
-        print('Flow rate set to {byteData} ml/min')
-        log_action('test_log.txt', "Knauer pump flow rate is set to {byteData} ml/min.")
-
-    def start_flow(self):
-        byteData = pump.command(f"M1")
-        return byteData
-        print('Pump to begin flow')
-        log_action('test_log.txt', "Knauer pump has started flow.")
-
-    def stop_flow(self):
-        byteData = pump.command(f"M0")
-        return byteData
-        print('Pump to stop flow')
-        log_action('test_log.txt', "Knauer pump has stopped flow.")
-
-        
 
 class gsioc_Protocol:
 
@@ -233,7 +117,8 @@ class gsioc_Protocol:
         if self.verify_device():
             
             logger.debug(f"Connected to device {byte_ID-128}")
-            log_action('test_log.txt', "Connected to Gilson autosampler.")
+            log_action('test_log.txt', "Connected to autosampler.")
+            
         # Wrong Device ID
         else:
             logger.error(f'Connected to wrong device: connecting to device {byte_ID-128} failed.')
@@ -278,6 +163,7 @@ class gsioc_Protocol:
                 resp[len(resp)-1] -= 128
 
                 logger.debug(f'Sending immediate command complete.')
+                
                 break
 
             # Write Acknowledge to Device to signal next byte can be retrieved
@@ -291,13 +177,12 @@ class gsioc_Protocol:
         return resp.decode("ascii")
 
     # Buffered Command; More then one character
-    def bCommand(self,commandstring):
+    def bCommand(self, commandstring):
         
         logger.debug(f'Sending buffered command "{commandstring}" to device.')
 
         # Convert to byte, \n signifies start of command, \r signals end of command
         data = binascii.a2b_qp("\n" + commandstring + "\r")
-        #logger.debug(len(data)) #J.F.W.>>> see if the data binary is composed of suitable bytes
         logger.info(f'GSIOC <<< {commandstring}')
         self.serial.flushInput()
         resp = bytearray(0)
@@ -388,12 +273,24 @@ class gsioc_Protocol:
                 logger.info(f'GSIOC >>> {resp}')
                 return resp
             
+            if commandstring == 'H':
+                log_action('test_log.txt', "Autosampler sent to home position.")           
+
+            elif commandstring == 'e[n]':
+                log_action('test_log.txt', "Autosampler has cleared errors.")  
 
         # This will happen if sending the data failed
         logger.error("Buffered command FAILED")
         resp_no_whitespace = resp[1:len(resp)-2]
         return resp_no_whitespace.decode("ascii")
 
+    def go_to_vial(self, vial):
+        rack1_commands.get_xy_command(2)
+        self.bCommand(thing[0])
+        log_action('test_log.txt', f"Autosampler sent to {vial} position.")
+
+        
+            
 
     ## General Commands ##
     def closeSerial(self):
@@ -534,3 +431,69 @@ if __name__ == '__main__':
     ##### COMMANDS TO THE VALVE ######
     #g1.iCommand("%")
     #g1.bCommand('VL')
+
+class Rack():
+    """Representation for a Rack within the flow setup."""
+    def __init__(self, array_dimensions, offset_x, offset_y, vial2vial_x, vial2vial_y, groundlevel_height):
+        self.array_dimensions=array_dimensions
+        self.offset_x=offset_x
+        self.offset_y=offset_y
+        self.vial2vial_x=vial2vial_x
+        self.vial2vial_y=vial2vial_y
+        self.groundlevel_height=groundlevel_height    
+    
+    def get_vial_indices(self, vial_position, array_order, tolerance):
+        """get indices of a specific vial in a rack with a certain order of the vials
+        :returns: a tuple of (i,j) with i=vial-position along x-axis, and j=vial-position along y-axis
+        TODO: verify that input is valid type, array dimensions and validation of the inputted values
+        """
+        indices=np.where(array_order==vial_position)
+        # print(str(f'indices are: {indices}'))
+        if len(indices)==2 and len(indices[0])==1:
+            
+            return indices
+        elif len(indices)==2 and len(indices[0])==0 and tolerance.lower()=='no':                #tolerance settings
+            #REMOVE THIS STATEMENT!!!
+            sys.exit(f'fatal error: zero vials with position number {vial_position}')                        #REMOVE THIS STATEMENT!!!
+        else:
+            logger.warning(f'warning: multiple vials with position number {vial_position}')
+            return indices
+
+
+class Rackcommands(): 
+    """Representation for Commands connected to the Rack of the flow setup."""
+
+    def __init__(self,rack,rack_order,rack_position,rack_position_offset_x,rack_position_offset_y):
+        self.rack=rack
+        self.rack_order=rack_order
+        self.rack_position=rack_position
+        self.rack_position_offset_x=rack_position_offset_x
+        self.rack_position_offset_y=rack_position_offset_y
+        
+    def get_xy_command(self, vial_pos: int, tolerance: str = 'no') -> str: #speed 125mm/s, force 100%
+        """returns a str object command suitable for the liquid handler gx-241"""
+        
+        index_y, index_x = self.rack.get_vial_indices(vial_pos, self.rack_order, tolerance)
+        
+        if len(index_x)==len(index_y):
+            command=[]
+            for i in range(len(index_x)):
+                i_x=index_x[i]
+                i_y=index_y[i]
+                distance_x=self.rack.offset_x + self.rack.vial2vial_x * i_x + (self.rack_position-1)*self.rack_position_offset_x    
+                distance_y=self.rack.offset_y + self.rack.vial2vial_y * i_y + (self.rack_position-1)*self.rack_position_offset_y    
+                command.append(str(f'X{distance_x}/{distance_y}'))
+            return command
+        else:
+            logger.error("error: len(index_x) != len(index_y) ")
+
+
+
+class Vial():
+    """Representation for a Vial within the flow setup."""
+    def __init__(self,vial_volume_max,vial_usedvolume_max,vial_height,vial_free_depth):
+        self.vial_volume_max=vial_volume_max                #volume in mL
+        self.vial_usedvolume_max=vial_usedvolume_max        #volume in mL
+        self.vial_height=vial_height                        #height in mm
+        self.vial_free_depth=vial_free_depth                #depth in mm
+        self.sum_liquid_level = 0

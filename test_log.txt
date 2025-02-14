@@ -1,6 +1,31 @@
-[11/02/25 10:32:29] ViciValco device is connected.
-[11/02/25 10:33:39] ViciValco already at the desired position.
-[11/02/25 10:33:44] ViciValco moved to position B.
-[11/02/25 10:33:51] ViciValco moved to position A.
-[11/02/25 10:33:54] ViciValco already at the desired position.
-[11/02/25 11:07:14] Connected to Gilson autosampler.
+[13/02/25 11:25:34] Syringe pump version information has been requested.
+[13/02/25 11:25:36] Syringe pump time has been requested.
+[13/02/25 11:36:51] trying to connect
+[13/02/25 11:36:53] Syringe pump version information has been requested.
+[13/02/25 11:36:55] Syringe pump time has been requested.
+[13/02/25 11:37:26] trying to connect
+[13/02/25 11:37:27] Syringe pump version information has been requested.
+[13/02/25 11:37:28] Syringe pump time has been requested.
+[13/02/25 11:37:31] Syringe pump withdrawal rate has been set to 1 ml/min.
+[13/02/25 11:37:53] Syringe pump withdrawal rate has been requested.
+[13/02/25 11:57:21] ViciValco device is connected.
+[13/02/25 12:00:11] ViciValco device is connected.
+[13/02/25 12:00:43] ViciValco device is connected.
+[13/02/25 12:01:01] ViciValco device is connected.
+[13/02/25 12:01:13] ViciValco device is connected.
+[13/02/25 12:02:42] ViciValco device is connected.
+[13/02/25 12:09:12] ViciValco device is connected.
+[13/02/25 12:22:42] ViciValco device is connected.
+[13/02/25 12:27:59] ViciValco already at the desired position.
+[13/02/25 12:28:48] ViciValco device is connected.
+[13/02/25 12:29:18] ViciValco device is connected.
+[13/02/25 12:29:32] ViciValco device is connected.
+[13/02/25 12:30:13] ViciValco device is connected.
+[13/02/25 12:30:53] ViciValco device is connected.
+[13/02/25 12:30:55] ViciValco already at the desired position.
+[13/02/25 12:43:36] ViciValco device is connected.
+[13/02/25 12:44:24] ViciValco device is connected.
+[13/02/25 12:44:26] ViciValco already at the desired position.
+[13/02/25 12:46:59] ViciValco device is connected.
+[13/02/25 12:47:16] ViciValco device is connected.
+[13/02/25 12:47:17] ViciValco already at the desired position.

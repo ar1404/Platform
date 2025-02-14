@@ -1,1 +1,2 @@
-trying to connect
+[13/02/25 11:25:34] Syringe pump version information has been requested.
+[13/02/25 11:25:36] Syringe pump time has been requested.
