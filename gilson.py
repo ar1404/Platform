@@ -133,8 +133,6 @@ class gsioc_Protocol:
     # Send immediate Command; One Character at most
     def iCommand(self,commandstring):
         
-        logger.debug(f'Sending immediate command {commandstring} to device.')
-        
         # Convert to binary
         command = binascii.a2b_qp(commandstring)
 
@@ -178,8 +176,6 @@ class gsioc_Protocol:
 
     # Buffered Command; More then one character
     def bCommand(self, commandstring):
-        
-        logger.debug(f'Sending buffered command "{commandstring}" to device.')
 
         # Convert to byte, \n signifies start of command, \r signals end of command
         data = binascii.a2b_qp("\n" + commandstring + "\r")
