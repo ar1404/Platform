@@ -30,7 +30,7 @@ class ViciValco:
             log_action('test_log.txt', "Connection has failed.")
 
     def go_to_pos(self, pos):
-
+        """ Sends command to change positions to device in bytes, retrieves the response and adds to the activity log the relevant command """
         ser.write(b'CP\r')
         byteData = ser.readline().decode()
         position = byteData[-2]
@@ -49,6 +49,7 @@ class ViciValco:
                 log_action('test_log.txt', "ViciValco already at the desired position.")
 
     def read_pos(self):
+        """ Sends command to read position to device in bytes, retrieves the response and adds to the activity log the relevant command """
         ser.write(b'CP\r')
         byteData = ser.readline().decode()
         return byteData[-2]

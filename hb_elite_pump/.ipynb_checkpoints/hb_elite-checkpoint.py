@@ -1,35 +1,39 @@
+import serial
+import datetime
+import re
+import time
+
+def log_action(filename, data):
+    """ Logging activity of equipment in an ongoing .txt file to allow for easier identification of errors that may occur """
+    #Adding a timestamp in the format DD/MM/YYYY hh:mm:ss
+    timestamp = datetime.datetime.now().strftime("%d/%m/%y %H:%M:%S")
+    #filename and 'a' for append mode(add not make new)
+    with open('test_log.txt', 'a') as file:
+        #added in the format [timestamp] + log information
+        file.write(f'[{timestamp}] {data}\n')
+
 class HBElite :
-    import time
     
     def __init__(self, serial):
-        
-        self.serial = serial
+        self.ser = serial
 
     def connect(self): 
         """"" Connection of the valve to the computer via serial port """
-        COMPORT = 'COM4'
-        global ser
-        ser = serial.Serial()
-        ser.baudrate = 9600
-        ser.port = COMPORT #counter for port name starts at 0
-        parity=serial.PARITY_NONE
-        stopbits=serial.STOPBITS_ONE
-        bytesize=serial.EIGHTBITS
-  
-        if (ser.isOpen() == False):
-            ser.timeout = 1
-            ser.open()
+        if self.ser.isOpen():
+            self.ser.timeout = 1
             print("Device is connected")
+            log_action('test_log.txt', "Connection to HB pump successful.")
 
         else:
-            print ('The Port is closed: ' + ser1.portstr)
-        log_action('test_log.txt', "trying to connect")
+            print ('The Port is closed: ' + self.ser.portstr)
+            log_action('test_log.txt', "Connection to HB pump failed.")
     
 
 
     def command(self, code):
+        """ Sends command to device in bytes, retrieves the response and adds to the activity log the relevant command """
         # Send the command to the syringe pump
-        ser.write(f'{code}\r'.encode())
+        self.ser.write(f'{code}\r'.encode())
         
         #Without this, the return does not match the executed code but the code previously executed
         time.sleep(0.1)
@@ -42,8 +46,8 @@ class HBElite :
         
         # Read multiple lines of data from the syringe pump
         while time.time() < timeout:
-            if ser.in_waiting > 0:  # If there is data available
-                byte_data = ser.readline().decode().strip()  # Read one line of data
+            if self.ser.in_waiting > 0:  # If there is data available
+                byte_data = self.ser.readline().decode().strip()  # Read one line of data
                 response.append(byte_data)  # Add it to the response list
             else:
                 break  # Exit if no more data is available

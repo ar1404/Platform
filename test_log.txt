@@ -29,3 +29,54 @@
 [13/02/25 12:46:59] ViciValco device is connected.
 [13/02/25 12:47:16] ViciValco device is connected.
 [13/02/25 12:47:17] ViciValco already at the desired position.
+[14/02/25 13:01:22] Connected to autosampler.
+[14/02/25 13:06:31] Connected to autosampler.
+[14/02/25 13:08:05] Connected to autosampler.
+[14/02/25 13:08:32] Connected to autosampler.
+[14/02/25 13:09:25] Connected to autosampler.
+[14/02/25 13:09:48] Connected to autosampler.
+[14/02/25 13:09:49] trying to connect
+[14/02/25 13:13:23] Autosampler sent to home position.
+[14/02/25 13:13:33] Autosampler sent to position 01
+[14/02/25 13:14:53] Connected to autosampler.
+[14/02/25 13:14:53] trying to connect
+[14/02/25 13:15:08] Connected to autosampler.
+[14/02/25 13:15:16] Connected to autosampler.
+[14/02/25 13:15:35] Autosampler sent to position 01
+[14/02/25 13:15:40] Syringe pump withdrawal rate has been set to 2 ml/min.
+[14/02/25 13:15:43] Autosampler sent to position 02
+[14/02/25 13:15:48] Syringe pump withdrawal rate has been set to 2 ml/min.
+[14/02/25 13:15:51] Autosampler sent to position 03
+[14/02/25 13:15:56] Syringe pump withdrawal rate has been set to 2 ml/min.
+[14/02/25 13:16:00] Autosampler sent to position 04
+[14/02/25 13:16:05] Syringe pump withdrawal rate has been set to 2 ml/min.
+[14/02/25 13:16:08] Autosampler sent to DIM to inject
+[14/02/25 13:16:09] Autosampler sent to home position.
+[14/02/25 13:43:18] Connected to autosampler.
+[14/02/25 13:50:10] Connected to autosampler.
+[14/02/25 13:55:00] Connected to autosampler.
+[14/02/25 13:55:00] trying to connect
+[14/02/25 13:55:05] trying to connect
+[14/02/25 13:55:56] Connected to autosampler.
+[14/02/25 13:55:56] trying to connect
+[14/02/25 13:57:20] Connected to autosampler.
+[14/02/25 13:57:20] trying to connect
+[14/02/25 13:57:31] Syringe pump time has been requested.
+[14/02/25 13:58:59] Connected to autosampler.
+[14/02/25 13:58:59] Connection to HB pump failed.
+[14/02/25 13:59:26] Connected to autosampler.
+[14/02/25 13:59:57] Connected to autosampler.
+[14/02/25 13:59:57] Connection to HB pump successful.
+[14/02/25 14:00:05] Syringe pump time has been requested.
+[17/02/25 09:39:12] Connected to autosampler.
+[17/02/25 09:39:22] Connected to autosampler.
+[17/02/25 10:13:29] Connected to autosampler.
+[17/02/25 10:48:17] Connected to autosampler.
+[17/02/25 10:56:59] Connected to autosampler.
+[17/02/25 11:20:54] Connected to autosampler.
+[17/02/25 11:21:28] Connected to autosampler.
+[17/02/25 11:21:52] Connected to autosampler.
+[17/02/25 14:01:12] Connected to autosampler.
+[17/02/25 14:06:36] Connected to autosampler.
+[17/02/25 14:07:11] Connected to autosampler.
+[17/02/25 16:55:50] Connected to autosampler.

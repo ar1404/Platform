@@ -27,9 +27,9 @@ class gsioc_Protocol:
     - bCommand : Buffered Command
 
     A seperate class passes a serial port object to this class to allow connecting multiple GSIOC devices through
-    a single serial port. The devices are identified through their ID.
+    a single serial port. The devices are identified through their ID.              
     """
-
+    
     def __init__(self, serial, device_name, ID):
         
         self.serial = serial
@@ -71,7 +71,7 @@ class gsioc_Protocol:
             except Exception as e:
                 logger.exception('Port is not opening.')
                 raise e
-
+ 
         return True
 
     # Check that we are connected to the right device
@@ -280,10 +280,7 @@ class gsioc_Protocol:
         resp_no_whitespace = resp[1:len(resp)-2]
         return resp_no_whitespace.decode("ascii")
 
-    def go_to_vial(self, vial):
-        rack1_commands.get_xy_command(2)
-        self.bCommand(thing[0])
-        log_action('test_log.txt', f"Autosampler sent to {vial} position.")
+    
 
         
             
@@ -305,6 +302,11 @@ class gsioc_Protocol:
         self.iCommand('$')
         time.sleep(0.1)
         self.connect()
+
+    def go_to_vial(self, vial):
+        rack1_commands.get_xy_command(2)
+        self.bCommand(thing[0])
+        log_action('test_log.txt', f"Autosampler sent to {vial} position.")
 
 
 class DeviceController:
