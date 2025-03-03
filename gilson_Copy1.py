@@ -7,6 +7,7 @@ import logging
 import regex as re
 from math import isclose
 import numpy as np
+from platform_setup_new import *
 
 from loguru import logger
 
@@ -29,38 +30,34 @@ class gsioc_Protocol:
     A seperate class passes a serial port object to this class to allow connecting multiple GSIOC devices through
     a single serial port. The devices are identified through their ID.              
     """
-    
+    import logging
+
     def __init__(self, serial, device_name, ID):
-        
         self.serial = serial
         self.device_name = device_name
         self.ID = ID
-        self.connection_repeats = 5 # was 100...
-        
-        logger = self.create_logger()
-        
+
+        self.logging_enabled = False  # ✅ Start with logging OFF
+        self.create_logger()
+
     def create_logger(self):
-        # Create a custom logger
-        logger = logging.getLogger(__name__)
+        logger.remove()  # ✅ Prevent duplicate handlers
+        logger.add("test_log.txt", level="DEBUG", format="[{time:DD/MM/YY HH:mm:ss}] - {level} - {message}")
+        logger.disable(__name__)  # ✅ Logging is OFF by default
 
-        # Create handlers
-        c_handler = logging.StreamHandler()
-        f_handler = logging.FileHandler('test_log.txt')
-        c_handler.setLevel(logging.DEBUG)
-        f_handler.setLevel(logging.DEBUG)
+    def enable_logging(self):
+        self.logging_enabled = True
+        logger.enable(__name__)  # ✅ Turn logging ON
+        print("logging enabled")
 
-        # Create formatters and add it to handlers
-        c_format = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-        f_format = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-        c_handler.setFormatter(c_format)
-        f_handler.setFormatter(f_format)
+    def disable_logging(self):
+        self.logging_enabled = False
+        logger.disable(__name__)  # ✅ Turn logging OFF
 
-        # Add handlers to the logger
-        logger.addHandler(c_handler)
-        logger.addHandler(f_handler)
-
-        return logger   #JFW>>> returns the variable logger to use it within the class
-
+    def log_info(self, message):
+        """Wrapper to log messages only when enabled"""
+        if self.logging_enabled:
+            logger.info(message)
 
     # Checks if SerialPort is open; If not opens it
     def verify_open(self):
@@ -304,9 +301,60 @@ class gsioc_Protocol:
         self.connect()
 
     def go_to_vial(self, vial):
-        rack1_commands.get_xy_command(2)
+        thing = rack1_commands.get_xy_command(vial)
         self.bCommand(thing[0])
         log_action('test_log.txt', f"Autosampler sent to {vial} position.")
+
+
+
+class rack1:
+    rack_position_offset_x=92       #distance in mm between rack_position=1 and =2 on x-axis
+    rack_position_offset_y=0        #distance in mm between rack_position=1 and =2 on y-axis
+    
+    ############################# RACK 1 DEFINITION #################################
+    
+    # From platform_setup.py 
+    rack1 = Rack([4,16], 7.5, 39.5, 18.5, 13.75, 65) # groundlevel_height assumed the minimum Z
+    
+    #  array_dimensions, offset_x, offset_y=offset_y, vial2vial_x, vial2vial_y, groundlevel_height
+    
+    # Previous vial2vialx = (2.11+15.6)
+    # Previous vial2vial7 = (2.72+15.6+0.35)
+    
+    array_order1 = np.array([      #user is obliged to define a integer number i>=1 for each vial in the rack in ascending order 
+        [1, 2, 3, 4],
+        [5, 6, 7, 8],
+        [9, 10,11,12],
+        [13,14,15,16],
+        [17,18,19,20],
+        [21,22,23,24],     
+        [25,26,27,28],     
+        [29,30,31,32],
+        [33,34,35,36],
+        [37,38,39,40],
+        [41,42,43,44],
+        [45,46,47,48],
+        [49,50,51,52],
+        [53,54,55,56],
+        [57,58,59,60],
+        [61,62,63,64]        
+        ])
+        
+    rack_pos1=1
+    
+    global rack1_commands
+    
+    # Not sure what rack_position_offset_x/y are for x=92 and y=0
+    
+    rack1_commands = Rackcommands(rack1, array_order1, rack_pos1, rack_position_offset_x, rack_position_offset_y)
+    
+    global vial_selfmade
+    
+    vial_selfmade = Vial(1.5, 1, 33, 31.08)
+
+
+
+
 
 
 class DeviceController:
