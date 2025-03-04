@@ -8,7 +8,7 @@ def log_action(filename, data):
     #Adding a timestamp in the format DD/MM/YYYY hh:mm:ss
     timestamp = datetime.datetime.now().strftime("%d/%m/%y %H:%M:%S")
     #filename and 'a' for append mode(add not make new)
-    with open('test_log.txt', 'a') as file:
+    with open('device_log.txt', 'a') as file:
         #added in the format [timestamp] + log information
         file.write(f'[{timestamp}] {data}\n')
 
@@ -22,11 +22,11 @@ class HBElite :
         if self.ser.isOpen():
             self.ser.timeout = 1
             print("Device is connected")
-            log_action('test_log.txt', "Connection to HB pump successful.")
+            log_action('device_log.txt', "Connection to HB pump successful.")
 
         else:
             print ('The Port is closed: ' + self.ser.portstr)
-            log_action('test_log.txt', "Connection to HB pump failed.")
+            log_action('device_log.txt', "Connection to HB pump failed.")
     
 
 
@@ -54,31 +54,31 @@ class HBElite :
 
 
         if code == 'vers':
-            log_action('test_log.txt', 'Syringe pump version information has been requested.')
+            log_action('device_log.txt', 'Syringe pump version information has been requested.')
 
         elif code == 'time':
-            log_action('test_log.txt', 'Syringe pump time has been requested.')
+            log_action('device_log.txt', 'Syringe pump time has been requested.')
 
         elif code.startswith('wrate'):
             # Use a regular expression to extract the rate 'x' value from the code string
             match = re.match(r'wrate (\d+(\.\d+)?) ml/min', code)
             if match:
                 rate = match.group(1)  # Extract the rate (x) value
-                log_action('test_log.txt', f'Syringe pump withdrawal rate has been set to {rate} ml/min.')
+                log_action('device_log.txt', f'Syringe pump withdrawal rate has been set to {rate} ml/min.')
             else:
-                log_action('test_log.txt', 'Syringe pump withdrawal rate has been requested.')
+                log_action('device_log.txt', 'Syringe pump withdrawal rate has been requested.')
 
         elif code.startswith('irate'):
             # Use a regular expression to extract the rate 'x' value from the code string
             match = re.match(r'wrate (\d+(\.\d+)?) ml/min', code)
             if match:
                 rate = match.group(1)  # Extract the rate (x) value
-                log_action('test_log.txt', f'Syringe pump infusion rate has been set to {rate} ml/min.')
+                log_action('device_log.txt', f'Syringe pump infusion rate has been set to {rate} ml/min.')
             else:
-                log_action('test_log.txt', 'Syringe pump infusion rate has been requested.')
+                log_action('device_log.txt', 'Syringe pump infusion rate has been requested.')
 
         elif code == 'time':
-            log_action('test_log.txt', 'Syringe pump time has been requested.')
+            log_action('device_log.txt', 'Syringe pump time has been requested.')
 
             
         # Join the list of responses into a single string with newlines

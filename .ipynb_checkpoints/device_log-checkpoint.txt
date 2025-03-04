@@ -122,8 +122,22 @@
 [03/03/25 10:06:15] Connected to autosampler.
 [03/03/25 10:06:27] Connected to autosampler.
 [03/03/25 10:08:27] Connected to autosampler.
-[03/03/25 10:08:35] - DEBUG - Check if port is open.
-[03/03/25 10:08:37] - DEBUG - Sending immediate command complete.
-[03/03/25 10:08:37] - DEBUG - received bytearray(b'GX-241 II v2.0.2.5') as response.
-[03/03/25 10:08:38] - DEBUG - Connected to device 30
 [03/03/25 10:08:38] Connected to autosampler.
+[03/03/25 10:23:17] Connected to autosampler.
+[03/03/25 10:25:31] Connected to autosampler.
+[03/03/25 10:25:32] Autosampler sent to 3 position.
+[03/03/25 10:25:42] Autosampler sent to 5 position.
+[03/03/25 10:26:08] Autosampler sent to 30 position.
+[03/03/25 10:30:25] Connected to autosampler.
+[03/03/25 10:31:14] Connected to autosampler.
+[03/03/25 10:31:18] Autosampler sent to 30 position.
+[03/03/25 10:31:43] Autosampler sent to home position.
+[03/03/25 14:46:19] Connected to autosampler.
+[03/03/25 14:47:42] Connected to autosampler.
+[03/03/25 14:48:03] Connected to autosampler.
+[03/03/25 14:48:50] Connected to autosampler.
+[03/03/25 14:49:45] Connected to autosampler.
+[03/03/25 15:13:42] Connected to autosampler.
+[03/03/25 15:14:00] Connected to autosampler.
+[03/03/25 15:14:48] Connected to autosampler.
+[03/03/25 15:28:40] Connected to autosampler.

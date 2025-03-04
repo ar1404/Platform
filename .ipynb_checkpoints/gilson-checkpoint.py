@@ -7,12 +7,13 @@ import logging
 import regex as re
 from math import isclose
 import numpy as np
+from platform_setup_new import *
 
 from loguru import logger
 
 def log_action(filename, data):
     timestamp = datetime.datetime.now().strftime("%d/%m/%y %H:%M:%S")
-    with open('test_log.txt', 'a') as file:
+    with open('device_log.txt', 'a') as file:
         file.write(f'[{timestamp}] {data}\n')
 
 
@@ -27,20 +28,18 @@ class gsioc_Protocol:
     - bCommand : Buffered Command
 
     A seperate class passes a serial port object to this class to allow connecting multiple GSIOC devices through
-    a single serial port. The devices are identified through their ID.
+    a single serial port. The devices are identified through their ID.              
     """
+    import logging
 
     def __init__(self, serial, device_name, ID):
-        
         self.serial = serial
         self.device_name = device_name
         self.ID = ID
-        self.connection_repeats = 5 # was 100...
 
-        #Logging off by default
-        self.logging_enabled = False
+        self.logging_enabled = True  # ✅ Start with logging ON
         self.create_logger()
-        
+
     def create_logger(self):
         logger.remove()  # ✅ Prevent duplicate handlers
         logger.add("autosampler_log.txt", level="DEBUG", format="[{time:DD/MM/YY HH:mm:ss}] - {level} - {message}")
@@ -59,7 +58,7 @@ class gsioc_Protocol:
         """Wrapper to log messages only when enabled"""
         if self.logging_enabled:
             logger.info(message)
-        
+
     # Checks if SerialPort is open; If not opens it
     def verify_open(self):
         logger.debug('Check if port is open.')
@@ -69,7 +68,7 @@ class gsioc_Protocol:
             except Exception as e:
                 logger.exception('Port is not opening.')
                 raise e
-
+ 
         return True
 
     # Check that we are connected to the right device
@@ -116,6 +115,7 @@ class gsioc_Protocol:
             
             logger.debug(f"Connected to device {byte_ID-128}")
             log_action('test_log.txt', "Connected to autosampler.")
+            print("Connected to autosampler")
             
         # Wrong Device ID
         else:
@@ -278,8 +278,10 @@ class gsioc_Protocol:
         resp_no_whitespace = resp[1:len(resp)-2]
         return resp_no_whitespace.decode("ascii")
 
+    
 
-                    
+        
+            
 
     ## General Commands ##
     def closeSerial(self):
@@ -303,6 +305,11 @@ class gsioc_Protocol:
         thing = rack1_commands.get_xy_command(vial)
         self.bCommand(thing[0])
         log_action('test_log.txt', f"Autosampler sent to {vial} position.")
+
+    def go_to_dim(self):
+        self.bCommand('X146.5/0')
+        self.bCommand('Z105') #test if this works
+
 
 
 class rack1:
@@ -349,6 +356,10 @@ class rack1:
     global vial_selfmade
     
     vial_selfmade = Vial(1.5, 1, 33, 31.08)
+
+
+
+
 
 
 class DeviceController:
