@@ -310,6 +310,10 @@ class gsioc_Protocol:
         self.bCommand('X146.5/0')
         self.bCommand('Z105') #test if this works
 
+    def go_to_home(self):
+        self.bCommand('H')
+        log_action('test_log.txt', 'Autosampler sent tp home position.')
+
 
 
 class rack1:

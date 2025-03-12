@@ -48,9 +48,21 @@ class HBElite :
         while time.time() < timeout:
             if self.ser.in_waiting > 0:  # If there is data available
                 byte_data = self.ser.readline().decode().strip()  # Read one line of data
+
+                if byte_data == '<':
+                    print('Pump withdrawing')
+
+                elif byte_data == '>':
+                    print('Pump infusing')
+
+                elif byte_data == 'T*':
+                    print('Target volume reached')
+                    
                 response.append(byte_data)  # Add it to the response list
             else:
                 break  # Exit if no more data is available
+
+        return response
 
 
         if code == 'vers':
@@ -86,3 +98,35 @@ class HBElite :
         
         # Print the formatted response
         print(formatted_response)
+
+
+    def set_flow(self, flow_rate):
+        self.command(f'irate {flow_rate}')
+        self.command(f'wrate {flow_rate}')
+        print(f'Flow rate set to {flow_rate}')
+
+    def get_flow(self):
+        flow_rate = self.command('irate')
+        print(f'Flow rate is {flow_rate}.')
+
+    def withdraw(self):
+        self.command('wrun')
+        print('Pump withdrawing.')
+
+    def infuse(self):
+        self.command('irun')
+        print('Pump infusing.')
+
+    def set_tvolume(self, tvolume):
+        self.command(f'tvolume {tvolume}')
+        print(f'Target volume set to {tvolume}.')
+
+    def clear_volume(self):
+        self.command('cvolume')
+        self.command('ctvolume')
+        print('Volumes reset to zero.')
+
+    def stop(self):
+        self.command('stop')
+        print('Pump action halted.')
+        
