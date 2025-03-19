@@ -64,34 +64,6 @@ class HBElite :
 
         return response
 
-
-        if code == 'vers':
-            log_action('device_log.txt', 'Syringe pump version information has been requested.')
-
-        elif code == 'time':
-            log_action('device_log.txt', 'Syringe pump time has been requested.')
-
-        elif code.startswith('wrate'):
-            # Use a regular expression to extract the rate 'x' value from the code string
-            match = re.match(r'wrate (\d+(\.\d+)?) ml/min', code)
-            if match:
-                rate = match.group(1)  # Extract the rate (x) value
-                log_action('device_log.txt', f'Syringe pump withdrawal rate has been set to {rate} ml/min.')
-            else:
-                log_action('device_log.txt', 'Syringe pump withdrawal rate has been requested.')
-
-        elif code.startswith('irate'):
-            # Use a regular expression to extract the rate 'x' value from the code string
-            match = re.match(r'wrate (\d+(\.\d+)?) ml/min', code)
-            if match:
-                rate = match.group(1)  # Extract the rate (x) value
-                log_action('device_log.txt', f'Syringe pump infusion rate has been set to {rate} ml/min.')
-            else:
-                log_action('device_log.txt', 'Syringe pump infusion rate has been requested.')
-
-        elif code == 'time':
-            log_action('device_log.txt', 'Syringe pump time has been requested.')
-
             
         # Join the list of responses into a single string with newlines
         formatted_response = '\n'.join(response)  # Combine lines into a single string
@@ -100,26 +72,38 @@ class HBElite :
         print(formatted_response)
 
 
-    def set_flow(self, flow_rate):
-        self.command(f'irate {flow_rate}')
+    def set_wrate(self, flow_rate):
         self.command(f'wrate {flow_rate}')
-        print(f'Flow rate set to {flow_rate}')
+        print(f'Withdrawal rate set to {flow_rate}.')
+        log_action('device_log.txt', f'Syringe pump withdrawal rate has been set to {flow_rate}.')
 
-    def get_flow(self):
+    def set_irate(self, flow_rate):
+        self.command(f'irate {flow_rate}')
+        print(f'Infusion rate set to {flow_rate}.')
+        log_action('device_log.txt', f'Syringe pump infusion rate has been set to {flow_rate}.')
+
+    def get_irate(self):
         flow_rate = self.command('irate')
-        print(f'Flow rate is {flow_rate}.')
+        print(f'Infusion rate is {flow_rate}.')
+        log_action('device_log.txt', 'Syringe pump infusion rate has been requested.')
+
+    def get_wrate(self):
+        flow_rate = self.command('wrate')
+        print(f'Withdrawal rate is {flow_rate}.')
+        log_action('device_log.txt', 'Syringe pump withdrawal rate has been requested.')
 
     def withdraw(self):
         self.command('wrun')
-        print('Pump withdrawing.')
+        log_action('device_log.txt', 'Syringe pump has been set to withdraw.')
 
     def infuse(self):
         self.command('irun')
-        print('Pump infusing.')
+        log_action('device_log.txt', 'Syringe pump has been set to infuse.')
 
     def set_tvolume(self, tvolume):
         self.command(f'tvolume {tvolume}')
         print(f'Target volume set to {tvolume}.')
+        log_action('device_log.txt', "The syringe pump's target volume has been set to {tvolume}.")
 
     def clear_volume(self):
         self.command('cvolume')

@@ -36,6 +36,7 @@ class gsioc_Protocol:
         self.serial = serial
         self.device_name = device_name
         self.ID = ID
+        self.connection_repeats = 5
 
         self.logging_enabled = True  # ✅ Start with logging ON
         self.create_logger()
