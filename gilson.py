@@ -313,7 +313,7 @@ class gsioc_Protocol:
 
     def go_to_home(self):
         self.bCommand('H')
-        log_action('test_log.txt', 'Autosampler sent tp home position.')
+        log_action('test_log.txt', 'Autosampler sent to home position.')
 
 
 

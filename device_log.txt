@@ -882,3 +882,2725 @@
 [19/03/25 13:45:34] Autosampler sent to home position.
 [19/03/25 13:45:34] Autosampler sent tp home position.
 [19/03/25 13:46:48] Autosampler sent to home position.
+[20/03/25 08:55:10] Connected to autosampler.
+[20/03/25 08:55:40] Autosampler sent to 1 position.
+[20/03/25 08:55:45] Connection to HB pump successful.
+[20/03/25 09:00:39] Autosampler sent to home position.
+[20/03/25 09:00:45] Autosampler sent to 1 position.
+[20/03/25 09:03:27] Autosampler sent to home position.
+[20/03/25 09:03:34] Autosampler sent to 2 position.
+[20/03/25 09:04:33] Autosampler sent to home position.
+[20/03/25 09:04:38] Autosampler sent to 3 position.
+[20/03/25 09:06:41] Autosampler sent to home position.
+[20/03/25 10:02:31] Syringe pump has been set to withdraw.
+[20/03/25 10:12:39] Autosampler sent to 4 position.
+[20/03/25 10:12:41] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:12:42] Syringe pump has been set to withdraw.
+[20/03/25 10:12:48] Autosampler sent to 1 position.
+[20/03/25 10:12:50] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:12:51] Syringe pump has been set to infuse.
+[20/03/25 10:12:57] Autosampler sent to 4 position.
+[20/03/25 10:12:58] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:12:59] Syringe pump has been set to withdraw.
+[20/03/25 10:13:08] Autosampler sent to 2 position.
+[20/03/25 10:13:10] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:13:11] Syringe pump has been set to infuse.
+[20/03/25 10:13:18] Autosampler sent to 4 position.
+[20/03/25 10:13:19] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:13:21] Syringe pump has been set to withdraw.
+[20/03/25 10:13:34] Autosampler sent to 3 position.
+[20/03/25 10:13:36] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:13:37] Syringe pump has been set to infuse.
+[20/03/25 10:13:45] Autosampler sent to home position.
+[20/03/25 10:13:45] Autosampler sent tp home position.
+[20/03/25 10:14:31] Syringe pump has been set to withdraw.
+[20/03/25 10:15:16] Syringe pump has been set to infuse.
+[20/03/25 10:17:32] Autosampler sent to 4 position.
+[20/03/25 10:17:33] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:17:35] Syringe pump has been set to withdraw.
+[20/03/25 10:17:41] Autosampler sent to 1 position.
+[20/03/25 10:17:43] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:17:44] Syringe pump has been set to infuse.
+[20/03/25 10:17:49] Autosampler sent to 4 position.
+[20/03/25 10:17:51] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:17:52] Syringe pump has been set to withdraw.
+[20/03/25 10:18:01] Autosampler sent to 2 position.
+[20/03/25 10:18:03] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:18:04] Syringe pump has been set to infuse.
+[20/03/25 10:18:18] Autosampler sent to home position.
+[20/03/25 10:18:19] Autosampler sent tp home position.
+[20/03/25 10:19:01] Autosampler sent to 4 position.
+[20/03/25 10:19:02] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:19:03] Syringe pump has been set to withdraw.
+[20/03/25 10:19:14] Autosampler sent to 1 position.
+[20/03/25 10:19:19] Autosampler sent to home position.
+[20/03/25 10:19:20] Autosampler sent tp home position.
+[20/03/25 10:20:13] Autosampler sent to 4 position.
+[20/03/25 10:20:14] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:20:16] Syringe pump has been set to withdraw.
+[20/03/25 10:20:26] Autosampler sent to 1 position.
+[20/03/25 10:20:27] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:20:28] Syringe pump has been set to infuse.
+[20/03/25 10:20:34] Autosampler sent to 4 position.
+[20/03/25 10:20:35] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:20:37] Syringe pump has been set to withdraw.
+[20/03/25 10:20:53] Autosampler sent to 2 position.
+[20/03/25 10:20:54] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:20:56] Syringe pump has been set to infuse.
+[20/03/25 10:21:02] Autosampler sent to 4 position.
+[20/03/25 10:21:04] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:21:05] Syringe pump has been set to withdraw.
+[20/03/25 10:21:33] Autosampler sent to 3 position.
+[20/03/25 10:21:35] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:21:36] Syringe pump has been set to infuse.
+[20/03/25 10:21:44] Autosampler sent to home position.
+[20/03/25 10:21:44] Autosampler sent tp home position.
+[20/03/25 10:24:14] Autosampler sent to 4 position.
+[20/03/25 10:24:15] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:24:16] Syringe pump has been set to withdraw.
+[20/03/25 10:24:26] Autosampler sent to 1 position.
+[20/03/25 10:24:28] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:24:29] Syringe pump has been set to infuse.
+[20/03/25 10:24:35] Autosampler sent to 4 position.
+[20/03/25 10:24:36] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:24:37] Syringe pump has been set to withdraw.
+[20/03/25 10:24:54] Autosampler sent to 2 position.
+[20/03/25 10:24:55] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:24:56] Syringe pump has been set to infuse.
+[20/03/25 10:25:03] Autosampler sent to 4 position.
+[20/03/25 10:25:05] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:25:06] Syringe pump has been set to withdraw.
+[20/03/25 10:25:34] Autosampler sent to 3 position.
+[20/03/25 10:25:36] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:25:37] Syringe pump has been set to infuse.
+[20/03/25 10:25:45] Autosampler sent to home position.
+[20/03/25 10:25:45] Autosampler sent tp home position.
+[20/03/25 10:47:26] Autosampler sent to 4 position.
+[20/03/25 10:47:28] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:47:29] Syringe pump has been set to withdraw.
+[20/03/25 10:47:39] Autosampler sent to 1 position.
+[20/03/25 10:47:41] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:47:42] Syringe pump has been set to infuse.
+[20/03/25 10:47:48] Autosampler sent to 4 position.
+[20/03/25 10:47:49] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:47:50] Syringe pump has been set to withdraw.
+[20/03/25 10:48:07] Autosampler sent to 2 position.
+[20/03/25 10:48:08] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:48:09] Syringe pump has been set to infuse.
+[20/03/25 10:48:16] Autosampler sent to 4 position.
+[20/03/25 10:48:18] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:48:19] Syringe pump has been set to withdraw.
+[20/03/25 10:48:47] Autosampler sent to 3 position.
+[20/03/25 10:48:49] The syringe pump's target volume has been set to {tvolume}.
+[20/03/25 10:48:50] Syringe pump has been set to infuse.
+[20/03/25 10:48:58] Autosampler sent to home position.
+[20/03/25 10:48:58] Autosampler sent tp home position.
+[21/03/25 12:55:50] Autosampler sent to 4 position.
+[21/03/25 12:55:52] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 12:55:53] Syringe pump has been set to withdraw.
+[21/03/25 12:56:03] Autosampler sent to 1 position.
+[21/03/25 12:56:05] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 12:56:06] Syringe pump has been set to infuse.
+[21/03/25 12:56:11] Autosampler sent to 4 position.
+[21/03/25 12:56:13] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 12:56:14] Syringe pump has been set to withdraw.
+[21/03/25 12:56:30] Autosampler sent to 2 position.
+[21/03/25 12:56:32] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 12:56:33] Syringe pump has been set to infuse.
+[21/03/25 12:56:40] Autosampler sent to 4 position.
+[21/03/25 12:56:41] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 12:56:42] Syringe pump has been set to withdraw.
+[21/03/25 12:57:11] Autosampler sent to 3 position.
+[21/03/25 12:57:12] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 12:57:13] Syringe pump has been set to infuse.
+[21/03/25 12:57:21] Autosampler sent to home position.
+[21/03/25 12:57:21] Autosampler sent tp home position.
+[21/03/25 13:08:30] Autosampler sent to 4 position.
+[21/03/25 13:08:31] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:08:33] Syringe pump has been set to withdraw.
+[21/03/25 13:08:43] Autosampler sent to 1 position.
+[21/03/25 13:08:44] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:08:45] Syringe pump has been set to infuse.
+[21/03/25 13:08:51] Autosampler sent to 4 position.
+[21/03/25 13:08:52] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:08:54] Syringe pump has been set to withdraw.
+[21/03/25 13:09:10] Autosampler sent to 2 position.
+[21/03/25 13:09:11] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:09:13] Syringe pump has been set to infuse.
+[21/03/25 13:09:19] Autosampler sent to 4 position.
+[21/03/25 13:09:21] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:09:22] Syringe pump has been set to withdraw.
+[21/03/25 13:09:50] Autosampler sent to 3 position.
+[21/03/25 13:09:52] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:09:53] Syringe pump has been set to infuse.
+[21/03/25 13:10:01] Autosampler sent to home position.
+[21/03/25 13:10:01] Autosampler sent tp home position.
+[21/03/25 13:18:24] Autosampler sent to 4 position.
+[21/03/25 13:18:26] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:18:27] Syringe pump has been set to withdraw.
+[21/03/25 13:18:38] Autosampler sent to 1 position.
+[21/03/25 13:18:40] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:18:41] Syringe pump has been set to infuse.
+[21/03/25 13:18:48] Autosampler sent to 4 position.
+[21/03/25 13:18:49] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:18:50] Syringe pump has been set to withdraw.
+[21/03/25 13:19:08] Autosampler sent to 2 position.
+[21/03/25 13:19:09] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:19:11] Syringe pump has been set to infuse.
+[21/03/25 13:19:18] Autosampler sent to 4 position.
+[21/03/25 13:19:20] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:19:21] Syringe pump has been set to withdraw.
+[21/03/25 13:19:51] Autosampler sent to 3 position.
+[21/03/25 13:19:52] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:19:53] Syringe pump has been set to infuse.
+[21/03/25 13:20:02] Autosampler sent to home position.
+[21/03/25 13:20:03] Autosampler sent tp home position.
+[21/03/25 13:30:57] Autosampler sent to 4 position.
+[21/03/25 13:30:59] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:31:00] Syringe pump has been set to withdraw.
+[21/03/25 13:31:11] Autosampler sent to 1 position.
+[21/03/25 13:31:13] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:31:14] Syringe pump has been set to infuse.
+[21/03/25 13:31:20] Autosampler sent to 4 position.
+[21/03/25 13:31:22] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:31:23] Syringe pump has been set to withdraw.
+[21/03/25 13:31:41] Autosampler sent to 2 position.
+[21/03/25 13:31:42] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:31:43] Syringe pump has been set to infuse.
+[21/03/25 13:31:51] Autosampler sent to 4 position.
+[21/03/25 13:31:53] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:31:54] Syringe pump has been set to withdraw.
+[21/03/25 13:32:23] Autosampler sent to 3 position.
+[21/03/25 13:32:25] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:32:26] Syringe pump has been set to infuse.
+[21/03/25 13:32:35] Autosampler sent to home position.
+[21/03/25 13:32:35] Autosampler sent tp home position.
+[21/03/25 13:37:55] Autosampler sent to 4 position.
+[21/03/25 13:37:57] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:37:58] Syringe pump has been set to withdraw.
+[21/03/25 13:38:08] Autosampler sent to 1 position.
+[21/03/25 13:38:10] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:38:11] Syringe pump has been set to infuse.
+[21/03/25 13:38:18] Autosampler sent to 4 position.
+[21/03/25 13:38:19] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:38:20] Syringe pump has been set to withdraw.
+[21/03/25 13:38:37] Autosampler sent to 2 position.
+[21/03/25 13:38:38] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:38:39] Syringe pump has been set to infuse.
+[21/03/25 13:38:47] Autosampler sent to 4 position.
+[21/03/25 13:38:49] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:38:50] Syringe pump has been set to withdraw.
+[21/03/25 13:39:18] Autosampler sent to 3 position.
+[21/03/25 13:39:20] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 13:39:21] Syringe pump has been set to infuse.
+[21/03/25 13:39:30] Autosampler sent to home position.
+[21/03/25 13:39:30] Autosampler sent tp home position.
+[21/03/25 14:45:27] Autosampler sent to 4 position.
+[21/03/25 14:45:28] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 14:45:30] Syringe pump has been set to withdraw.
+[21/03/25 14:45:40] Autosampler sent to 1 position.
+[21/03/25 14:45:41] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 14:45:42] Syringe pump has been set to infuse.
+[21/03/25 14:45:49] Autosampler sent to 4 position.
+[21/03/25 14:45:51] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 14:45:52] Syringe pump has been set to withdraw.
+[21/03/25 14:46:08] Autosampler sent to 2 position.
+[21/03/25 14:46:10] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 14:46:11] Syringe pump has been set to infuse.
+[21/03/25 14:46:19] Autosampler sent to 4 position.
+[21/03/25 14:46:20] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 14:46:21] Syringe pump has been set to withdraw.
+[21/03/25 14:46:50] Autosampler sent to 3 position.
+[21/03/25 14:46:51] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 14:46:52] Syringe pump has been set to infuse.
+[21/03/25 14:47:01] Autosampler sent to home position.
+[21/03/25 14:47:02] Autosampler sent tp home position.
+[21/03/25 14:50:30] Autosampler sent to 4 position.
+[21/03/25 14:50:32] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 14:50:33] Syringe pump has been set to withdraw.
+[21/03/25 14:50:43] Autosampler sent to 1 position.
+[21/03/25 14:50:45] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 14:50:46] Syringe pump has been set to infuse.
+[21/03/25 14:50:53] Autosampler sent to 4 position.
+[21/03/25 14:50:54] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 14:50:56] Syringe pump has been set to withdraw.
+[21/03/25 14:51:12] Autosampler sent to 2 position.
+[21/03/25 14:51:13] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 14:51:15] Syringe pump has been set to infuse.
+[21/03/25 14:51:22] Autosampler sent to 4 position.
+[21/03/25 14:51:24] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 14:51:25] Syringe pump has been set to withdraw.
+[21/03/25 14:51:53] Autosampler sent to 3 position.
+[21/03/25 14:51:55] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 14:51:56] Syringe pump has been set to infuse.
+[21/03/25 14:52:05] Autosampler sent to home position.
+[21/03/25 14:52:05] Autosampler sent tp home position.
+[21/03/25 14:52:43] Autosampler sent to 4 position.
+[21/03/25 14:52:45] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 14:52:46] Syringe pump has been set to withdraw.
+[21/03/25 14:52:56] Autosampler sent to 1 position.
+[21/03/25 14:52:58] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 14:52:59] Syringe pump has been set to infuse.
+[21/03/25 14:53:06] Autosampler sent to 4 position.
+[21/03/25 14:53:07] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 14:53:08] Syringe pump has been set to withdraw.
+[21/03/25 14:53:25] Autosampler sent to 2 position.
+[21/03/25 14:53:26] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 14:53:27] Syringe pump has been set to infuse.
+[21/03/25 14:53:35] Autosampler sent to 4 position.
+[21/03/25 14:53:37] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 14:53:38] Syringe pump has been set to withdraw.
+[21/03/25 14:54:06] Autosampler sent to 3 position.
+[21/03/25 14:54:08] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 14:54:09] Syringe pump has been set to infuse.
+[21/03/25 14:54:18] Autosampler sent to home position.
+[21/03/25 14:54:18] Autosampler sent tp home position.
+[21/03/25 15:10:14] Autosampler sent to 4 position.
+[21/03/25 15:10:16] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:10:17] Syringe pump has been set to withdraw.
+[21/03/25 15:10:27] Autosampler sent to 1 position.
+[21/03/25 15:10:28] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:10:30] Syringe pump has been set to infuse.
+[21/03/25 15:10:36] Autosampler sent to 4 position.
+[21/03/25 15:10:38] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:10:39] Syringe pump has been set to withdraw.
+[21/03/25 15:10:55] Autosampler sent to 2 position.
+[21/03/25 15:10:57] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:10:58] Syringe pump has been set to infuse.
+[21/03/25 15:11:06] Autosampler sent to 4 position.
+[21/03/25 15:11:07] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:11:09] Syringe pump has been set to withdraw.
+[21/03/25 15:11:37] Autosampler sent to 3 position.
+[21/03/25 15:11:38] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:11:40] Syringe pump has been set to infuse.
+[21/03/25 15:11:49] Autosampler sent to home position.
+[21/03/25 15:11:49] Autosampler sent tp home position.
+[21/03/25 15:27:18] Autosampler sent to 4 position.
+[21/03/25 15:27:19] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:27:21] Syringe pump has been set to withdraw.
+[21/03/25 15:27:31] Autosampler sent to 1 position.
+[21/03/25 15:27:32] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:27:33] Syringe pump has been set to infuse.
+[21/03/25 15:27:40] Autosampler sent to 4 position.
+[21/03/25 15:27:42] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:27:43] Syringe pump has been set to withdraw.
+[21/03/25 15:27:59] Autosampler sent to 2 position.
+[21/03/25 15:28:01] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:28:02] Syringe pump has been set to infuse.
+[21/03/25 15:28:10] Autosampler sent to 4 position.
+[21/03/25 15:28:11] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:28:12] Syringe pump has been set to withdraw.
+[21/03/25 15:28:41] Autosampler sent to 3 position.
+[21/03/25 15:28:42] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:28:43] Syringe pump has been set to infuse.
+[21/03/25 15:28:52] Autosampler sent to home position.
+[21/03/25 15:28:53] Autosampler sent tp home position.
+[21/03/25 15:40:30] Autosampler sent to 4 position.
+[21/03/25 15:40:32] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:40:33] Syringe pump has been set to withdraw.
+[21/03/25 15:40:43] Autosampler sent to 1 position.
+[21/03/25 15:40:45] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:40:46] Syringe pump has been set to infuse.
+[21/03/25 15:40:52] Autosampler sent to 5 position.
+[21/03/25 15:40:56] Autosampler sent to 4 position.
+[21/03/25 15:40:58] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:40:59] Syringe pump has been set to withdraw.
+[21/03/25 15:41:15] Autosampler sent to 2 position.
+[21/03/25 15:41:17] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:41:18] Syringe pump has been set to infuse.
+[21/03/25 15:41:26] Autosampler sent to 5 position.
+[21/03/25 15:41:29] Autosampler sent to 4 position.
+[21/03/25 15:41:31] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:41:32] Syringe pump has been set to withdraw.
+[21/03/25 15:42:00] Autosampler sent to 3 position.
+[21/03/25 15:42:02] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:42:03] Syringe pump has been set to infuse.
+[21/03/25 15:42:13] Autosampler sent to 5 position.
+[21/03/25 15:42:16] Autosampler sent to home position.
+[21/03/25 15:42:16] Autosampler sent tp home position.
+[21/03/25 15:42:43] Autosampler sent to 4 position.
+[21/03/25 15:42:44] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:42:46] Syringe pump has been set to withdraw.
+[21/03/25 15:42:56] Autosampler sent to 1 position.
+[21/03/25 15:42:57] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:42:58] Syringe pump has been set to infuse.
+[21/03/25 15:43:11] Autosampler sent to home position.
+[21/03/25 15:43:11] Autosampler sent tp home position.
+[21/03/25 15:48:46] Autosampler sent to 4 position.
+[21/03/25 15:48:48] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:48:49] Syringe pump has been set to withdraw.
+[21/03/25 15:48:59] Autosampler sent to 1 position.
+[21/03/25 15:49:01] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:49:02] Syringe pump has been set to infuse.
+[21/03/25 15:49:08] Autosampler sent to 5 position.
+[21/03/25 15:49:12] Autosampler sent to 4 position.
+[21/03/25 15:49:14] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:49:15] Syringe pump has been set to withdraw.
+[21/03/25 15:49:31] Autosampler sent to 2 position.
+[21/03/25 15:49:33] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:49:34] Syringe pump has been set to infuse.
+[21/03/25 15:49:42] Autosampler sent to 5 position.
+[21/03/25 15:49:45] Autosampler sent to 4 position.
+[21/03/25 15:49:47] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:49:48] Syringe pump has been set to withdraw.
+[21/03/25 15:50:16] Autosampler sent to 3 position.
+[21/03/25 15:50:18] The syringe pump's target volume has been set to {tvolume}.
+[21/03/25 15:50:19] Syringe pump has been set to infuse.
+[21/03/25 15:50:29] Autosampler sent to 5 position.
+[21/03/25 15:50:32] Autosampler sent to home position.
+[21/03/25 15:50:32] Autosampler sent tp home position.
+[07/04/25 11:07:26] Connected to autosampler.
+[07/04/25 11:07:31] Autosampler sent to home position.
+[07/04/25 11:07:34] Autosampler sent to 1 position.
+[07/04/25 11:07:39] Autosampler sent to 1 position.
+[07/04/25 11:07:44] Autosampler sent to home position.
+[07/04/25 11:08:09] Autosampler sent to 1 position.
+[07/04/25 11:08:13] Autosampler sent to home position.
+[07/04/25 11:08:18] Connection to HB pump successful.
+[07/04/25 11:09:02] Autosampler sent to 8 position.
+[07/04/25 11:09:04] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 11:09:05] Syringe pump has been set to withdraw.
+[07/04/25 11:09:15] Autosampler sent to 1 position.
+[07/04/25 11:09:16] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 11:09:17] Syringe pump has been set to infuse.
+[07/04/25 11:09:24] Autosampler sent to 7 position.
+[07/04/25 11:09:28] Autosampler sent to 8 position.
+[07/04/25 11:09:30] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 11:09:31] Syringe pump has been set to withdraw.
+[07/04/25 11:09:47] Autosampler sent to 2 position.
+[07/04/25 11:09:49] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 11:09:50] Syringe pump has been set to infuse.
+[07/04/25 11:09:58] Autosampler sent to 7 position.
+[07/04/25 11:10:02] Autosampler sent to 8 position.
+[07/04/25 11:10:03] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 11:10:04] Syringe pump has been set to withdraw.
+[07/04/25 11:10:26] Autosampler sent to 3 position.
+[07/04/25 11:10:28] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 11:10:29] Syringe pump has been set to infuse.
+[07/04/25 11:10:38] Autosampler sent to 7 position.
+[07/04/25 11:10:42] Autosampler sent to 8 position.
+[07/04/25 11:10:44] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 11:10:45] Syringe pump has been set to withdraw.
+[07/04/25 11:11:13] Autosampler sent to 4 position.
+[07/04/25 11:11:15] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 11:11:16] Syringe pump has been set to infuse.
+[07/04/25 11:11:26] Autosampler sent to 7 position.
+[07/04/25 11:11:30] Autosampler sent to 8 position.
+[07/04/25 11:11:32] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 11:11:33] Syringe pump has been set to withdraw.
+[07/04/25 11:12:07] Autosampler sent to 5 position.
+[07/04/25 11:12:09] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 11:12:10] Syringe pump has been set to infuse.
+[07/04/25 11:12:21] Autosampler sent to 7 position.
+[07/04/25 11:12:25] Autosampler sent to 8 position.
+[07/04/25 11:12:27] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 11:12:28] Syringe pump has been set to withdraw.
+[07/04/25 11:13:08] Autosampler sent to 6 position.
+[07/04/25 11:13:10] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 11:13:11] Syringe pump has been set to infuse.
+[07/04/25 11:13:24] Autosampler sent to 7 position.
+[07/04/25 11:13:26] Autosampler sent to home position.
+[07/04/25 11:13:27] Autosampler sent tp home position.
+[07/04/25 12:23:50] Autosampler sent to 8 position.
+[07/04/25 12:23:52] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 12:23:53] Syringe pump has been set to withdraw.
+[07/04/25 12:24:03] Autosampler sent to 1 position.
+[07/04/25 12:24:05] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 12:24:06] Syringe pump has been set to infuse.
+[07/04/25 12:24:13] Autosampler sent to 7 position.
+[07/04/25 12:24:16] Autosampler sent to 8 position.
+[07/04/25 12:24:18] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 12:24:19] Syringe pump has been set to withdraw.
+[07/04/25 12:24:35] Autosampler sent to 2 position.
+[07/04/25 12:24:37] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 12:24:38] Syringe pump has been set to infuse.
+[07/04/25 12:24:46] Autosampler sent to 7 position.
+[07/04/25 12:24:50] Autosampler sent to 8 position.
+[07/04/25 12:24:52] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 12:24:53] Syringe pump has been set to withdraw.
+[07/04/25 12:25:15] Autosampler sent to 3 position.
+[07/04/25 12:25:17] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 12:25:18] Syringe pump has been set to infuse.
+[07/04/25 12:25:27] Autosampler sent to 7 position.
+[07/04/25 12:25:31] Autosampler sent to 8 position.
+[07/04/25 12:25:32] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 12:25:33] Syringe pump has been set to withdraw.
+[07/04/25 12:26:02] Autosampler sent to 4 position.
+[07/04/25 12:26:03] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 12:26:04] Syringe pump has been set to infuse.
+[07/04/25 12:26:15] Autosampler sent to 7 position.
+[07/04/25 12:26:19] Autosampler sent to 8 position.
+[07/04/25 12:26:20] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 12:26:21] Syringe pump has been set to withdraw.
+[07/04/25 12:26:56] Autosampler sent to 5 position.
+[07/04/25 12:26:57] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 12:26:58] Syringe pump has been set to infuse.
+[07/04/25 12:27:10] Autosampler sent to 7 position.
+[07/04/25 12:27:14] Autosampler sent to 8 position.
+[07/04/25 12:27:15] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 12:27:17] Syringe pump has been set to withdraw.
+[07/04/25 12:27:57] Autosampler sent to 6 position.
+[07/04/25 12:27:58] The syringe pump's target volume has been set to {tvolume}.
+[07/04/25 12:28:00] Syringe pump has been set to infuse.
+[07/04/25 12:28:12] Autosampler sent to 7 position.
+[07/04/25 12:28:15] Autosampler sent to home position.
+[07/04/25 12:28:15] Autosampler sent tp home position.
+[08/04/25 09:17:57] Autosampler sent to 8 position.
+[08/04/25 09:17:59] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 09:18:00] Syringe pump has been set to withdraw.
+[08/04/25 09:18:10] Autosampler sent to 1 position.
+[08/04/25 09:18:12] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 09:18:13] Syringe pump has been set to infuse.
+[08/04/25 09:18:19] Autosampler sent to 7 position.
+[08/04/25 09:18:23] Autosampler sent to 8 position.
+[08/04/25 09:18:25] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 09:18:26] Syringe pump has been set to withdraw.
+[08/04/25 09:18:42] Autosampler sent to 2 position.
+[08/04/25 09:18:44] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 09:18:45] Syringe pump has been set to infuse.
+[08/04/25 09:18:53] Autosampler sent to 7 position.
+[08/04/25 09:18:57] Autosampler sent to 8 position.
+[08/04/25 09:18:58] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 09:18:59] Syringe pump has been set to withdraw.
+[08/04/25 09:19:22] Autosampler sent to 3 position.
+[08/04/25 09:19:23] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 09:19:24] Syringe pump has been set to infuse.
+[08/04/25 09:19:34] Autosampler sent to 7 position.
+[08/04/25 09:19:37] Autosampler sent to 8 position.
+[08/04/25 09:19:39] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 09:19:40] Syringe pump has been set to withdraw.
+[08/04/25 09:20:08] Autosampler sent to 4 position.
+[08/04/25 09:20:10] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 09:20:11] Syringe pump has been set to infuse.
+[08/04/25 09:20:22] Autosampler sent to 7 position.
+[08/04/25 09:20:25] Autosampler sent to 8 position.
+[08/04/25 09:20:27] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 09:20:28] Syringe pump has been set to withdraw.
+[08/04/25 09:21:02] Autosampler sent to 5 position.
+[08/04/25 09:21:04] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 09:21:05] Syringe pump has been set to infuse.
+[08/04/25 09:21:17] Autosampler sent to 7 position.
+[08/04/25 09:21:20] Autosampler sent to 8 position.
+[08/04/25 09:21:22] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 09:21:23] Syringe pump has been set to withdraw.
+[08/04/25 09:22:04] Autosampler sent to 6 position.
+[08/04/25 09:22:05] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 09:22:06] Syringe pump has been set to infuse.
+[08/04/25 09:22:19] Autosampler sent to 7 position.
+[08/04/25 09:22:22] Autosampler sent to home position.
+[08/04/25 09:22:22] Autosampler sent tp home position.
+[08/04/25 12:19:35] Autosampler sent to 8 position.
+[08/04/25 12:19:37] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 12:19:38] Syringe pump has been set to withdraw.
+[08/04/25 12:19:48] Autosampler sent to 1 position.
+[08/04/25 12:19:50] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 12:19:51] Syringe pump has been set to infuse.
+[08/04/25 12:19:58] Autosampler sent to 7 position.
+[08/04/25 12:20:02] Autosampler sent to 8 position.
+[08/04/25 12:20:03] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 12:20:04] Syringe pump has been set to withdraw.
+[08/04/25 12:20:21] Autosampler sent to 2 position.
+[08/04/25 12:20:22] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 12:20:23] Syringe pump has been set to infuse.
+[08/04/25 12:20:31] Autosampler sent to 7 position.
+[08/04/25 12:20:35] Autosampler sent to 8 position.
+[08/04/25 12:20:37] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 12:20:38] Syringe pump has been set to withdraw.
+[08/04/25 12:21:00] Autosampler sent to 3 position.
+[08/04/25 12:21:02] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 12:21:03] Syringe pump has been set to infuse.
+[08/04/25 12:21:12] Autosampler sent to 7 position.
+[08/04/25 12:21:16] Autosampler sent to 8 position.
+[08/04/25 12:21:18] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 12:21:19] Syringe pump has been set to withdraw.
+[08/04/25 12:21:47] Autosampler sent to 4 position.
+[08/04/25 12:21:49] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 12:21:50] Syringe pump has been set to infuse.
+[08/04/25 12:22:00] Autosampler sent to 7 position.
+[08/04/25 12:22:04] Autosampler sent to 8 position.
+[08/04/25 12:22:05] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 12:22:07] Syringe pump has been set to withdraw.
+[08/04/25 12:22:41] Autosampler sent to 5 position.
+[08/04/25 12:22:42] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 12:22:44] Syringe pump has been set to infuse.
+[08/04/25 12:22:55] Autosampler sent to 7 position.
+[08/04/25 12:22:59] Autosampler sent to 8 position.
+[08/04/25 12:23:01] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 12:23:02] Syringe pump has been set to withdraw.
+[08/04/25 12:23:42] Autosampler sent to 6 position.
+[08/04/25 12:23:44] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 12:23:45] Syringe pump has been set to infuse.
+[08/04/25 12:23:57] Autosampler sent to 7 position.
+[08/04/25 12:24:00] Autosampler sent to home position.
+[08/04/25 12:24:00] Autosampler sent tp home position.
+[08/04/25 13:03:48] Autosampler sent to 1 position.
+[08/04/25 13:03:48] Autosampler sent to position 01
+[08/04/25 16:04:26] Autosampler sent to home position.
+[08/04/25 16:04:26] Autosampler sent tp home position.
+[08/04/25 16:12:24] Autosampler sent to 8 position.
+[08/04/25 16:12:25] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:12:27] Syringe pump has been set to withdraw.
+[08/04/25 16:12:37] Autosampler sent to 1 position.
+[08/04/25 16:12:38] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:12:39] Syringe pump has been set to infuse.
+[08/04/25 16:12:46] Autosampler sent to 7 position.
+[08/04/25 16:12:50] Autosampler sent to 8 position.
+[08/04/25 16:12:52] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:12:53] Syringe pump has been set to withdraw.
+[08/04/25 16:13:09] Autosampler sent to 2 position.
+[08/04/25 16:13:11] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:13:12] Syringe pump has been set to infuse.
+[08/04/25 16:13:20] Autosampler sent to 7 position.
+[08/04/25 16:13:24] Autosampler sent to 8 position.
+[08/04/25 16:13:25] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:13:26] Syringe pump has been set to withdraw.
+[08/04/25 16:13:49] Autosampler sent to 3 position.
+[08/04/25 16:13:50] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:13:51] Syringe pump has been set to infuse.
+[08/04/25 16:14:00] Autosampler sent to 7 position.
+[08/04/25 16:14:04] Autosampler sent to 8 position.
+[08/04/25 16:14:06] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:14:07] Syringe pump has been set to withdraw.
+[08/04/25 16:14:35] Autosampler sent to 4 position.
+[08/04/25 16:14:37] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:14:38] Syringe pump has been set to infuse.
+[08/04/25 16:14:48] Autosampler sent to 7 position.
+[08/04/25 16:14:52] Autosampler sent to 8 position.
+[08/04/25 16:14:54] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:14:55] Syringe pump has been set to withdraw.
+[08/04/25 16:15:29] Autosampler sent to 5 position.
+[08/04/25 16:15:31] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:15:32] Syringe pump has been set to infuse.
+[08/04/25 16:15:43] Autosampler sent to 7 position.
+[08/04/25 16:15:47] Autosampler sent to 8 position.
+[08/04/25 16:15:49] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:15:50] Syringe pump has been set to withdraw.
+[08/04/25 16:16:30] Autosampler sent to 6 position.
+[08/04/25 16:16:32] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:16:33] Syringe pump has been set to infuse.
+[08/04/25 16:16:46] Autosampler sent to 7 position.
+[08/04/25 16:16:49] Autosampler sent to home position.
+[08/04/25 16:16:49] Autosampler sent tp home position.
+[08/04/25 16:16:50] Autosampler sent to 16 position.
+[08/04/25 16:16:52] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:16:53] Syringe pump has been set to withdraw.
+[08/04/25 16:17:03] Autosampler sent to 1 position.
+[08/04/25 16:17:05] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:17:06] Syringe pump has been set to infuse.
+[08/04/25 16:17:12] Autosampler sent to 15 position.
+[08/04/25 16:17:19] Autosampler sent to home position.
+[08/04/25 16:17:19] Autosampler sent tp home position.
+[08/04/25 16:18:46] Autosampler sent to 16 position.
+[08/04/25 16:18:48] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:18:49] Syringe pump has been set to withdraw.
+[08/04/25 16:18:59] Autosampler sent to 9 position.
+[08/04/25 16:19:01] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:19:02] Syringe pump has been set to infuse.
+[08/04/25 16:19:09] Autosampler sent to 15 position.
+[08/04/25 16:19:12] Autosampler sent to 16 position.
+[08/04/25 16:19:14] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:19:15] Syringe pump has been set to withdraw.
+[08/04/25 16:19:31] Autosampler sent to 10 position.
+[08/04/25 16:19:33] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:19:34] Syringe pump has been set to infuse.
+[08/04/25 16:19:42] Autosampler sent to 15 position.
+[08/04/25 16:19:46] Autosampler sent to 16 position.
+[08/04/25 16:19:48] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:19:49] Syringe pump has been set to withdraw.
+[08/04/25 16:20:11] Autosampler sent to 11 position.
+[08/04/25 16:20:13] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:20:14] Syringe pump has been set to infuse.
+[08/04/25 16:20:23] Autosampler sent to 15 position.
+[08/04/25 16:20:27] Autosampler sent to 16 position.
+[08/04/25 16:20:28] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:20:29] Syringe pump has been set to withdraw.
+[08/04/25 16:20:58] Autosampler sent to 12 position.
+[08/04/25 16:20:59] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:21:00] Syringe pump has been set to infuse.
+[08/04/25 16:21:11] Autosampler sent to 15 position.
+[08/04/25 16:21:14] Autosampler sent to 16 position.
+[08/04/25 16:21:16] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:21:17] Syringe pump has been set to withdraw.
+[08/04/25 16:21:51] Autosampler sent to 13 position.
+[08/04/25 16:21:53] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:21:54] Syringe pump has been set to infuse.
+[08/04/25 16:22:06] Autosampler sent to 15 position.
+[08/04/25 16:22:10] Autosampler sent to 16 position.
+[08/04/25 16:22:11] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:22:12] Syringe pump has been set to withdraw.
+[08/04/25 16:22:53] Autosampler sent to 14 position.
+[08/04/25 16:22:54] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:22:55] Syringe pump has been set to infuse.
+[08/04/25 16:23:08] Autosampler sent to 15 position.
+[08/04/25 16:23:11] Autosampler sent to home position.
+[08/04/25 16:23:11] Autosampler sent tp home position.
+[08/04/25 16:23:12] Autosampler sent to 24 position.
+[08/04/25 16:23:14] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:23:15] Syringe pump has been set to withdraw.
+[08/04/25 16:23:25] Autosampler sent to 17 position.
+[08/04/25 16:23:27] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:23:28] Syringe pump has been set to infuse.
+[08/04/25 16:23:35] Autosampler sent to 23 position.
+[08/04/25 16:23:39] Autosampler sent to 24 position.
+[08/04/25 16:23:41] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:23:42] Syringe pump has been set to withdraw.
+[08/04/25 16:23:58] Autosampler sent to 18 position.
+[08/04/25 16:23:59] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:24:01] Syringe pump has been set to infuse.
+[08/04/25 16:24:09] Autosampler sent to 23 position.
+[08/04/25 16:24:13] Autosampler sent to 24 position.
+[08/04/25 16:24:14] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:24:15] Syringe pump has been set to withdraw.
+[08/04/25 16:24:38] Autosampler sent to 19 position.
+[08/04/25 16:24:39] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:24:40] Syringe pump has been set to infuse.
+[08/04/25 16:24:50] Autosampler sent to 23 position.
+[08/04/25 16:24:54] Autosampler sent to 24 position.
+[08/04/25 16:24:55] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:24:56] Syringe pump has been set to withdraw.
+[08/04/25 16:25:24] Autosampler sent to 20 position.
+[08/04/25 16:25:26] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:25:27] Syringe pump has been set to infuse.
+[08/04/25 16:25:38] Autosampler sent to 23 position.
+[08/04/25 16:25:42] Autosampler sent to 24 position.
+[08/04/25 16:25:43] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:25:44] Syringe pump has been set to withdraw.
+[08/04/25 16:26:19] Autosampler sent to 21 position.
+[08/04/25 16:26:20] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:26:22] Syringe pump has been set to infuse.
+[08/04/25 16:26:33] Autosampler sent to 23 position.
+[08/04/25 16:26:37] Autosampler sent to 24 position.
+[08/04/25 16:26:39] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:26:40] Syringe pump has been set to withdraw.
+[08/04/25 16:27:20] Autosampler sent to 22 position.
+[08/04/25 16:27:22] The syringe pump's target volume has been set to {tvolume}.
+[08/04/25 16:27:23] Syringe pump has been set to infuse.
+[08/04/25 16:27:36] Autosampler sent to 23 position.
+[08/04/25 16:27:47] Autosampler sent to home position.
+[08/04/25 16:27:47] Autosampler sent tp home position.
+[09/04/25 12:44:04] Autosampler sent to 8 position.
+[09/04/25 12:44:05] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:44:07] Syringe pump has been set to withdraw.
+[09/04/25 12:44:14] Autosampler sent to 1 position.
+[09/04/25 12:44:15] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:44:16] Syringe pump has been set to infuse.
+[09/04/25 12:44:22] Autosampler sent to 8 position.
+[09/04/25 12:44:24] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:44:25] Syringe pump has been set to withdraw.
+[09/04/25 12:44:35] Autosampler sent to 2 position.
+[09/04/25 12:44:37] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:44:38] Syringe pump has been set to infuse.
+[09/04/25 12:44:45] Autosampler sent to 8 position.
+[09/04/25 12:44:46] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:44:47] Syringe pump has been set to withdraw.
+[09/04/25 12:45:04] Autosampler sent to 3 position.
+[09/04/25 12:45:05] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:45:06] Syringe pump has been set to infuse.
+[09/04/25 12:45:14] Autosampler sent to 8 position.
+[09/04/25 12:45:16] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:45:17] Syringe pump has been set to withdraw.
+[09/04/25 12:45:39] Autosampler sent to 4 position.
+[09/04/25 12:45:41] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:45:42] Syringe pump has been set to infuse.
+[09/04/25 12:45:51] Autosampler sent to 8 position.
+[09/04/25 12:45:53] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:45:54] Syringe pump has been set to withdraw.
+[09/04/25 12:46:22] Autosampler sent to 5 position.
+[09/04/25 12:46:24] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:46:25] Syringe pump has been set to infuse.
+[09/04/25 12:46:35] Autosampler sent to 8 position.
+[09/04/25 12:46:37] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:46:38] Syringe pump has been set to withdraw.
+[09/04/25 12:47:12] Autosampler sent to 6 position.
+[09/04/25 12:47:14] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:47:15] Syringe pump has been set to infuse.
+[09/04/25 12:47:25] Autosampler sent to home position.
+[09/04/25 12:47:26] Autosampler sent tp home position.
+[09/04/25 12:47:27] Autosampler sent to 16 position.
+[09/04/25 12:47:29] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:47:30] Syringe pump has been set to withdraw.
+[09/04/25 12:47:37] Autosampler sent to 9 position.
+[09/04/25 12:47:38] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:47:39] Syringe pump has been set to infuse.
+[09/04/25 12:47:45] Autosampler sent to 16 position.
+[09/04/25 12:47:47] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:47:48] Syringe pump has been set to withdraw.
+[09/04/25 12:47:58] Autosampler sent to 10 position.
+[09/04/25 12:48:00] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:48:01] Syringe pump has been set to infuse.
+[09/04/25 12:48:08] Autosampler sent to 16 position.
+[09/04/25 12:48:09] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:48:11] Syringe pump has been set to withdraw.
+[09/04/25 12:48:27] Autosampler sent to 11 position.
+[09/04/25 12:48:28] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:48:30] Syringe pump has been set to infuse.
+[09/04/25 12:48:37] Autosampler sent to 16 position.
+[09/04/25 12:48:39] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:48:40] Syringe pump has been set to withdraw.
+[09/04/25 12:49:02] Autosampler sent to 12 position.
+[09/04/25 12:49:04] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:49:05] Syringe pump has been set to infuse.
+[09/04/25 12:49:14] Autosampler sent to 16 position.
+[09/04/25 12:49:16] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:49:17] Syringe pump has been set to withdraw.
+[09/04/25 12:49:45] Autosampler sent to 13 position.
+[09/04/25 12:49:47] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:49:48] Syringe pump has been set to infuse.
+[09/04/25 12:49:58] Autosampler sent to 16 position.
+[09/04/25 12:50:00] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:50:01] Syringe pump has been set to withdraw.
+[09/04/25 12:50:36] Autosampler sent to 14 position.
+[09/04/25 12:50:37] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:50:38] Syringe pump has been set to infuse.
+[09/04/25 12:50:49] Autosampler sent to home position.
+[09/04/25 12:50:49] Autosampler sent tp home position.
+[09/04/25 12:50:50] Autosampler sent to 24 position.
+[09/04/25 12:50:52] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:50:53] Syringe pump has been set to withdraw.
+[09/04/25 12:51:00] Autosampler sent to 17 position.
+[09/04/25 12:51:02] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:51:02] Syringe pump has been set to infuse.
+[09/04/25 12:51:09] Autosampler sent to 24 position.
+[09/04/25 12:51:10] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:51:12] Syringe pump has been set to withdraw.
+[09/04/25 12:51:22] Autosampler sent to 18 position.
+[09/04/25 12:51:23] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:51:24] Syringe pump has been set to infuse.
+[09/04/25 12:51:31] Autosampler sent to 24 position.
+[09/04/25 12:51:33] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:51:34] Syringe pump has been set to withdraw.
+[09/04/25 12:51:50] Autosampler sent to 19 position.
+[09/04/25 12:51:52] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:51:53] Syringe pump has been set to infuse.
+[09/04/25 12:52:01] Autosampler sent to 24 position.
+[09/04/25 12:52:03] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:52:04] Syringe pump has been set to withdraw.
+[09/04/25 12:52:26] Autosampler sent to 20 position.
+[09/04/25 12:52:28] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:52:29] Syringe pump has been set to infuse.
+[09/04/25 12:52:38] Autosampler sent to 24 position.
+[09/04/25 12:52:40] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:52:41] Syringe pump has been set to withdraw.
+[09/04/25 12:53:09] Autosampler sent to 21 position.
+[09/04/25 12:53:11] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:53:12] Syringe pump has been set to infuse.
+[09/04/25 12:53:22] Autosampler sent to 24 position.
+[09/04/25 12:53:24] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:53:25] Syringe pump has been set to withdraw.
+[09/04/25 12:54:00] Autosampler sent to 22 position.
+[09/04/25 12:54:01] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 12:54:02] Syringe pump has been set to infuse.
+[09/04/25 12:54:13] Autosampler sent to home position.
+[09/04/25 12:54:13] Autosampler sent tp home position.
+[09/04/25 13:44:20] Autosampler sent to 8 position.
+[09/04/25 13:44:22] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:44:23] Syringe pump has been set to withdraw.
+[09/04/25 13:44:30] Autosampler sent to 1 position.
+[09/04/25 13:44:32] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:44:32] Syringe pump has been set to infuse.
+[09/04/25 13:44:39] Autosampler sent to 8 position.
+[09/04/25 13:44:40] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:44:41] Syringe pump has been set to withdraw.
+[09/04/25 13:44:52] Autosampler sent to 2 position.
+[09/04/25 13:44:53] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:44:54] Syringe pump has been set to infuse.
+[09/04/25 13:45:01] Autosampler sent to 8 position.
+[09/04/25 13:45:03] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:45:04] Syringe pump has been set to withdraw.
+[09/04/25 13:45:20] Autosampler sent to 3 position.
+[09/04/25 13:45:22] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:45:23] Syringe pump has been set to infuse.
+[09/04/25 13:45:31] Autosampler sent to 8 position.
+[09/04/25 13:45:32] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:45:33] Syringe pump has been set to withdraw.
+[09/04/25 13:45:56] Autosampler sent to 4 position.
+[09/04/25 13:45:57] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:45:58] Syringe pump has been set to infuse.
+[09/04/25 13:46:08] Autosampler sent to 8 position.
+[09/04/25 13:46:09] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:46:10] Syringe pump has been set to withdraw.
+[09/04/25 13:46:39] Autosampler sent to 5 position.
+[09/04/25 13:46:40] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:46:41] Syringe pump has been set to infuse.
+[09/04/25 13:46:52] Autosampler sent to 8 position.
+[09/04/25 13:46:53] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:46:54] Syringe pump has been set to withdraw.
+[09/04/25 13:47:29] Autosampler sent to 6 position.
+[09/04/25 13:47:30] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:47:31] Syringe pump has been set to infuse.
+[09/04/25 13:47:42] Autosampler sent to home position.
+[09/04/25 13:47:42] Autosampler sent tp home position.
+[09/04/25 13:47:43] Autosampler sent to 16 position.
+[09/04/25 13:47:45] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:47:46] Syringe pump has been set to withdraw.
+[09/04/25 13:47:53] Autosampler sent to 9 position.
+[09/04/25 13:47:55] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:47:56] Syringe pump has been set to infuse.
+[09/04/25 13:48:02] Autosampler sent to 16 position.
+[09/04/25 13:48:03] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:48:04] Syringe pump has been set to withdraw.
+[09/04/25 13:48:15] Autosampler sent to 10 position.
+[09/04/25 13:48:16] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:48:17] Syringe pump has been set to infuse.
+[09/04/25 13:48:24] Autosampler sent to 16 position.
+[09/04/25 13:48:26] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:48:27] Syringe pump has been set to withdraw.
+[09/04/25 13:48:43] Autosampler sent to 11 position.
+[09/04/25 13:48:45] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:48:46] Syringe pump has been set to infuse.
+[09/04/25 13:48:54] Autosampler sent to 16 position.
+[09/04/25 13:48:55] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:48:57] Syringe pump has been set to withdraw.
+[09/04/25 13:49:19] Autosampler sent to 12 position.
+[09/04/25 13:49:20] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:49:22] Syringe pump has been set to infuse.
+[09/04/25 13:49:31] Autosampler sent to 16 position.
+[09/04/25 13:49:32] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:49:33] Syringe pump has been set to withdraw.
+[09/04/25 13:50:02] Autosampler sent to 13 position.
+[09/04/25 13:50:03] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:50:04] Syringe pump has been set to infuse.
+[09/04/25 13:50:15] Autosampler sent to 16 position.
+[09/04/25 13:50:16] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:50:18] Syringe pump has been set to withdraw.
+[09/04/25 13:50:52] Autosampler sent to 14 position.
+[09/04/25 13:50:54] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:50:55] Syringe pump has been set to infuse.
+[09/04/25 13:51:05] Autosampler sent to home position.
+[09/04/25 13:51:05] Autosampler sent tp home position.
+[09/04/25 13:51:07] Autosampler sent to 24 position.
+[09/04/25 13:51:08] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:51:09] Syringe pump has been set to withdraw.
+[09/04/25 13:51:16] Autosampler sent to 17 position.
+[09/04/25 13:51:18] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:51:19] Syringe pump has been set to infuse.
+[09/04/25 13:51:25] Autosampler sent to 24 position.
+[09/04/25 13:51:27] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:51:28] Syringe pump has been set to withdraw.
+[09/04/25 13:51:38] Autosampler sent to 18 position.
+[09/04/25 13:51:40] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:51:41] Syringe pump has been set to infuse.
+[09/04/25 13:51:48] Autosampler sent to 24 position.
+[09/04/25 13:51:49] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:51:50] Syringe pump has been set to withdraw.
+[09/04/25 13:52:07] Autosampler sent to 19 position.
+[09/04/25 13:52:08] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:52:09] Syringe pump has been set to infuse.
+[09/04/25 13:52:17] Autosampler sent to 24 position.
+[09/04/25 13:52:19] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:52:20] Syringe pump has been set to withdraw.
+[09/04/25 13:52:42] Autosampler sent to 20 position.
+[09/04/25 13:52:44] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:52:45] Syringe pump has been set to infuse.
+[09/04/25 13:52:54] Autosampler sent to 24 position.
+[09/04/25 13:52:56] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:52:57] Syringe pump has been set to withdraw.
+[09/04/25 13:53:25] Autosampler sent to 21 position.
+[09/04/25 13:53:27] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:53:28] Syringe pump has been set to infuse.
+[09/04/25 13:53:39] Autosampler sent to 24 position.
+[09/04/25 13:53:40] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:53:41] Syringe pump has been set to withdraw.
+[09/04/25 13:54:16] Autosampler sent to 22 position.
+[09/04/25 13:54:18] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 13:54:19] Syringe pump has been set to infuse.
+[09/04/25 13:54:29] Autosampler sent to home position.
+[09/04/25 13:54:29] Autosampler sent tp home position.
+[09/04/25 14:43:58] Autosampler sent to 8 position.
+[09/04/25 14:44:00] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:44:01] Syringe pump has been set to withdraw.
+[09/04/25 14:44:08] Autosampler sent to 1 position.
+[09/04/25 14:44:09] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:44:10] Syringe pump has been set to infuse.
+[09/04/25 14:44:16] Autosampler sent to 8 position.
+[09/04/25 14:44:18] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:44:19] Syringe pump has been set to withdraw.
+[09/04/25 14:44:29] Autosampler sent to 2 position.
+[09/04/25 14:44:31] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:44:32] Syringe pump has been set to infuse.
+[09/04/25 14:44:39] Autosampler sent to 8 position.
+[09/04/25 14:44:40] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:44:42] Syringe pump has been set to withdraw.
+[09/04/25 14:44:58] Autosampler sent to 3 position.
+[09/04/25 14:44:59] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:45:00] Syringe pump has been set to infuse.
+[09/04/25 14:45:08] Autosampler sent to 8 position.
+[09/04/25 14:45:10] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:45:11] Syringe pump has been set to withdraw.
+[09/04/25 14:45:33] Autosampler sent to 4 position.
+[09/04/25 14:45:35] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:45:36] Syringe pump has been set to infuse.
+[09/04/25 14:45:45] Autosampler sent to 8 position.
+[09/04/25 14:45:47] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:45:48] Syringe pump has been set to withdraw.
+[09/04/25 14:46:16] Autosampler sent to 5 position.
+[09/04/25 14:46:18] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:46:19] Syringe pump has been set to infuse.
+[09/04/25 14:46:29] Autosampler sent to 8 position.
+[09/04/25 14:46:31] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:46:32] Syringe pump has been set to withdraw.
+[09/04/25 14:47:06] Autosampler sent to 6 position.
+[09/04/25 14:47:08] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:47:09] Syringe pump has been set to infuse.
+[09/04/25 14:47:20] Autosampler sent to home position.
+[09/04/25 14:47:20] Autosampler sent tp home position.
+[09/04/25 14:47:21] Autosampler sent to 16 position.
+[09/04/25 14:47:23] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:47:24] Syringe pump has been set to withdraw.
+[09/04/25 14:47:31] Autosampler sent to 9 position.
+[09/04/25 14:47:33] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:47:33] Syringe pump has been set to infuse.
+[09/04/25 14:47:39] Autosampler sent to 16 position.
+[09/04/25 14:47:41] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:47:42] Syringe pump has been set to withdraw.
+[09/04/25 14:47:52] Autosampler sent to 10 position.
+[09/04/25 14:47:54] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:47:55] Syringe pump has been set to infuse.
+[09/04/25 14:48:02] Autosampler sent to 16 position.
+[09/04/25 14:48:03] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:48:05] Syringe pump has been set to withdraw.
+[09/04/25 14:48:21] Autosampler sent to 11 position.
+[09/04/25 14:48:22] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:48:24] Syringe pump has been set to infuse.
+[09/04/25 14:48:32] Autosampler sent to 16 position.
+[09/04/25 14:48:33] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:48:34] Syringe pump has been set to withdraw.
+[09/04/25 14:48:56] Autosampler sent to 12 position.
+[09/04/25 14:48:58] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:48:59] Syringe pump has been set to infuse.
+[09/04/25 14:49:08] Autosampler sent to 16 position.
+[09/04/25 14:49:10] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:49:11] Syringe pump has been set to withdraw.
+[09/04/25 14:49:39] Autosampler sent to 13 position.
+[09/04/25 14:49:41] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:49:42] Syringe pump has been set to infuse.
+[09/04/25 14:49:52] Autosampler sent to 16 position.
+[09/04/25 14:49:54] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:49:55] Syringe pump has been set to withdraw.
+[09/04/25 14:50:30] Autosampler sent to 14 position.
+[09/04/25 14:50:31] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:50:32] Syringe pump has been set to infuse.
+[09/04/25 14:50:43] Autosampler sent to home position.
+[09/04/25 14:50:43] Autosampler sent tp home position.
+[09/04/25 14:50:44] Autosampler sent to 24 position.
+[09/04/25 14:50:46] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:50:47] Syringe pump has been set to withdraw.
+[09/04/25 14:50:54] Autosampler sent to 17 position.
+[09/04/25 14:50:56] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:50:56] Syringe pump has been set to infuse.
+[09/04/25 14:51:03] Autosampler sent to 24 position.
+[09/04/25 14:51:04] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:51:05] Syringe pump has been set to withdraw.
+[09/04/25 14:51:16] Autosampler sent to 18 position.
+[09/04/25 14:51:17] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:51:18] Syringe pump has been set to infuse.
+[09/04/25 14:51:25] Autosampler sent to 24 position.
+[09/04/25 14:51:27] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:51:28] Syringe pump has been set to withdraw.
+[09/04/25 14:51:44] Autosampler sent to 19 position.
+[09/04/25 14:51:46] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:51:47] Syringe pump has been set to infuse.
+[09/04/25 14:51:55] Autosampler sent to 24 position.
+[09/04/25 14:51:57] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:51:58] Syringe pump has been set to withdraw.
+[09/04/25 14:52:20] Autosampler sent to 20 position.
+[09/04/25 14:52:22] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:52:23] Syringe pump has been set to infuse.
+[09/04/25 14:52:32] Autosampler sent to 24 position.
+[09/04/25 14:52:34] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:52:35] Syringe pump has been set to withdraw.
+[09/04/25 14:53:03] Autosampler sent to 21 position.
+[09/04/25 14:53:05] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:53:06] Syringe pump has been set to infuse.
+[09/04/25 14:53:16] Autosampler sent to 24 position.
+[09/04/25 14:53:18] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:53:19] Syringe pump has been set to withdraw.
+[09/04/25 14:53:54] Autosampler sent to 22 position.
+[09/04/25 14:53:55] The syringe pump's target volume has been set to {tvolume}.
+[09/04/25 14:53:56] Syringe pump has been set to infuse.
+[09/04/25 14:54:07] Autosampler sent to home position.
+[09/04/25 14:54:07] Autosampler sent tp home position.
+[10/04/25 10:13:20] Connected to autosampler.
+[10/04/25 10:13:27] Connection to HB pump successful.
+[10/04/25 10:33:50] Autosampler sent to 8 position.
+[10/04/25 10:33:52] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:33:53] Syringe pump has been set to withdraw.
+[10/04/25 10:34:00] Autosampler sent to 1 position.
+[10/04/25 10:34:02] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:34:03] Syringe pump has been set to infuse.
+[10/04/25 10:34:09] Autosampler sent to 8 position.
+[10/04/25 10:34:10] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:34:12] Syringe pump has been set to withdraw.
+[10/04/25 10:34:22] Autosampler sent to 2 position.
+[10/04/25 10:34:23] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:34:25] Syringe pump has been set to infuse.
+[10/04/25 10:34:31] Autosampler sent to 8 position.
+[10/04/25 10:34:33] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:34:34] Syringe pump has been set to withdraw.
+[10/04/25 10:34:50] Autosampler sent to 3 position.
+[10/04/25 10:34:52] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:34:53] Syringe pump has been set to infuse.
+[10/04/25 10:35:01] Autosampler sent to 8 position.
+[10/04/25 10:35:03] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:35:04] Syringe pump has been set to withdraw.
+[10/04/25 10:35:26] Autosampler sent to 4 position.
+[10/04/25 10:35:28] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:35:29] Syringe pump has been set to infuse.
+[10/04/25 10:35:38] Autosampler sent to 8 position.
+[10/04/25 10:35:40] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:35:41] Syringe pump has been set to withdraw.
+[10/04/25 10:36:09] Autosampler sent to 5 position.
+[10/04/25 10:36:11] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:36:12] Syringe pump has been set to infuse.
+[10/04/25 10:36:22] Autosampler sent to 8 position.
+[10/04/25 10:36:24] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:36:25] Syringe pump has been set to withdraw.
+[10/04/25 10:37:00] Autosampler sent to 6 position.
+[10/04/25 10:37:01] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:37:02] Syringe pump has been set to infuse.
+[10/04/25 10:37:13] Autosampler sent to home position.
+[10/04/25 10:37:13] Autosampler sent tp home position.
+[10/04/25 10:37:14] Autosampler sent to 16 position.
+[10/04/25 10:37:16] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:37:17] Syringe pump has been set to withdraw.
+[10/04/25 10:37:24] Autosampler sent to 9 position.
+[10/04/25 10:37:26] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:37:26] Syringe pump has been set to infuse.
+[10/04/25 10:37:33] Autosampler sent to 16 position.
+[10/04/25 10:37:34] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:37:35] Syringe pump has been set to withdraw.
+[10/04/25 10:37:46] Autosampler sent to 10 position.
+[10/04/25 10:37:47] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:37:48] Syringe pump has been set to infuse.
+[10/04/25 10:37:55] Autosampler sent to 16 position.
+[10/04/25 10:37:57] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:37:58] Syringe pump has been set to withdraw.
+[10/04/25 10:38:14] Autosampler sent to 11 position.
+[10/04/25 10:38:16] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:38:17] Syringe pump has been set to infuse.
+[10/04/25 10:38:25] Autosampler sent to 16 position.
+[10/04/25 10:38:27] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:38:28] Syringe pump has been set to withdraw.
+[10/04/25 10:38:50] Autosampler sent to 12 position.
+[10/04/25 10:38:52] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:38:53] Syringe pump has been set to infuse.
+[10/04/25 10:39:02] Autosampler sent to 16 position.
+[10/04/25 10:39:04] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:39:05] Syringe pump has been set to withdraw.
+[10/04/25 10:39:33] Autosampler sent to 13 position.
+[10/04/25 10:39:35] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:39:36] Syringe pump has been set to infuse.
+[10/04/25 10:39:46] Autosampler sent to 16 position.
+[10/04/25 10:39:48] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:39:49] Syringe pump has been set to withdraw.
+[10/04/25 10:40:23] Autosampler sent to 14 position.
+[10/04/25 10:40:25] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:40:26] Syringe pump has been set to infuse.
+[10/04/25 10:40:36] Autosampler sent to home position.
+[10/04/25 10:40:37] Autosampler sent tp home position.
+[10/04/25 10:40:38] Autosampler sent to 24 position.
+[10/04/25 10:40:40] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:40:41] Syringe pump has been set to withdraw.
+[10/04/25 10:40:48] Autosampler sent to 17 position.
+[10/04/25 10:40:50] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:40:51] Syringe pump has been set to infuse.
+[10/04/25 10:40:58] Autosampler sent to 24 position.
+[10/04/25 10:40:59] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:41:00] Syringe pump has been set to withdraw.
+[10/04/25 10:41:11] Autosampler sent to 18 position.
+[10/04/25 10:41:12] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:41:13] Syringe pump has been set to infuse.
+[10/04/25 10:41:20] Autosampler sent to 24 position.
+[10/04/25 10:41:22] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:41:23] Syringe pump has been set to withdraw.
+[10/04/25 10:41:39] Autosampler sent to 19 position.
+[10/04/25 10:41:41] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:41:42] Syringe pump has been set to infuse.
+[10/04/25 10:41:50] Autosampler sent to 24 position.
+[10/04/25 10:41:52] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:41:53] Syringe pump has been set to withdraw.
+[10/04/25 10:42:15] Autosampler sent to 20 position.
+[10/04/25 10:42:17] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:42:18] Syringe pump has been set to infuse.
+[10/04/25 10:42:27] Autosampler sent to 24 position.
+[10/04/25 10:42:29] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:42:30] Syringe pump has been set to withdraw.
+[10/04/25 10:42:58] Autosampler sent to 21 position.
+[10/04/25 10:43:00] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:43:01] Syringe pump has been set to infuse.
+[10/04/25 10:43:12] Autosampler sent to 24 position.
+[10/04/25 10:43:13] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:43:15] Syringe pump has been set to withdraw.
+[10/04/25 10:43:49] Autosampler sent to 22 position.
+[10/04/25 10:43:51] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 10:43:52] Syringe pump has been set to infuse.
+[10/04/25 10:44:02] Autosampler sent to home position.
+[10/04/25 10:44:02] Autosampler sent tp home position.
+[10/04/25 11:02:13] Autosampler sent to 8 position.
+[10/04/25 11:02:15] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:02:16] Syringe pump has been set to withdraw.
+[10/04/25 11:02:22] Autosampler sent to 1 position.
+[10/04/25 11:02:24] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:02:24] Syringe pump has been set to infuse.
+[10/04/25 11:02:30] Autosampler sent to 8 position.
+[10/04/25 11:02:32] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:02:33] Syringe pump has been set to withdraw.
+[10/04/25 11:02:40] Autosampler sent to 2 position.
+[10/04/25 11:02:42] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:02:43] Syringe pump has been set to infuse.
+[10/04/25 11:02:50] Autosampler sent to 8 position.
+[10/04/25 11:02:52] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:02:53] Syringe pump has been set to withdraw.
+[10/04/25 11:03:03] Autosampler sent to 3 position.
+[10/04/25 11:03:05] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:03:06] Syringe pump has been set to infuse.
+[10/04/25 11:03:14] Autosampler sent to 8 position.
+[10/04/25 11:03:15] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:03:17] Syringe pump has been set to withdraw.
+[10/04/25 11:03:30] Autosampler sent to 4 position.
+[10/04/25 11:03:31] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:03:33] Syringe pump has been set to infuse.
+[10/04/25 11:03:42] Autosampler sent to 8 position.
+[10/04/25 11:03:43] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:03:45] Syringe pump has been set to withdraw.
+[10/04/25 11:04:01] Autosampler sent to 5 position.
+[10/04/25 11:04:02] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:04:04] Syringe pump has been set to infuse.
+[10/04/25 11:04:14] Autosampler sent to 8 position.
+[10/04/25 11:04:16] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:04:17] Syringe pump has been set to withdraw.
+[10/04/25 11:04:36] Autosampler sent to 6 position.
+[10/04/25 11:04:38] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:04:39] Syringe pump has been set to infuse.
+[10/04/25 11:04:49] Autosampler sent to home position.
+[10/04/25 11:04:49] Autosampler sent tp home position.
+[10/04/25 11:04:51] Autosampler sent to 16 position.
+[10/04/25 11:04:52] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:04:54] Syringe pump has been set to withdraw.
+[10/04/25 11:04:59] Autosampler sent to 9 position.
+[10/04/25 11:05:01] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:05:02] Syringe pump has been set to infuse.
+[10/04/25 11:05:08] Autosampler sent to 16 position.
+[10/04/25 11:05:09] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:05:10] Syringe pump has been set to withdraw.
+[10/04/25 11:05:18] Autosampler sent to 10 position.
+[10/04/25 11:05:19] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:05:21] Syringe pump has been set to infuse.
+[10/04/25 11:05:27] Autosampler sent to 16 position.
+[10/04/25 11:05:29] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:05:30] Syringe pump has been set to withdraw.
+[10/04/25 11:05:40] Autosampler sent to 11 position.
+[10/04/25 11:05:42] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:05:43] Syringe pump has been set to infuse.
+[10/04/25 11:05:51] Autosampler sent to 16 position.
+[10/04/25 11:05:53] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:05:54] Syringe pump has been set to withdraw.
+[10/04/25 11:06:07] Autosampler sent to 12 position.
+[10/04/25 11:06:09] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:06:10] Syringe pump has been set to infuse.
+[10/04/25 11:06:19] Autosampler sent to 16 position.
+[10/04/25 11:06:21] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:06:22] Syringe pump has been set to withdraw.
+[10/04/25 11:06:38] Autosampler sent to 13 position.
+[10/04/25 11:06:40] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:06:41] Syringe pump has been set to infuse.
+[10/04/25 11:06:51] Autosampler sent to 16 position.
+[10/04/25 11:06:53] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:06:54] Syringe pump has been set to withdraw.
+[10/04/25 11:07:14] Autosampler sent to 14 position.
+[10/04/25 11:07:15] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:07:16] Syringe pump has been set to infuse.
+[10/04/25 11:07:27] Autosampler sent to home position.
+[10/04/25 11:07:27] Autosampler sent tp home position.
+[10/04/25 11:07:28] Autosampler sent to 24 position.
+[10/04/25 11:07:30] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:07:31] Syringe pump has been set to withdraw.
+[10/04/25 11:07:37] Autosampler sent to 17 position.
+[10/04/25 11:07:38] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:07:39] Syringe pump has been set to infuse.
+[10/04/25 11:07:45] Autosampler sent to 24 position.
+[10/04/25 11:07:47] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:07:48] Syringe pump has been set to withdraw.
+[10/04/25 11:07:55] Autosampler sent to 18 position.
+[10/04/25 11:07:57] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:07:58] Syringe pump has been set to infuse.
+[10/04/25 11:08:05] Autosampler sent to 24 position.
+[10/04/25 11:08:07] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:08:08] Syringe pump has been set to withdraw.
+[10/04/25 11:08:18] Autosampler sent to 19 position.
+[10/04/25 11:08:20] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:08:21] Syringe pump has been set to infuse.
+[10/04/25 11:08:29] Autosampler sent to 24 position.
+[10/04/25 11:08:31] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:08:32] Syringe pump has been set to withdraw.
+[10/04/25 11:08:45] Autosampler sent to 20 position.
+[10/04/25 11:08:47] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:08:48] Syringe pump has been set to infuse.
+[10/04/25 11:08:57] Autosampler sent to 24 position.
+[10/04/25 11:08:59] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:09:00] Syringe pump has been set to withdraw.
+[10/04/25 11:09:16] Autosampler sent to 21 position.
+[10/04/25 11:09:18] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:09:19] Syringe pump has been set to infuse.
+[10/04/25 11:09:30] Autosampler sent to 24 position.
+[10/04/25 11:09:31] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:09:32] Syringe pump has been set to withdraw.
+[10/04/25 11:09:52] Autosampler sent to 22 position.
+[10/04/25 11:09:53] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:09:55] Syringe pump has been set to infuse.
+[10/04/25 11:10:05] Autosampler sent to home position.
+[10/04/25 11:10:05] Autosampler sent tp home position.
+[10/04/25 11:26:44] Autosampler sent to 8 position.
+[10/04/25 11:26:46] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:26:47] Syringe pump has been set to withdraw.
+[10/04/25 11:26:52] Autosampler sent to 1 position.
+[10/04/25 11:26:54] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:26:54] Syringe pump has been set to infuse.
+[10/04/25 11:27:01] Autosampler sent to 8 position.
+[10/04/25 11:27:03] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:27:04] Syringe pump has been set to withdraw.
+[10/04/25 11:27:10] Autosampler sent to 2 position.
+[10/04/25 11:27:12] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:27:13] Syringe pump has been set to infuse.
+[10/04/25 11:27:20] Autosampler sent to 8 position.
+[10/04/25 11:27:22] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:27:23] Syringe pump has been set to withdraw.
+[10/04/25 11:27:31] Autosampler sent to 3 position.
+[10/04/25 11:27:33] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:27:34] Syringe pump has been set to infuse.
+[10/04/25 11:27:44] Autosampler sent to 8 position.
+[10/04/25 11:27:45] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:27:46] Syringe pump has been set to withdraw.
+[10/04/25 11:27:57] Autosampler sent to 4 position.
+[10/04/25 11:27:58] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:27:59] Syringe pump has been set to infuse.
+[10/04/25 11:28:11] Autosampler sent to 8 position.
+[10/04/25 11:28:13] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:28:14] Syringe pump has been set to withdraw.
+[10/04/25 11:28:26] Autosampler sent to 5 position.
+[10/04/25 11:28:28] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:28:29] Syringe pump has been set to infuse.
+[10/04/25 11:28:42] Autosampler sent to 8 position.
+[10/04/25 11:28:44] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:28:45] Syringe pump has been set to withdraw.
+[10/04/25 11:29:00] Autosampler sent to 6 position.
+[10/04/25 11:29:01] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:29:02] Syringe pump has been set to infuse.
+[10/04/25 11:29:17] Autosampler sent to home position.
+[10/04/25 11:29:17] Autosampler sent tp home position.
+[10/04/25 11:29:18] Autosampler sent to 16 position.
+[10/04/25 11:29:20] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:29:21] Syringe pump has been set to withdraw.
+[10/04/25 11:29:26] Autosampler sent to 9 position.
+[10/04/25 11:29:28] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:29:29] Syringe pump has been set to infuse.
+[10/04/25 11:29:35] Autosampler sent to 16 position.
+[10/04/25 11:29:36] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:29:37] Syringe pump has been set to withdraw.
+[10/04/25 11:29:44] Autosampler sent to 10 position.
+[10/04/25 11:29:45] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:29:47] Syringe pump has been set to infuse.
+[10/04/25 11:29:53] Autosampler sent to 16 position.
+[10/04/25 11:29:55] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:29:56] Syringe pump has been set to withdraw.
+[10/04/25 11:30:04] Autosampler sent to 11 position.
+[10/04/25 11:30:06] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:30:07] Syringe pump has been set to infuse.
+[10/04/25 11:30:15] Autosampler sent to 16 position.
+[10/04/25 11:30:17] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:30:18] Syringe pump has been set to withdraw.
+[10/04/25 11:30:28] Autosampler sent to 12 position.
+[10/04/25 11:30:30] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:30:31] Syringe pump has been set to infuse.
+[10/04/25 11:30:40] Autosampler sent to 16 position.
+[10/04/25 11:30:42] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:30:43] Syringe pump has been set to withdraw.
+[10/04/25 11:30:55] Autosampler sent to 13 position.
+[10/04/25 11:30:57] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:30:58] Syringe pump has been set to infuse.
+[10/04/25 11:31:08] Autosampler sent to 16 position.
+[10/04/25 11:31:10] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:31:11] Syringe pump has been set to withdraw.
+[10/04/25 11:31:25] Autosampler sent to 14 position.
+[10/04/25 11:31:27] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:31:28] Syringe pump has been set to infuse.
+[10/04/25 11:31:38] Autosampler sent to home position.
+[10/04/25 11:31:39] Autosampler sent tp home position.
+[10/04/25 11:31:40] Autosampler sent to 24 position.
+[10/04/25 11:31:42] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:31:43] Syringe pump has been set to withdraw.
+[10/04/25 11:31:48] Autosampler sent to 17 position.
+[10/04/25 11:31:50] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:31:50] Syringe pump has been set to infuse.
+[10/04/25 11:31:57] Autosampler sent to 24 position.
+[10/04/25 11:31:58] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:31:59] Syringe pump has been set to withdraw.
+[10/04/25 11:32:06] Autosampler sent to 18 position.
+[10/04/25 11:32:07] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:32:08] Syringe pump has been set to infuse.
+[10/04/25 11:32:15] Autosampler sent to 24 position.
+[10/04/25 11:32:17] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:32:18] Syringe pump has been set to withdraw.
+[10/04/25 11:32:26] Autosampler sent to 19 position.
+[10/04/25 11:32:28] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:32:29] Syringe pump has been set to infuse.
+[10/04/25 11:32:37] Autosampler sent to 24 position.
+[10/04/25 11:32:39] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:32:40] Syringe pump has been set to withdraw.
+[10/04/25 11:32:50] Autosampler sent to 20 position.
+[10/04/25 11:32:52] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:32:53] Syringe pump has been set to infuse.
+[10/04/25 11:33:02] Autosampler sent to 24 position.
+[10/04/25 11:33:04] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:33:05] Syringe pump has been set to withdraw.
+[10/04/25 11:33:17] Autosampler sent to 21 position.
+[10/04/25 11:33:19] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:33:20] Syringe pump has been set to infuse.
+[10/04/25 11:33:31] Autosampler sent to 24 position.
+[10/04/25 11:33:32] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:33:33] Syringe pump has been set to withdraw.
+[10/04/25 11:33:48] Autosampler sent to 22 position.
+[10/04/25 11:33:50] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 11:33:51] Syringe pump has been set to infuse.
+[10/04/25 11:34:01] Autosampler sent to home position.
+[10/04/25 11:34:01] Autosampler sent tp home position.
+[10/04/25 16:10:26] Autosampler sent to home position.
+[10/04/25 16:10:26] Autosampler sent tp home position.
+[10/04/25 16:18:17] Autosampler sent to 8 position.
+[10/04/25 16:18:18] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:18:19] Syringe pump has been set to withdraw.
+[10/04/25 16:18:27] Autosampler sent to 1 position.
+[10/04/25 16:18:28] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:18:29] Syringe pump has been set to infuse.
+[10/04/25 16:18:37] Autosampler sent to 8 position.
+[10/04/25 16:18:39] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:18:40] Syringe pump has been set to withdraw.
+[10/04/25 16:18:50] Autosampler sent to 2 position.
+[10/04/25 16:18:52] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:18:53] Syringe pump has been set to infuse.
+[10/04/25 16:19:05] Autosampler sent to 8 position.
+[10/04/25 16:19:06] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:19:08] Syringe pump has been set to withdraw.
+[10/04/25 16:19:24] Autosampler sent to 3 position.
+[10/04/25 16:19:25] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:19:27] Syringe pump has been set to infuse.
+[10/04/25 16:19:44] Autosampler sent to 8 position.
+[10/04/25 16:19:46] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:19:47] Syringe pump has been set to withdraw.
+[10/04/25 16:20:09] Autosampler sent to 4 position.
+[10/04/25 16:20:11] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:20:12] Syringe pump has been set to infuse.
+[10/04/25 16:20:36] Autosampler sent to 8 position.
+[10/04/25 16:20:37] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:20:38] Syringe pump has been set to withdraw.
+[10/04/25 16:21:07] Autosampler sent to 5 position.
+[10/04/25 16:21:08] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:21:09] Syringe pump has been set to infuse.
+[10/04/25 16:21:39] Autosampler sent to 8 position.
+[10/04/25 16:21:41] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:21:42] Syringe pump has been set to withdraw.
+[10/04/25 16:22:16] Autosampler sent to 6 position.
+[10/04/25 16:22:18] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:22:19] Syringe pump has been set to infuse.
+[10/04/25 16:22:53] Autosampler sent to home position.
+[10/04/25 16:22:53] Autosampler sent tp home position.
+[10/04/25 16:22:55] Autosampler sent to 16 position.
+[10/04/25 16:22:57] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:22:58] Syringe pump has been set to withdraw.
+[10/04/25 16:23:05] Autosampler sent to 9 position.
+[10/04/25 16:23:06] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:23:07] Syringe pump has been set to infuse.
+[10/04/25 16:23:13] Autosampler sent to 16 position.
+[10/04/25 16:23:15] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:23:16] Syringe pump has been set to withdraw.
+[10/04/25 16:23:26] Autosampler sent to 10 position.
+[10/04/25 16:23:28] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:23:29] Syringe pump has been set to infuse.
+[10/04/25 16:23:36] Autosampler sent to 16 position.
+[10/04/25 16:23:38] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:23:39] Syringe pump has been set to withdraw.
+[10/04/25 16:23:55] Autosampler sent to 11 position.
+[10/04/25 16:23:57] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:23:58] Syringe pump has been set to infuse.
+[10/04/25 16:24:06] Autosampler sent to 16 position.
+[10/04/25 16:24:07] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:24:08] Syringe pump has been set to withdraw.
+[10/04/25 16:24:31] Autosampler sent to 12 position.
+[10/04/25 16:24:32] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:24:33] Syringe pump has been set to infuse.
+[10/04/25 16:24:43] Autosampler sent to 16 position.
+[10/04/25 16:24:44] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:24:45] Syringe pump has been set to withdraw.
+[10/04/25 16:25:14] Autosampler sent to 13 position.
+[10/04/25 16:25:15] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:25:16] Syringe pump has been set to infuse.
+[10/04/25 16:25:27] Autosampler sent to 16 position.
+[10/04/25 16:25:29] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:25:30] Syringe pump has been set to withdraw.
+[10/04/25 16:26:04] Autosampler sent to 14 position.
+[10/04/25 16:26:06] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:26:07] Syringe pump has been set to infuse.
+[10/04/25 16:26:17] Autosampler sent to home position.
+[10/04/25 16:26:17] Autosampler sent tp home position.
+[10/04/25 16:26:19] Autosampler sent to 24 position.
+[10/04/25 16:26:21] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:26:22] Syringe pump has been set to withdraw.
+[10/04/25 16:26:29] Autosampler sent to 17 position.
+[10/04/25 16:26:30] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:26:31] Syringe pump has been set to infuse.
+[10/04/25 16:26:37] Autosampler sent to 24 position.
+[10/04/25 16:26:39] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:26:40] Syringe pump has been set to withdraw.
+[10/04/25 16:26:50] Autosampler sent to 18 position.
+[10/04/25 16:26:52] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:26:53] Syringe pump has been set to infuse.
+[10/04/25 16:27:00] Autosampler sent to 24 position.
+[10/04/25 16:27:02] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:27:03] Syringe pump has been set to withdraw.
+[10/04/25 16:27:19] Autosampler sent to 19 position.
+[10/04/25 16:27:21] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:27:22] Syringe pump has been set to infuse.
+[10/04/25 16:27:30] Autosampler sent to 24 position.
+[10/04/25 16:27:32] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:27:33] Syringe pump has been set to withdraw.
+[10/04/25 16:27:55] Autosampler sent to 20 position.
+[10/04/25 16:27:57] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:27:58] Syringe pump has been set to infuse.
+[10/04/25 16:28:07] Autosampler sent to 24 position.
+[10/04/25 16:28:09] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:28:10] Syringe pump has been set to withdraw.
+[10/04/25 16:28:38] Autosampler sent to 21 position.
+[10/04/25 16:28:40] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:28:41] Syringe pump has been set to infuse.
+[10/04/25 16:28:52] Autosampler sent to 24 position.
+[10/04/25 16:28:53] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:28:54] Syringe pump has been set to withdraw.
+[10/04/25 16:29:29] Autosampler sent to 22 position.
+[10/04/25 16:29:30] The syringe pump's target volume has been set to {tvolume}.
+[10/04/25 16:29:32] Syringe pump has been set to infuse.
+[10/04/25 16:29:42] Autosampler sent to home position.
+[10/04/25 16:29:42] Autosampler sent tp home position.
+[14/04/25 11:23:47] Autosampler sent to 8 position.
+[14/04/25 11:23:49] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:23:50] Syringe pump has been set to withdraw.
+[14/04/25 11:23:57] Autosampler sent to 1 position.
+[14/04/25 11:23:58] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:23:59] Syringe pump has been set to infuse.
+[14/04/25 11:24:08] Autosampler sent to 8 position.
+[14/04/25 11:24:09] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:24:10] Syringe pump has been set to withdraw.
+[14/04/25 11:24:21] Autosampler sent to 2 position.
+[14/04/25 11:24:22] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:24:23] Syringe pump has been set to infuse.
+[14/04/25 11:24:35] Autosampler sent to 8 position.
+[14/04/25 11:24:37] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:24:38] Syringe pump has been set to withdraw.
+[14/04/25 11:24:54] Autosampler sent to 3 position.
+[14/04/25 11:24:55] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:24:57] Syringe pump has been set to infuse.
+[14/04/25 11:25:14] Autosampler sent to 8 position.
+[14/04/25 11:25:16] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:25:17] Syringe pump has been set to withdraw.
+[14/04/25 11:25:39] Autosampler sent to 4 position.
+[14/04/25 11:25:41] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:25:42] Syringe pump has been set to infuse.
+[14/04/25 11:26:05] Autosampler sent to 8 position.
+[14/04/25 11:26:07] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:26:08] Syringe pump has been set to withdraw.
+[14/04/25 11:26:36] Autosampler sent to 5 position.
+[14/04/25 11:26:38] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:26:39] Syringe pump has been set to infuse.
+[14/04/25 11:27:08] Autosampler sent to 8 position.
+[14/04/25 11:27:10] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:27:11] Syringe pump has been set to withdraw.
+[14/04/25 11:27:45] Autosampler sent to 6 position.
+[14/04/25 11:27:47] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:27:48] Syringe pump has been set to infuse.
+[14/04/25 11:28:23] Autosampler sent to home position.
+[14/04/25 11:28:23] Autosampler sent tp home position.
+[14/04/25 11:28:24] Autosampler sent to 16 position.
+[14/04/25 11:28:26] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:28:27] Syringe pump has been set to withdraw.
+[14/04/25 11:28:34] Autosampler sent to 9 position.
+[14/04/25 11:28:36] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:28:36] Syringe pump has been set to infuse.
+[14/04/25 11:28:42] Autosampler sent to 16 position.
+[14/04/25 11:28:44] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:28:45] Syringe pump has been set to withdraw.
+[14/04/25 11:28:55] Autosampler sent to 10 position.
+[14/04/25 11:28:57] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:28:58] Syringe pump has been set to infuse.
+[14/04/25 11:29:05] Autosampler sent to 16 position.
+[14/04/25 11:29:06] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:29:08] Syringe pump has been set to withdraw.
+[14/04/25 11:29:24] Autosampler sent to 11 position.
+[14/04/25 11:29:25] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:29:27] Syringe pump has been set to infuse.
+[14/04/25 11:29:34] Autosampler sent to 16 position.
+[14/04/25 11:29:36] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:29:37] Syringe pump has been set to withdraw.
+[14/04/25 11:29:59] Autosampler sent to 12 position.
+[14/04/25 11:30:01] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:30:02] Syringe pump has been set to infuse.
+[14/04/25 11:30:11] Autosampler sent to 16 position.
+[14/04/25 11:30:13] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:30:14] Syringe pump has been set to withdraw.
+[14/04/25 11:30:42] Autosampler sent to 13 position.
+[14/04/25 11:30:44] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:30:45] Syringe pump has been set to infuse.
+[14/04/25 11:30:55] Autosampler sent to 16 position.
+[14/04/25 11:30:57] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:30:58] Syringe pump has been set to withdraw.
+[14/04/25 11:31:32] Autosampler sent to 14 position.
+[14/04/25 11:31:34] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:31:35] Syringe pump has been set to infuse.
+[14/04/25 11:31:45] Autosampler sent to home position.
+[14/04/25 11:31:46] Autosampler sent tp home position.
+[14/04/25 11:31:47] Autosampler sent to 24 position.
+[14/04/25 11:31:49] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:31:50] Syringe pump has been set to withdraw.
+[14/04/25 11:31:57] Autosampler sent to 17 position.
+[14/04/25 11:31:59] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:31:59] Syringe pump has been set to infuse.
+[14/04/25 11:32:05] Autosampler sent to 24 position.
+[14/04/25 11:32:07] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:32:08] Syringe pump has been set to withdraw.
+[14/04/25 11:32:18] Autosampler sent to 18 position.
+[14/04/25 11:32:20] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:32:21] Syringe pump has been set to infuse.
+[14/04/25 11:32:28] Autosampler sent to 24 position.
+[14/04/25 11:32:30] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:32:31] Syringe pump has been set to withdraw.
+[14/04/25 11:32:47] Autosampler sent to 19 position.
+[14/04/25 11:32:49] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:32:50] Syringe pump has been set to infuse.
+[14/04/25 11:32:58] Autosampler sent to 24 position.
+[14/04/25 11:32:59] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:33:00] Syringe pump has been set to withdraw.
+[14/04/25 11:33:23] Autosampler sent to 20 position.
+[14/04/25 11:33:24] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:33:25] Syringe pump has been set to infuse.
+[14/04/25 11:33:35] Autosampler sent to 24 position.
+[14/04/25 11:33:36] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:33:37] Syringe pump has been set to withdraw.
+[14/04/25 11:34:06] Autosampler sent to 21 position.
+[14/04/25 11:34:07] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:34:09] Syringe pump has been set to infuse.
+[14/04/25 11:34:19] Autosampler sent to 24 position.
+[14/04/25 11:34:21] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:34:22] Syringe pump has been set to withdraw.
+[14/04/25 11:34:56] Autosampler sent to 22 position.
+[14/04/25 11:34:58] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:34:59] Syringe pump has been set to infuse.
+[14/04/25 11:35:09] Autosampler sent to home position.
+[14/04/25 11:35:09] Autosampler sent tp home position.
+[14/04/25 11:38:10] Autosampler sent to 8 position.
+[14/04/25 11:38:11] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:38:12] Syringe pump has been set to withdraw.
+[14/04/25 11:38:18] Autosampler sent to 1 position.
+[14/04/25 11:38:20] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:38:20] Syringe pump has been set to infuse.
+[14/04/25 11:38:27] Autosampler sent to 8 position.
+[14/04/25 11:38:29] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:38:30] Syringe pump has been set to withdraw.
+[14/04/25 11:38:37] Autosampler sent to 2 position.
+[14/04/25 11:38:39] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:38:40] Syringe pump has been set to infuse.
+[14/04/25 11:38:49] Autosampler sent to 8 position.
+[14/04/25 11:38:50] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:38:51] Syringe pump has been set to withdraw.
+[14/04/25 11:39:01] Autosampler sent to 3 position.
+[14/04/25 11:39:03] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:39:04] Syringe pump has been set to infuse.
+[14/04/25 11:39:16] Autosampler sent to 8 position.
+[14/04/25 11:39:17] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:39:18] Syringe pump has been set to withdraw.
+[14/04/25 11:39:32] Autosampler sent to 4 position.
+[14/04/25 11:39:33] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:39:34] Syringe pump has been set to infuse.
+[14/04/25 11:39:49] Autosampler sent to 8 position.
+[14/04/25 11:39:51] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:39:52] Syringe pump has been set to withdraw.
+[14/04/25 11:40:08] Autosampler sent to 5 position.
+[14/04/25 11:40:10] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:40:11] Syringe pump has been set to infuse.
+[14/04/25 11:40:28] Autosampler sent to 8 position.
+[14/04/25 11:40:30] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:40:31] Syringe pump has been set to withdraw.
+[14/04/25 11:40:50] Autosampler sent to 6 position.
+[14/04/25 11:40:52] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:40:53] Syringe pump has been set to infuse.
+[14/04/25 11:41:12] Autosampler sent to home position.
+[14/04/25 11:41:12] Autosampler sent tp home position.
+[14/04/25 11:41:14] Autosampler sent to 16 position.
+[14/04/25 11:41:15] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:41:17] Syringe pump has been set to withdraw.
+[14/04/25 11:41:22] Autosampler sent to 9 position.
+[14/04/25 11:41:24] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:41:24] Syringe pump has been set to infuse.
+[14/04/25 11:41:31] Autosampler sent to 16 position.
+[14/04/25 11:41:32] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:41:33] Syringe pump has been set to withdraw.
+[14/04/25 11:41:40] Autosampler sent to 10 position.
+[14/04/25 11:41:42] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:41:43] Syringe pump has been set to infuse.
+[14/04/25 11:41:50] Autosampler sent to 16 position.
+[14/04/25 11:41:52] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:41:53] Syringe pump has been set to withdraw.
+[14/04/25 11:42:03] Autosampler sent to 11 position.
+[14/04/25 11:42:05] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:42:06] Syringe pump has been set to infuse.
+[14/04/25 11:42:14] Autosampler sent to 16 position.
+[14/04/25 11:42:15] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:42:16] Syringe pump has been set to withdraw.
+[14/04/25 11:42:30] Autosampler sent to 12 position.
+[14/04/25 11:42:31] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:42:32] Syringe pump has been set to infuse.
+[14/04/25 11:42:41] Autosampler sent to 16 position.
+[14/04/25 11:42:43] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:42:44] Syringe pump has been set to withdraw.
+[14/04/25 11:43:00] Autosampler sent to 13 position.
+[14/04/25 11:43:02] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:43:03] Syringe pump has been set to infuse.
+[14/04/25 11:43:13] Autosampler sent to 16 position.
+[14/04/25 11:43:15] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:43:16] Syringe pump has been set to withdraw.
+[14/04/25 11:43:35] Autosampler sent to 14 position.
+[14/04/25 11:43:37] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:43:38] Syringe pump has been set to infuse.
+[14/04/25 11:43:49] Autosampler sent to home position.
+[14/04/25 11:43:49] Autosampler sent tp home position.
+[14/04/25 11:43:50] Autosampler sent to 24 position.
+[14/04/25 11:43:52] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:43:53] Syringe pump has been set to withdraw.
+[14/04/25 11:43:59] Autosampler sent to 17 position.
+[14/04/25 11:44:00] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:44:01] Syringe pump has been set to infuse.
+[14/04/25 11:44:07] Autosampler sent to 24 position.
+[14/04/25 11:44:09] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:44:10] Syringe pump has been set to withdraw.
+[14/04/25 11:44:17] Autosampler sent to 18 position.
+[14/04/25 11:44:19] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:44:20] Syringe pump has been set to infuse.
+[14/04/25 11:44:27] Autosampler sent to 24 position.
+[14/04/25 11:44:28] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:44:29] Syringe pump has been set to withdraw.
+[14/04/25 11:44:39] Autosampler sent to 19 position.
+[14/04/25 11:44:41] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:44:42] Syringe pump has been set to infuse.
+[14/04/25 11:44:50] Autosampler sent to 24 position.
+[14/04/25 11:44:52] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:44:53] Syringe pump has been set to withdraw.
+[14/04/25 11:45:06] Autosampler sent to 20 position.
+[14/04/25 11:45:08] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:45:09] Syringe pump has been set to infuse.
+[14/04/25 11:45:18] Autosampler sent to 24 position.
+[14/04/25 11:45:20] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:45:21] Syringe pump has been set to withdraw.
+[14/04/25 11:45:37] Autosampler sent to 21 position.
+[14/04/25 11:45:39] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:45:40] Syringe pump has been set to infuse.
+[14/04/25 11:45:50] Autosampler sent to 24 position.
+[14/04/25 11:45:52] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:45:53] Syringe pump has been set to withdraw.
+[14/04/25 11:46:13] Autosampler sent to 22 position.
+[14/04/25 11:46:14] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:46:15] Syringe pump has been set to infuse.
+[14/04/25 11:46:26] Autosampler sent to home position.
+[14/04/25 11:46:26] Autosampler sent tp home position.
+[14/04/25 11:50:04] Autosampler sent to 8 position.
+[14/04/25 11:50:06] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:50:07] Syringe pump has been set to withdraw.
+[14/04/25 11:50:12] Autosampler sent to 1 position.
+[14/04/25 11:50:13] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:50:14] Syringe pump has been set to infuse.
+[14/04/25 11:50:21] Autosampler sent to 8 position.
+[14/04/25 11:50:22] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:50:23] Syringe pump has been set to withdraw.
+[14/04/25 11:50:30] Autosampler sent to 2 position.
+[14/04/25 11:50:31] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:50:32] Syringe pump has been set to infuse.
+[14/04/25 11:50:40] Autosampler sent to 8 position.
+[14/04/25 11:50:42] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:50:43] Syringe pump has been set to withdraw.
+[14/04/25 11:50:51] Autosampler sent to 3 position.
+[14/04/25 11:50:52] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:50:54] Syringe pump has been set to infuse.
+[14/04/25 11:51:03] Autosampler sent to 8 position.
+[14/04/25 11:51:05] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:51:06] Syringe pump has been set to withdraw.
+[14/04/25 11:51:16] Autosampler sent to 4 position.
+[14/04/25 11:51:18] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:51:19] Syringe pump has been set to infuse.
+[14/04/25 11:51:30] Autosampler sent to 8 position.
+[14/04/25 11:51:32] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:51:33] Syringe pump has been set to withdraw.
+[14/04/25 11:51:45] Autosampler sent to 5 position.
+[14/04/25 11:51:47] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:51:48] Syringe pump has been set to infuse.
+[14/04/25 11:52:02] Autosampler sent to 8 position.
+[14/04/25 11:52:03] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:52:04] Syringe pump has been set to withdraw.
+[14/04/25 11:52:19] Autosampler sent to 6 position.
+[14/04/25 11:52:20] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:52:21] Syringe pump has been set to infuse.
+[14/04/25 11:52:36] Autosampler sent to home position.
+[14/04/25 11:52:36] Autosampler sent tp home position.
+[14/04/25 11:52:37] Autosampler sent to 16 position.
+[14/04/25 11:52:39] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:52:40] Syringe pump has been set to withdraw.
+[14/04/25 11:52:45] Autosampler sent to 9 position.
+[14/04/25 11:52:47] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:52:47] Syringe pump has been set to infuse.
+[14/04/25 11:52:53] Autosampler sent to 16 position.
+[14/04/25 11:52:55] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:52:56] Syringe pump has been set to withdraw.
+[14/04/25 11:53:02] Autosampler sent to 10 position.
+[14/04/25 11:53:04] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:53:05] Syringe pump has been set to infuse.
+[14/04/25 11:53:12] Autosampler sent to 16 position.
+[14/04/25 11:53:14] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:53:15] Syringe pump has been set to withdraw.
+[14/04/25 11:53:23] Autosampler sent to 11 position.
+[14/04/25 11:53:24] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:53:26] Syringe pump has been set to infuse.
+[14/04/25 11:53:33] Autosampler sent to 16 position.
+[14/04/25 11:53:35] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:53:36] Syringe pump has been set to withdraw.
+[14/04/25 11:53:46] Autosampler sent to 12 position.
+[14/04/25 11:53:48] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:53:49] Syringe pump has been set to infuse.
+[14/04/25 11:53:58] Autosampler sent to 16 position.
+[14/04/25 11:54:00] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:54:01] Syringe pump has been set to withdraw.
+[14/04/25 11:54:13] Autosampler sent to 13 position.
+[14/04/25 11:54:15] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:54:16] Syringe pump has been set to infuse.
+[14/04/25 11:54:26] Autosampler sent to 16 position.
+[14/04/25 11:54:28] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:54:29] Syringe pump has been set to withdraw.
+[14/04/25 11:54:43] Autosampler sent to 14 position.
+[14/04/25 11:54:45] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:54:46] Syringe pump has been set to infuse.
+[14/04/25 11:54:56] Autosampler sent to home position.
+[14/04/25 11:54:57] Autosampler sent tp home position.
+[14/04/25 11:54:58] Autosampler sent to 24 position.
+[14/04/25 11:55:00] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:55:01] Syringe pump has been set to withdraw.
+[14/04/25 11:55:06] Autosampler sent to 17 position.
+[14/04/25 11:55:08] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:55:08] Syringe pump has been set to infuse.
+[14/04/25 11:55:15] Autosampler sent to 24 position.
+[14/04/25 11:55:16] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:55:17] Syringe pump has been set to withdraw.
+[14/04/25 11:55:23] Autosampler sent to 18 position.
+[14/04/25 11:55:25] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:55:26] Syringe pump has been set to infuse.
+[14/04/25 11:55:33] Autosampler sent to 24 position.
+[14/04/25 11:55:35] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:55:36] Syringe pump has been set to withdraw.
+[14/04/25 11:55:44] Autosampler sent to 19 position.
+[14/04/25 11:55:46] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:55:47] Syringe pump has been set to infuse.
+[14/04/25 11:55:55] Autosampler sent to 24 position.
+[14/04/25 11:55:56] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:55:58] Syringe pump has been set to withdraw.
+[14/04/25 11:56:08] Autosampler sent to 20 position.
+[14/04/25 11:56:09] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:56:11] Syringe pump has been set to infuse.
+[14/04/25 11:56:20] Autosampler sent to 24 position.
+[14/04/25 11:56:21] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:56:22] Syringe pump has been set to withdraw.
+[14/04/25 11:56:35] Autosampler sent to 21 position.
+[14/04/25 11:56:36] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:56:38] Syringe pump has been set to infuse.
+[14/04/25 11:56:48] Autosampler sent to 24 position.
+[14/04/25 11:56:50] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:56:51] Syringe pump has been set to withdraw.
+[14/04/25 11:57:05] Autosampler sent to 22 position.
+[14/04/25 11:57:07] The syringe pump's target volume has been set to {tvolume}.
+[14/04/25 11:57:08] Syringe pump has been set to infuse.
+[14/04/25 11:57:18] Autosampler sent to home position.
+[14/04/25 11:57:18] Autosampler sent tp home position.
+[14/04/25 11:57:56] Autosampler sent to home position.
+[14/04/25 11:57:56] Autosampler sent tp home position.
+[14/04/25 11:58:22] Autosampler sent to 1 position.
+[14/04/25 11:58:22] Autosampler sent to position 01
+[14/04/25 11:58:41] Autosampler sent to home position.
+[14/04/25 11:58:41] Autosampler sent tp home position.
+[28/04/25 13:39:24] Connected to autosampler.
+[28/04/25 13:40:58] Connected to autosampler.
+[28/04/25 13:41:07] Connection to HB pump successful.
+[28/04/25 13:51:00] Autosampler sent to 8 position.
+[28/04/25 13:51:02] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 13:51:03] Syringe pump has been set to withdraw.
+[28/04/25 13:51:10] Autosampler sent to 1 position.
+[28/04/25 13:51:11] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 13:51:12] Syringe pump has been set to infuse.
+[28/04/25 13:51:21] Autosampler sent to 8 position.
+[28/04/25 13:51:22] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 13:51:23] Syringe pump has been set to withdraw.
+[28/04/25 13:51:35] Autosampler sent to 2 position.
+[28/04/25 13:51:37] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 13:51:38] Syringe pump has been set to infuse.
+[28/04/25 13:51:51] Autosampler sent to 8 position.
+[28/04/25 13:51:52] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 13:51:54] Syringe pump has been set to withdraw.
+[28/04/25 13:52:13] Autosampler sent to 3 position.
+[28/04/25 13:52:14] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 13:52:16] Syringe pump has been set to infuse.
+[28/04/25 13:52:36] Autosampler sent to 8 position.
+[28/04/25 13:52:38] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 13:52:39] Syringe pump has been set to withdraw.
+[28/04/25 13:53:13] Autosampler sent to 4 position.
+[28/04/25 13:53:15] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 13:53:16] Syringe pump has been set to infuse.
+[28/04/25 13:53:50] Autosampler sent to home position.
+[28/04/25 13:53:50] Autosampler sent tp home position.
+[28/04/25 13:53:52] Autosampler sent to 16 position.
+[28/04/25 13:53:53] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 13:53:54] Syringe pump has been set to withdraw.
+[28/04/25 13:54:01] Autosampler sent to 9 position.
+[28/04/25 13:54:03] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 13:54:04] Syringe pump has been set to infuse.
+[28/04/25 13:54:10] Autosampler sent to 16 position.
+[28/04/25 13:54:12] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 13:54:13] Syringe pump has been set to withdraw.
+[28/04/25 13:54:24] Autosampler sent to 10 position.
+[28/04/25 13:54:26] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 13:54:27] Syringe pump has been set to infuse.
+[28/04/25 13:54:34] Autosampler sent to 16 position.
+[28/04/25 13:54:36] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 13:54:37] Syringe pump has been set to withdraw.
+[28/04/25 13:54:56] Autosampler sent to 11 position.
+[28/04/25 13:54:58] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 13:54:59] Syringe pump has been set to infuse.
+[28/04/25 13:55:07] Autosampler sent to 16 position.
+[28/04/25 13:55:09] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 13:55:10] Syringe pump has been set to withdraw.
+[28/04/25 13:55:44] Autosampler sent to 12 position.
+[28/04/25 13:55:46] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 13:55:47] Syringe pump has been set to infuse.
+[28/04/25 13:55:57] Autosampler sent to home position.
+[28/04/25 13:55:58] Autosampler sent tp home position.
+[28/04/25 13:55:59] Autosampler sent to 24 position.
+[28/04/25 13:56:01] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 13:56:02] Syringe pump has been set to withdraw.
+[28/04/25 13:56:09] Autosampler sent to 17 position.
+[28/04/25 13:56:10] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 13:56:11] Syringe pump has been set to infuse.
+[28/04/25 13:56:17] Autosampler sent to 24 position.
+[28/04/25 13:56:19] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 13:56:20] Syringe pump has been set to withdraw.
+[28/04/25 13:56:32] Autosampler sent to 18 position.
+[28/04/25 13:56:33] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 13:56:35] Syringe pump has been set to infuse.
+[28/04/25 13:56:42] Autosampler sent to 24 position.
+[28/04/25 13:56:43] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 13:56:45] Syringe pump has been set to withdraw.
+[28/04/25 13:57:04] Autosampler sent to 19 position.
+[28/04/25 13:57:05] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 13:57:06] Syringe pump has been set to infuse.
+[28/04/25 13:57:15] Autosampler sent to 24 position.
+[28/04/25 13:57:17] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 13:57:18] Syringe pump has been set to withdraw.
+[28/04/25 13:57:52] Autosampler sent to 20 position.
+[28/04/25 13:57:54] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 13:57:55] Syringe pump has been set to infuse.
+[28/04/25 13:58:05] Autosampler sent to home position.
+[28/04/25 13:58:05] Autosampler sent tp home position.
+[28/04/25 14:06:58] Autosampler sent to 8 position.
+[28/04/25 14:07:00] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:07:01] Syringe pump has been set to withdraw.
+[28/04/25 14:07:06] Autosampler sent to 1 position.
+[28/04/25 14:07:08] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:07:09] Syringe pump has been set to infuse.
+[28/04/25 14:07:16] Autosampler sent to 8 position.
+[28/04/25 14:07:17] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:07:18] Syringe pump has been set to withdraw.
+[28/04/25 14:07:26] Autosampler sent to 2 position.
+[28/04/25 14:07:28] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:07:29] Syringe pump has been set to infuse.
+[28/04/25 14:07:38] Autosampler sent to 8 position.
+[28/04/25 14:07:40] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:07:41] Syringe pump has been set to withdraw.
+[28/04/25 14:07:53] Autosampler sent to 3 position.
+[28/04/25 14:07:55] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:07:56] Syringe pump has been set to infuse.
+[28/04/25 14:08:09] Autosampler sent to 8 position.
+[28/04/25 14:08:10] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:08:11] Syringe pump has been set to withdraw.
+[28/04/25 14:08:31] Autosampler sent to 4 position.
+[28/04/25 14:08:32] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:08:33] Syringe pump has been set to infuse.
+[28/04/25 14:08:53] Autosampler sent to home position.
+[28/04/25 14:08:53] Autosampler sent tp home position.
+[28/04/25 14:08:54] Autosampler sent to 16 position.
+[28/04/25 14:08:56] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:08:57] Syringe pump has been set to withdraw.
+[28/04/25 14:09:03] Autosampler sent to 9 position.
+[28/04/25 14:09:04] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:09:05] Syringe pump has been set to infuse.
+[28/04/25 14:09:11] Autosampler sent to 16 position.
+[28/04/25 14:09:13] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:09:14] Syringe pump has been set to withdraw.
+[28/04/25 14:09:22] Autosampler sent to 10 position.
+[28/04/25 14:09:23] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:09:24] Syringe pump has been set to infuse.
+[28/04/25 14:09:31] Autosampler sent to 16 position.
+[28/04/25 14:09:33] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:09:34] Syringe pump has been set to withdraw.
+[28/04/25 14:09:46] Autosampler sent to 11 position.
+[28/04/25 14:09:48] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:09:49] Syringe pump has been set to infuse.
+[28/04/25 14:09:57] Autosampler sent to 16 position.
+[28/04/25 14:09:59] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:10:00] Syringe pump has been set to withdraw.
+[28/04/25 14:10:19] Autosampler sent to 12 position.
+[28/04/25 14:10:21] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:10:22] Syringe pump has been set to infuse.
+[28/04/25 14:10:32] Autosampler sent to home position.
+[28/04/25 14:10:32] Autosampler sent tp home position.
+[28/04/25 14:10:34] Autosampler sent to 24 position.
+[28/04/25 14:10:36] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:10:37] Syringe pump has been set to withdraw.
+[28/04/25 14:10:42] Autosampler sent to 17 position.
+[28/04/25 14:10:44] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:10:45] Syringe pump has been set to infuse.
+[28/04/25 14:10:51] Autosampler sent to 24 position.
+[28/04/25 14:10:52] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:10:54] Syringe pump has been set to withdraw.
+[28/04/25 14:11:02] Autosampler sent to 18 position.
+[28/04/25 14:11:03] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:11:04] Syringe pump has been set to infuse.
+[28/04/25 14:11:11] Autosampler sent to 24 position.
+[28/04/25 14:11:13] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:11:14] Syringe pump has been set to withdraw.
+[28/04/25 14:11:26] Autosampler sent to 19 position.
+[28/04/25 14:11:28] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:11:29] Syringe pump has been set to infuse.
+[28/04/25 14:11:37] Autosampler sent to 24 position.
+[28/04/25 14:11:39] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:11:40] Syringe pump has been set to withdraw.
+[28/04/25 14:11:59] Autosampler sent to 20 position.
+[28/04/25 14:12:01] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:12:02] Syringe pump has been set to infuse.
+[28/04/25 14:12:12] Autosampler sent to home position.
+[28/04/25 14:12:12] Autosampler sent tp home position.
+[28/04/25 14:26:35] Autosampler sent to 8 position.
+[28/04/25 14:26:37] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:26:38] Syringe pump has been set to withdraw.
+[28/04/25 14:26:43] Autosampler sent to 1 position.
+[28/04/25 14:26:44] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:26:45] Syringe pump has been set to infuse.
+[28/04/25 14:26:52] Autosampler sent to 8 position.
+[28/04/25 14:26:53] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:26:54] Syringe pump has been set to withdraw.
+[28/04/25 14:27:01] Autosampler sent to 2 position.
+[28/04/25 14:27:03] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:27:04] Syringe pump has been set to infuse.
+[28/04/25 14:27:12] Autosampler sent to 8 position.
+[28/04/25 14:27:13] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:27:15] Syringe pump has been set to withdraw.
+[28/04/25 14:27:24] Autosampler sent to 3 position.
+[28/04/25 14:27:25] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:27:27] Syringe pump has been set to infuse.
+[28/04/25 14:27:37] Autosampler sent to 8 position.
+[28/04/25 14:27:39] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:27:40] Syringe pump has been set to withdraw.
+[28/04/25 14:27:54] Autosampler sent to 4 position.
+[28/04/25 14:27:56] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:27:57] Syringe pump has been set to infuse.
+[28/04/25 14:28:11] Autosampler sent to home position.
+[28/04/25 14:28:11] Autosampler sent tp home position.
+[28/04/25 14:28:13] Autosampler sent to 16 position.
+[28/04/25 14:28:14] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:28:15] Syringe pump has been set to withdraw.
+[28/04/25 14:28:20] Autosampler sent to 9 position.
+[28/04/25 14:28:22] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:28:23] Syringe pump has been set to infuse.
+[28/04/25 14:28:29] Autosampler sent to 16 position.
+[28/04/25 14:28:31] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:28:32] Syringe pump has been set to withdraw.
+[28/04/25 14:28:38] Autosampler sent to 10 position.
+[28/04/25 14:28:40] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:28:41] Syringe pump has been set to infuse.
+[28/04/25 14:28:48] Autosampler sent to 16 position.
+[28/04/25 14:28:50] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:28:51] Syringe pump has been set to withdraw.
+[28/04/25 14:29:00] Autosampler sent to 11 position.
+[28/04/25 14:29:02] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:29:03] Syringe pump has been set to infuse.
+[28/04/25 14:29:11] Autosampler sent to 16 position.
+[28/04/25 14:29:13] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:29:14] Syringe pump has been set to withdraw.
+[28/04/25 14:29:28] Autosampler sent to 12 position.
+[28/04/25 14:29:30] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:29:31] Syringe pump has been set to infuse.
+[28/04/25 14:29:41] Autosampler sent to home position.
+[28/04/25 14:29:41] Autosampler sent tp home position.
+[28/04/25 14:29:43] Autosampler sent to 24 position.
+[28/04/25 14:29:45] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:29:46] Syringe pump has been set to withdraw.
+[28/04/25 14:29:51] Autosampler sent to 17 position.
+[28/04/25 14:29:52] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:29:53] Syringe pump has been set to infuse.
+[28/04/25 14:29:59] Autosampler sent to 24 position.
+[28/04/25 14:30:01] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:30:02] Syringe pump has been set to withdraw.
+[28/04/25 14:30:09] Autosampler sent to 18 position.
+[28/04/25 14:30:10] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:30:11] Syringe pump has been set to infuse.
+[28/04/25 14:30:19] Autosampler sent to 24 position.
+[28/04/25 14:30:20] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:30:21] Syringe pump has been set to withdraw.
+[28/04/25 14:30:30] Autosampler sent to 19 position.
+[28/04/25 14:30:32] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:30:33] Syringe pump has been set to infuse.
+[28/04/25 14:30:42] Autosampler sent to 24 position.
+[28/04/25 14:30:43] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:30:45] Syringe pump has been set to withdraw.
+[28/04/25 14:30:59] Autosampler sent to 20 position.
+[28/04/25 14:31:00] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:31:01] Syringe pump has been set to infuse.
+[28/04/25 14:31:12] Autosampler sent to home position.
+[28/04/25 14:31:12] Autosampler sent tp home position.
+[28/04/25 14:34:26] Autosampler sent to 8 position.
+[28/04/25 14:34:28] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:34:28] Syringe pump has been set to withdraw.
+[28/04/25 14:34:33] Autosampler sent to 1 position.
+[28/04/25 14:34:35] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:34:36] Syringe pump has been set to infuse.
+[28/04/25 14:34:42] Autosampler sent to 8 position.
+[28/04/25 14:34:43] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:34:45] Syringe pump has been set to withdraw.
+[28/04/25 14:34:51] Autosampler sent to 2 position.
+[28/04/25 14:34:52] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:34:53] Syringe pump has been set to infuse.
+[28/04/25 14:35:01] Autosampler sent to 8 position.
+[28/04/25 14:35:02] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:35:04] Syringe pump has been set to withdraw.
+[28/04/25 14:35:11] Autosampler sent to 3 position.
+[28/04/25 14:35:13] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:35:14] Syringe pump has been set to infuse.
+[28/04/25 14:35:23] Autosampler sent to 8 position.
+[28/04/25 14:35:25] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:35:26] Syringe pump has been set to withdraw.
+[28/04/25 14:35:38] Autosampler sent to 4 position.
+[28/04/25 14:35:40] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:35:41] Syringe pump has been set to infuse.
+[28/04/25 14:35:53] Autosampler sent to home position.
+[28/04/25 14:35:53] Autosampler sent tp home position.
+[28/04/25 14:35:54] Autosampler sent to 16 position.
+[28/04/25 14:35:56] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:35:58] Syringe pump has been set to withdraw.
+[28/04/25 14:36:02] Autosampler sent to 9 position.
+[28/04/25 14:36:04] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:36:05] Syringe pump has been set to infuse.
+[28/04/25 14:36:11] Autosampler sent to 16 position.
+[28/04/25 14:36:12] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:36:14] Syringe pump has been set to withdraw.
+[28/04/25 14:36:20] Autosampler sent to 10 position.
+[28/04/25 14:36:21] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:36:22] Syringe pump has been set to infuse.
+[28/04/25 14:36:29] Autosampler sent to 16 position.
+[28/04/25 14:36:31] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:36:32] Syringe pump has been set to withdraw.
+[28/04/25 14:36:40] Autosampler sent to 11 position.
+[28/04/25 14:36:42] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:36:43] Syringe pump has been set to infuse.
+[28/04/25 14:36:51] Autosampler sent to 16 position.
+[28/04/25 14:36:53] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:36:54] Syringe pump has been set to withdraw.
+[28/04/25 14:37:06] Autosampler sent to 12 position.
+[28/04/25 14:37:07] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:37:09] Syringe pump has been set to infuse.
+[28/04/25 14:37:19] Autosampler sent to home position.
+[28/04/25 14:37:19] Autosampler sent tp home position.
+[28/04/25 14:37:20] Autosampler sent to 24 position.
+[28/04/25 14:37:22] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:37:23] Syringe pump has been set to withdraw.
+[28/04/25 14:37:28] Autosampler sent to 17 position.
+[28/04/25 14:37:29] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:37:30] Syringe pump has been set to infuse.
+[28/04/25 14:37:36] Autosampler sent to 24 position.
+[28/04/25 14:37:38] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:37:39] Syringe pump has been set to withdraw.
+[28/04/25 14:37:45] Autosampler sent to 18 position.
+[28/04/25 14:37:47] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:37:48] Syringe pump has been set to infuse.
+[28/04/25 14:37:55] Autosampler sent to 24 position.
+[28/04/25 14:37:57] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:37:58] Syringe pump has been set to withdraw.
+[28/04/25 14:38:06] Autosampler sent to 19 position.
+[28/04/25 14:38:07] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:38:09] Syringe pump has been set to infuse.
+[28/04/25 14:38:17] Autosampler sent to 24 position.
+[28/04/25 14:38:19] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:38:20] Syringe pump has been set to withdraw.
+[28/04/25 14:38:32] Autosampler sent to 20 position.
+[28/04/25 14:38:33] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:38:34] Syringe pump has been set to infuse.
+[28/04/25 14:38:45] Autosampler sent to home position.
+[28/04/25 14:38:45] Autosampler sent tp home position.
+[28/04/25 14:41:05] Autosampler sent to 8 position.
+[28/04/25 14:41:06] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:41:07] Syringe pump has been set to withdraw.
+[28/04/25 14:41:12] Autosampler sent to 1 position.
+[28/04/25 14:41:13] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:41:14] Syringe pump has been set to infuse.
+[28/04/25 14:41:20] Autosampler sent to 8 position.
+[28/04/25 14:41:22] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:41:23] Syringe pump has been set to withdraw.
+[28/04/25 14:41:28] Autosampler sent to 2 position.
+[28/04/25 14:41:30] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:41:31] Syringe pump has been set to infuse.
+[28/04/25 14:41:38] Autosampler sent to 8 position.
+[28/04/25 14:41:40] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:41:41] Syringe pump has been set to withdraw.
+[28/04/25 14:41:48] Autosampler sent to 3 position.
+[28/04/25 14:41:50] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:41:51] Syringe pump has been set to infuse.
+[28/04/25 14:41:59] Autosampler sent to 8 position.
+[28/04/25 14:42:01] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:42:02] Syringe pump has been set to withdraw.
+[28/04/25 14:42:12] Autosampler sent to 4 position.
+[28/04/25 14:42:14] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:42:15] Syringe pump has been set to infuse.
+[28/04/25 14:42:26] Autosampler sent to home position.
+[28/04/25 14:42:26] Autosampler sent tp home position.
+[28/04/25 14:42:27] Autosampler sent to 16 position.
+[28/04/25 14:42:29] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:42:29] Syringe pump has been set to withdraw.
+[28/04/25 14:42:34] Autosampler sent to 9 position.
+[28/04/25 14:42:36] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:42:36] Syringe pump has been set to infuse.
+[28/04/25 14:42:43] Autosampler sent to 16 position.
+[28/04/25 14:42:44] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:42:45] Syringe pump has been set to withdraw.
+[28/04/25 14:42:51] Autosampler sent to 10 position.
+[28/04/25 14:42:53] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:42:54] Syringe pump has been set to infuse.
+[28/04/25 14:43:01] Autosampler sent to 16 position.
+[28/04/25 14:43:02] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:43:03] Syringe pump has been set to withdraw.
+[28/04/25 14:43:11] Autosampler sent to 11 position.
+[28/04/25 14:43:12] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:43:13] Syringe pump has been set to infuse.
+[28/04/25 14:43:22] Autosampler sent to 16 position.
+[28/04/25 14:43:24] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:43:25] Syringe pump has been set to withdraw.
+[28/04/25 14:43:35] Autosampler sent to 12 position.
+[28/04/25 14:43:36] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:43:38] Syringe pump has been set to infuse.
+[28/04/25 14:43:48] Autosampler sent to home position.
+[28/04/25 14:43:48] Autosampler sent tp home position.
+[28/04/25 14:43:50] Autosampler sent to 24 position.
+[28/04/25 14:43:51] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:43:52] Syringe pump has been set to withdraw.
+[28/04/25 14:43:57] Autosampler sent to 17 position.
+[28/04/25 14:43:58] The syringe pump's target volume has been set to 10 ul.
+[28/04/25 14:44:00] Syringe pump has been set to infuse.
+[28/04/25 14:44:06] Autosampler sent to 24 position.
+[28/04/25 14:44:08] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:44:09] Syringe pump has been set to withdraw.
+[28/04/25 14:44:15] Autosampler sent to 18 position.
+[28/04/25 14:44:16] The syringe pump's target volume has been set to 25 ul.
+[28/04/25 14:44:17] Syringe pump has been set to infuse.
+[28/04/25 14:44:25] Autosampler sent to 24 position.
+[28/04/25 14:44:26] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:44:27] Syringe pump has been set to withdraw.
+[28/04/25 14:44:34] Autosampler sent to 19 position.
+[28/04/25 14:44:36] The syringe pump's target volume has been set to 50 ul.
+[28/04/25 14:44:37] Syringe pump has been set to infuse.
+[28/04/25 14:44:46] Autosampler sent to 24 position.
+[28/04/25 14:44:47] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:44:49] Syringe pump has been set to withdraw.
+[28/04/25 14:44:59] Autosampler sent to 20 position.
+[28/04/25 14:45:00] The syringe pump's target volume has been set to 100 ul.
+[28/04/25 14:45:02] Syringe pump has been set to infuse.
+[28/04/25 14:45:12] Autosampler sent to home position.
+[28/04/25 14:45:12] Autosampler sent tp home position.
+[29/04/25 10:15:09] Autosampler sent to 8 position.
+[29/04/25 10:15:11] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 10:15:12] Syringe pump has been set to withdraw.
+[29/04/25 10:15:19] Autosampler sent to 1 position.
+[29/04/25 10:15:21] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 10:15:22] Syringe pump has been set to infuse.
+[29/04/25 10:15:30] Autosampler sent to 8 position.
+[29/04/25 10:15:32] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 10:15:33] Syringe pump has been set to withdraw.
+[29/04/25 10:15:45] Autosampler sent to 2 position.
+[29/04/25 10:15:46] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 10:15:48] Syringe pump has been set to infuse.
+[29/04/25 10:16:01] Autosampler sent to 8 position.
+[29/04/25 10:16:02] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 10:16:03] Syringe pump has been set to withdraw.
+[29/04/25 10:16:23] Autosampler sent to 3 position.
+[29/04/25 10:16:24] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 10:16:25] Syringe pump has been set to infuse.
+[29/04/25 10:16:46] Autosampler sent to 8 position.
+[29/04/25 10:16:47] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 10:16:49] Syringe pump has been set to withdraw.
+[29/04/25 10:17:23] Autosampler sent to 4 position.
+[29/04/25 10:17:24] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 10:17:26] Syringe pump has been set to infuse.
+[29/04/25 10:18:00] Autosampler sent to home position.
+[29/04/25 10:18:00] Autosampler sent tp home position.
+[29/04/25 10:18:01] Autosampler sent to 16 position.
+[29/04/25 10:18:03] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 10:18:04] Syringe pump has been set to withdraw.
+[29/04/25 10:18:11] Autosampler sent to 9 position.
+[29/04/25 10:18:13] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 10:18:14] Syringe pump has been set to infuse.
+[29/04/25 10:18:20] Autosampler sent to 16 position.
+[29/04/25 10:18:22] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 10:18:23] Syringe pump has been set to withdraw.
+[29/04/25 10:18:35] Autosampler sent to 10 position.
+[29/04/25 10:18:36] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 10:18:37] Syringe pump has been set to infuse.
+[29/04/25 10:18:44] Autosampler sent to 16 position.
+[29/04/25 10:18:46] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 10:18:47] Syringe pump has been set to withdraw.
+[29/04/25 10:19:06] Autosampler sent to 11 position.
+[29/04/25 10:19:08] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 10:19:09] Syringe pump has been set to infuse.
+[29/04/25 10:19:18] Autosampler sent to 16 position.
+[29/04/25 10:19:19] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 10:19:20] Syringe pump has been set to withdraw.
+[29/04/25 10:19:55] Autosampler sent to 12 position.
+[29/04/25 10:19:56] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 10:19:57] Syringe pump has been set to infuse.
+[29/04/25 10:20:08] Autosampler sent to home position.
+[29/04/25 10:20:08] Autosampler sent tp home position.
+[29/04/25 10:20:09] Autosampler sent to 24 position.
+[29/04/25 10:20:11] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 10:20:12] Syringe pump has been set to withdraw.
+[29/04/25 10:20:19] Autosampler sent to 17 position.
+[29/04/25 10:20:21] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 10:20:22] Syringe pump has been set to infuse.
+[29/04/25 10:20:28] Autosampler sent to 24 position.
+[29/04/25 10:20:30] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 10:20:31] Syringe pump has been set to withdraw.
+[29/04/25 10:20:43] Autosampler sent to 18 position.
+[29/04/25 10:20:44] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 10:20:45] Syringe pump has been set to infuse.
+[29/04/25 10:20:52] Autosampler sent to 24 position.
+[29/04/25 10:20:54] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 10:20:55] Syringe pump has been set to withdraw.
+[29/04/25 10:21:14] Autosampler sent to 19 position.
+[29/04/25 10:21:16] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 10:21:17] Syringe pump has been set to infuse.
+[29/04/25 10:21:25] Autosampler sent to home position.
+[29/04/25 10:21:25] Autosampler sent tp home position.
+[29/04/25 10:30:00] Autosampler sent to 8 position.
+[29/04/25 10:30:01] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 10:30:02] Syringe pump has been set to withdraw.
+[29/04/25 10:30:09] Autosampler sent to 1 position.
+[29/04/25 10:30:11] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 10:30:12] Syringe pump has been set to infuse.
+[29/04/25 10:30:21] Autosampler sent to 8 position.
+[29/04/25 10:30:22] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 10:30:23] Syringe pump has been set to withdraw.
+[29/04/25 10:30:35] Autosampler sent to 2 position.
+[29/04/25 10:30:37] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 10:30:38] Syringe pump has been set to infuse.
+[29/04/25 10:30:51] Autosampler sent to 8 position.
+[29/04/25 10:30:53] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 10:30:54] Syringe pump has been set to withdraw.
+[29/04/25 10:31:13] Autosampler sent to 3 position.
+[29/04/25 10:31:15] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 10:31:16] Syringe pump has been set to infuse.
+[29/04/25 10:31:36] Autosampler sent to 8 position.
+[29/04/25 10:31:38] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 10:31:39] Syringe pump has been set to withdraw.
+[29/04/25 10:32:13] Autosampler sent to 4 position.
+[29/04/25 10:32:15] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 10:32:16] Syringe pump has been set to infuse.
+[29/04/25 10:32:50] Autosampler sent to home position.
+[29/04/25 10:32:50] Autosampler sent tp home position.
+[29/04/25 10:32:52] Autosampler sent to 16 position.
+[29/04/25 10:32:53] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 10:32:55] Syringe pump has been set to withdraw.
+[29/04/25 10:33:02] Autosampler sent to 9 position.
+[29/04/25 10:33:03] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 10:33:04] Syringe pump has been set to infuse.
+[29/04/25 10:33:10] Autosampler sent to 16 position.
+[29/04/25 10:33:12] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 10:33:13] Syringe pump has been set to withdraw.
+[29/04/25 10:33:25] Autosampler sent to 10 position.
+[29/04/25 10:33:27] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 10:33:28] Syringe pump has been set to infuse.
+[29/04/25 10:33:35] Autosampler sent to 16 position.
+[29/04/25 10:33:36] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 10:33:37] Syringe pump has been set to withdraw.
+[29/04/25 10:33:57] Autosampler sent to 11 position.
+[29/04/25 10:33:58] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 10:33:59] Syringe pump has been set to infuse.
+[29/04/25 10:34:08] Autosampler sent to 16 position.
+[29/04/25 10:34:10] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 10:34:11] Syringe pump has been set to withdraw.
+[29/04/25 10:37:20] Connected to autosampler.
+[29/04/25 10:37:32] Connection to HB pump successful.
+[29/04/25 10:37:38] Autosampler sent to home position.
+[29/04/25 10:37:38] Autosampler sent to home position.
+[29/04/25 10:43:41] Autosampler sent to 8 position.
+[29/04/25 10:43:43] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 10:43:44] Syringe pump has been set to withdraw.
+[29/04/25 10:43:49] Autosampler sent to 1 position.
+[29/04/25 10:43:51] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 10:43:52] Syringe pump has been set to infuse.
+[29/04/25 10:43:59] Autosampler sent to 8 position.
+[29/04/25 10:44:01] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 10:44:02] Syringe pump has been set to withdraw.
+[29/04/25 10:44:12] Autosampler sent to home position.
+[29/04/25 10:44:12] Autosampler sent to home position.
+[29/04/25 10:46:16] Autosampler sent to 8 position.
+[29/04/25 10:46:18] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 10:46:19] Syringe pump has been set to withdraw.
+[29/04/25 10:46:29] Autosampler sent to 1 position.
+[29/04/25 10:46:31] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 10:46:32] Syringe pump has been set to infuse.
+[29/04/25 10:46:44] Autosampler sent to 8 position.
+[29/04/25 10:46:45] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 10:46:46] Syringe pump has been set to withdraw.
+[29/04/25 10:47:06] Autosampler sent to 2 position.
+[29/04/25 10:47:07] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 10:47:08] Syringe pump has been set to infuse.
+[29/04/25 10:47:29] Autosampler sent to 8 position.
+[29/04/25 10:47:30] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 10:47:32] Syringe pump has been set to withdraw.
+[29/04/25 10:48:06] Autosampler sent to 3 position.
+[29/04/25 10:48:07] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 10:48:09] Syringe pump has been set to infuse.
+[29/04/25 10:48:44] Autosampler sent to 8 position.
+[29/04/25 10:48:52] Autosampler sent to home position.
+[29/04/25 10:48:52] Autosampler sent to home position.
+[29/04/25 10:50:55] Autosampler sent to 8 position.
+[29/04/25 10:50:56] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 10:50:57] Syringe pump has been set to withdraw.
+[29/04/25 10:51:07] Autosampler sent to 1 position.
+[29/04/25 10:51:09] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 10:51:10] Syringe pump has been set to infuse.
+[29/04/25 10:51:22] Autosampler sent to 8 position.
+[29/04/25 10:51:23] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 10:51:24] Syringe pump has been set to withdraw.
+[29/04/25 10:51:44] Autosampler sent to 2 position.
+[29/04/25 10:51:45] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 10:51:46] Syringe pump has been set to infuse.
+[29/04/25 10:52:07] Autosampler sent to 8 position.
+[29/04/25 10:52:09] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 10:52:10] Syringe pump has been set to withdraw.
+[29/04/25 10:52:44] Autosampler sent to 3 position.
+[29/04/25 10:52:46] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 10:52:47] Syringe pump has been set to infuse.
+[29/04/25 10:53:22] Autosampler sent to 8 position.
+[29/04/25 10:53:24] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 10:53:25] Syringe pump has been set to withdraw.
+[29/04/25 10:54:29] Autosampler sent to 4 position.
+[29/04/25 10:54:31] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 10:54:32] Syringe pump has been set to infuse.
+[29/04/25 10:55:36] Autosampler sent to home position.
+[29/04/25 10:55:36] Autosampler sent to home position.
+[29/04/25 10:55:38] Autosampler sent to 16 position.
+[29/04/25 10:55:39] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 10:55:41] Syringe pump has been set to withdraw.
+[29/04/25 10:55:51] Autosampler sent to 9 position.
+[29/04/25 10:55:52] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 10:55:53] Syringe pump has been set to infuse.
+[29/04/25 10:56:05] Autosampler sent to 16 position.
+[29/04/25 10:56:07] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 10:56:08] Syringe pump has been set to withdraw.
+[29/04/25 10:56:27] Autosampler sent to 10 position.
+[29/04/25 10:56:29] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 10:56:30] Syringe pump has been set to infuse.
+[29/04/25 10:56:50] Autosampler sent to 16 position.
+[29/04/25 10:56:52] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 10:56:53] Syringe pump has been set to withdraw.
+[29/04/25 10:57:27] Autosampler sent to 11 position.
+[29/04/25 10:57:29] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 10:57:30] Syringe pump has been set to infuse.
+[29/04/25 10:58:05] Autosampler sent to 16 position.
+[29/04/25 10:58:07] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 10:58:08] Syringe pump has been set to withdraw.
+[29/04/25 10:59:12] Autosampler sent to 12 position.
+[29/04/25 10:59:14] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 10:59:15] Syringe pump has been set to infuse.
+[29/04/25 11:00:19] Autosampler sent to home position.
+[29/04/25 11:00:20] Autosampler sent to home position.
+[29/04/25 11:00:21] Autosampler sent to 24 position.
+[29/04/25 11:00:23] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 11:00:24] Syringe pump has been set to withdraw.
+[29/04/25 11:00:34] Autosampler sent to 17 position.
+[29/04/25 11:00:36] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 11:00:37] Syringe pump has been set to infuse.
+[29/04/25 11:00:48] Autosampler sent to 24 position.
+[29/04/25 11:00:50] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 11:00:51] Syringe pump has been set to withdraw.
+[29/04/25 11:01:10] Autosampler sent to 18 position.
+[29/04/25 11:01:12] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 11:01:13] Syringe pump has been set to infuse.
+[29/04/25 11:01:34] Autosampler sent to 24 position.
+[29/04/25 11:01:35] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 11:01:36] Syringe pump has been set to withdraw.
+[29/04/25 11:02:11] Autosampler sent to 19 position.
+[29/04/25 11:02:12] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 11:02:13] Syringe pump has been set to infuse.
+[29/04/25 11:02:49] Autosampler sent to 24 position.
+[29/04/25 11:02:51] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 11:02:52] Syringe pump has been set to withdraw.
+[29/04/25 11:03:56] Autosampler sent to 20 position.
+[29/04/25 11:03:58] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 11:03:59] Syringe pump has been set to infuse.
+[29/04/25 11:05:03] Autosampler sent to home position.
+[29/04/25 11:05:03] Autosampler sent to home position.
+[29/04/25 11:09:02] Autosampler sent to 8 position.
+[29/04/25 11:09:04] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 11:09:05] Syringe pump has been set to withdraw.
+[29/04/25 11:09:12] Autosampler sent to 1 position.
+[29/04/25 11:09:14] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 11:09:15] Syringe pump has been set to infuse.
+[29/04/25 11:09:26] Autosampler sent to 8 position.
+[29/04/25 11:09:28] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 11:09:29] Syringe pump has been set to withdraw.
+[29/04/25 11:09:41] Autosampler sent to 2 position.
+[29/04/25 11:09:42] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 11:09:43] Syringe pump has been set to infuse.
+[29/04/25 11:10:04] Autosampler sent to 8 position.
+[29/04/25 11:10:06] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 11:10:07] Syringe pump has been set to withdraw.
+[29/04/25 11:10:26] Autosampler sent to 3 position.
+[29/04/25 11:10:27] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 11:10:29] Syringe pump has been set to infuse.
+[29/04/25 11:11:04] Autosampler sent to 8 position.
+[29/04/25 11:11:06] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 11:11:07] Syringe pump has been set to withdraw.
+[29/04/25 11:11:41] Autosampler sent to 4 position.
+[29/04/25 11:11:43] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 11:11:44] Syringe pump has been set to infuse.
+[29/04/25 11:12:48] Autosampler sent to home position.
+[29/04/25 11:12:48] Autosampler sent to home position.
+[29/04/25 11:12:50] Autosampler sent to 16 position.
+[29/04/25 11:12:51] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 11:12:52] Syringe pump has been set to withdraw.
+[29/04/25 11:13:00] Autosampler sent to 9 position.
+[29/04/25 11:13:01] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 11:13:02] Syringe pump has been set to infuse.
+[29/04/25 11:13:14] Autosampler sent to 16 position.
+[29/04/25 11:13:15] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 11:13:17] Syringe pump has been set to withdraw.
+[29/04/25 11:13:28] Autosampler sent to 10 position.
+[29/04/25 11:13:30] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 11:13:31] Syringe pump has been set to infuse.
+[29/04/25 11:13:52] Autosampler sent to 16 position.
+[29/04/25 11:13:53] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 11:13:54] Syringe pump has been set to withdraw.
+[29/04/25 11:14:13] Autosampler sent to 11 position.
+[29/04/25 11:14:15] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 11:14:16] Syringe pump has been set to infuse.
+[29/04/25 11:14:52] Autosampler sent to 16 position.
+[29/04/25 11:14:53] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 11:14:55] Syringe pump has been set to withdraw.
+[29/04/25 11:15:29] Autosampler sent to 12 position.
+[29/04/25 11:15:30] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 11:15:31] Syringe pump has been set to infuse.
+[29/04/25 11:16:36] Autosampler sent to home position.
+[29/04/25 11:16:36] Autosampler sent to home position.
+[29/04/25 11:16:37] Autosampler sent to 24 position.
+[29/04/25 11:16:39] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 11:16:40] Syringe pump has been set to withdraw.
+[29/04/25 11:16:47] Autosampler sent to 17 position.
+[29/04/25 11:16:49] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 11:16:50] Syringe pump has been set to infuse.
+[29/04/25 11:17:02] Autosampler sent to 24 position.
+[29/04/25 11:17:03] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 11:17:04] Syringe pump has been set to withdraw.
+[29/04/25 11:17:16] Autosampler sent to 18 position.
+[29/04/25 11:17:18] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 11:17:19] Syringe pump has been set to infuse.
+[29/04/25 11:17:40] Autosampler sent to 24 position.
+[29/04/25 11:17:41] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 11:17:42] Syringe pump has been set to withdraw.
+[29/04/25 11:18:01] Autosampler sent to 19 position.
+[29/04/25 11:18:03] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 11:18:04] Syringe pump has been set to infuse.
+[29/04/25 11:18:40] Autosampler sent to 24 position.
+[29/04/25 11:18:42] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 11:18:43] Syringe pump has been set to withdraw.
+[29/04/25 11:19:17] Autosampler sent to 20 position.
+[29/04/25 11:19:18] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 11:19:20] Syringe pump has been set to infuse.
+[29/04/25 11:20:24] Autosampler sent to home position.
+[29/04/25 11:20:24] Autosampler sent to home position.
+[29/04/25 11:22:08] Autosampler sent to 8 position.
+[29/04/25 11:22:10] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 11:22:11] Syringe pump has been set to withdraw.
+[29/04/25 11:22:27] Autosampler sent to 1 position.
+[29/04/25 11:22:29] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 11:22:30] Syringe pump has been set to infuse.
+[29/04/25 11:22:42] Autosampler sent to 8 position.
+[29/04/25 11:22:43] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 11:22:44] Syringe pump has been set to withdraw.
+[29/04/25 11:23:18] Autosampler sent to 2 position.
+[29/04/25 11:23:20] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 11:23:21] Syringe pump has been set to infuse.
+[29/04/25 11:23:42] Autosampler sent to 8 position.
+[29/04/25 11:23:43] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 11:23:45] Syringe pump has been set to withdraw.
+[29/04/25 11:24:49] Autosampler sent to 3 position.
+[29/04/25 11:24:50] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 11:24:52] Syringe pump has been set to infuse.
+[29/04/25 11:25:27] Autosampler sent to 8 position.
+[29/04/25 11:25:29] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 11:25:30] Syringe pump has been set to withdraw.
+[29/04/25 11:27:34] Autosampler sent to 4 position.
+[29/04/25 11:27:36] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 11:27:37] Syringe pump has been set to infuse.
+[29/04/25 11:28:41] Autosampler sent to home position.
+[29/04/25 11:28:41] Autosampler sent to home position.
+[29/04/25 11:28:43] Autosampler sent to 16 position.
+[29/04/25 11:28:44] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 11:28:45] Syringe pump has been set to withdraw.
+[29/04/25 11:29:01] Autosampler sent to 9 position.
+[29/04/25 11:29:03] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 11:29:04] Syringe pump has been set to infuse.
+[29/04/25 11:29:16] Autosampler sent to 16 position.
+[29/04/25 11:29:17] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 11:29:19] Syringe pump has been set to withdraw.
+[29/04/25 11:29:53] Autosampler sent to 10 position.
+[29/04/25 11:29:54] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 11:29:56] Syringe pump has been set to infuse.
+[29/04/25 11:30:16] Autosampler sent to 16 position.
+[29/04/25 11:30:18] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 11:30:19] Syringe pump has been set to withdraw.
+[29/04/25 11:31:23] Autosampler sent to 11 position.
+[29/04/25 11:31:25] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 11:31:26] Syringe pump has been set to infuse.
+[29/04/25 11:32:01] Autosampler sent to 16 position.
+[29/04/25 11:32:03] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 11:32:04] Syringe pump has been set to withdraw.
+[29/04/25 11:34:08] Autosampler sent to 12 position.
+[29/04/25 11:34:10] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 11:34:11] Syringe pump has been set to infuse.
+[29/04/25 11:35:15] Autosampler sent to home position.
+[29/04/25 11:35:15] Autosampler sent to home position.
+[29/04/25 11:35:17] Autosampler sent to 24 position.
+[29/04/25 11:35:19] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 11:35:20] Syringe pump has been set to withdraw.
+[29/04/25 11:35:36] Autosampler sent to 17 position.
+[29/04/25 11:35:38] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 11:35:39] Syringe pump has been set to infuse.
+[29/04/25 11:35:50] Autosampler sent to 24 position.
+[29/04/25 11:35:52] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 11:35:53] Syringe pump has been set to withdraw.
+[29/04/25 11:36:27] Autosampler sent to 18 position.
+[29/04/25 11:36:29] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 11:36:30] Syringe pump has been set to infuse.
+[29/04/25 11:36:51] Autosampler sent to 24 position.
+[29/04/25 11:36:52] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 11:36:53] Syringe pump has been set to withdraw.
+[29/04/25 11:37:58] Autosampler sent to 19 position.
+[29/04/25 11:37:59] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 11:38:00] Syringe pump has been set to infuse.
+[29/04/25 11:38:36] Autosampler sent to 24 position.
+[29/04/25 11:38:38] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 11:38:39] Syringe pump has been set to withdraw.
+[29/04/25 11:40:43] Autosampler sent to 20 position.
+[29/04/25 11:40:45] The syringe pump's target volume has been set to 100 ul.
+[29/04/25 11:40:46] Syringe pump has been set to infuse.
+[29/04/25 11:41:50] Autosampler sent to home position.
+[29/04/25 11:41:50] Autosampler sent to home position.
+[29/04/25 11:42:35] Autosampler sent to 8 position.
+[29/04/25 11:42:37] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 11:42:38] Syringe pump has been set to withdraw.
+[29/04/25 11:42:44] Autosampler sent to 1 position.
+[29/04/25 11:42:45] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 11:42:46] Syringe pump has been set to infuse.
+[29/04/25 11:43:03] Autosampler sent to home position.
+[29/04/25 11:43:03] Autosampler sent to home position.
+[29/04/25 11:44:03] Autosampler sent to 8 position.
+[29/04/25 11:44:04] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 11:44:06] Syringe pump has been set to withdraw.
+[29/04/25 11:44:12] Autosampler sent to 1 position.
+[29/04/25 11:44:13] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 11:44:25] Autosampler sent to home position.
+[29/04/25 11:44:25] Autosampler sent to home position.
+[29/04/25 11:46:43] Autosampler sent to 8 position.
+[29/04/25 11:46:45] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 11:46:46] Syringe pump has been set to withdraw.
+[29/04/25 11:48:33] Connected to autosampler.
+[29/04/25 11:48:40] Connection to HB pump successful.
+[29/04/25 11:48:46] Autosampler sent to home position.
+[29/04/25 11:48:46] Autosampler sent to home position.
+[29/04/25 13:25:09] Autosampler sent to 8 position.
+[29/04/25 13:25:11] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 13:25:12] Syringe pump has been set to withdraw.
+[29/04/25 13:25:18] Autosampler sent to 1 position.
+[29/04/25 13:25:56] Autosampler sent to home position.
+[29/04/25 13:25:56] Autosampler sent to home position.
+[29/04/25 13:26:12] Autosampler sent to 8 position.
+[29/04/25 13:26:14] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 13:26:15] Syringe pump has been set to withdraw.
+[29/04/25 13:30:30] Autosampler sent to 8 position.
+[29/04/25 13:30:31] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 13:30:33] Syringe pump has been set to withdraw.
+[29/04/25 13:30:57] Connected to autosampler.
+[29/04/25 13:31:01] Autosampler sent to home position.
+[29/04/25 13:31:09] Connection to HB pump successful.
+[29/04/25 13:31:53] Autosampler sent to 8 position.
+[29/04/25 13:31:55] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 13:31:56] Syringe pump has been set to withdraw.
+[29/04/25 13:32:04] Autosampler sent to 1 position.
+[29/04/25 13:32:06] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 13:32:07] Syringe pump has been set to infuse.
+[29/04/25 13:32:24] Autosampler sent to home position.
+[29/04/25 13:32:24] Autosampler sent to home position.
+[29/04/25 13:32:54] Autosampler sent to 8 position.
+[29/04/25 13:32:55] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 13:32:57] Syringe pump has been set to withdraw.
+[29/04/25 13:33:05] Autosampler sent to 1 position.
+[29/04/25 13:33:06] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 13:33:07] Syringe pump has been set to infuse.
+[29/04/25 13:33:21] Autosampler sent to 8 position.
+[29/04/25 13:33:23] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 13:33:24] Syringe pump has been set to withdraw.
+[29/04/25 13:33:44] Autosampler sent to home position.
+[29/04/25 13:33:44] Autosampler sent to home position.
+[29/04/25 13:34:06] Autosampler sent to 8 position.
+[29/04/25 13:34:08] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 13:34:09] Syringe pump has been set to withdraw.
+[29/04/25 13:34:20] Autosampler sent to 1 position.
+[29/04/25 13:34:21] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 13:34:42] Autosampler sent to home position.
+[29/04/25 13:34:43] Autosampler sent to home position.
+[29/04/25 13:35:13] Autosampler sent to 8 position.
+[29/04/25 13:35:14] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 13:35:16] Syringe pump has been set to withdraw.
+[29/04/25 13:35:32] Autosampler sent to 1 position.
+[29/04/25 13:35:33] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 13:35:34] Syringe pump has been set to infuse.
+[29/04/25 13:35:51] Autosampler sent to 8 position.
+[29/04/25 13:35:53] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 13:35:54] Syringe pump has been set to withdraw.
+[29/04/25 13:36:13] Autosampler sent to 2 position.
+[29/04/25 13:36:15] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 13:36:16] Syringe pump has been set to infuse.
+[29/04/25 13:36:41] Autosampler sent to 8 position.
+[29/04/25 13:36:43] The syringe pump's target volume has been set to 50 ul.
+[29/04/25 13:36:44] Syringe pump has been set to withdraw.
+[29/04/25 13:36:59] Autosampler sent to home position.
+[29/04/25 13:37:00] Autosampler sent to home position.
+[29/04/25 13:37:28] Autosampler sent to 8 position.
+[29/04/25 13:37:30] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 13:37:31] Syringe pump has been set to withdraw.
+[29/04/25 13:37:47] Autosampler sent to 1 position.
+[29/04/25 13:37:49] The syringe pump's target volume has been set to 10 ul.
+[29/04/25 13:37:50] Syringe pump has been set to infuse.
+[29/04/25 13:38:06] Autosampler sent to 8 position.
+[29/04/25 13:38:08] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 13:38:09] Syringe pump has been set to withdraw.
+[29/04/25 13:38:28] Autosampler sent to 2 position.
+[29/04/25 13:38:30] The syringe pump's target volume has been set to 25 ul.
+[29/04/25 13:38:31] Syringe pump has been set to infuse.
+[29/04/25 13:39:44] Autosampler sent to home position.
+[29/04/25 13:39:44] Autosampler sent to home position.

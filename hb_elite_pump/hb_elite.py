@@ -103,7 +103,7 @@ class HBElite :
     def set_tvolume(self, tvolume):
         self.command(f'tvolume {tvolume}')
         print(f'Target volume set to {tvolume}.')
-        log_action('device_log.txt', "The syringe pump's target volume has been set to {tvolume}.")
+        log_action('device_log.txt', f"The syringe pump's target volume has been set to {tvolume}.")
 
     def clear_volume(self):
         self.command('cvolume')
