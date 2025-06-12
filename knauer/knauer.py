@@ -40,13 +40,13 @@ class K100Pump :
         log_action('device_log.txt', "Knauer pump's serial number has been requested.")
     
     #making functions with set commands to improve readability in the main code and to make logging easier
-    def set_flow(self, flow_rate):
+    def set_flow_rate(self, flow_rate):
         byteData = self.command(f"FLOW:{flow_rate}")
         return byteData
         print('Flow rate set to {flow_rate} ul/min')
         log_action('device_log.txt', "Knauer pump flow rate has been set to {flow_rate} ul/min.")
 
-    def get_flow(self):
+    def get_flow_rate(self):
         byteData = self.command("FLOW?")
         return byteData
         print('Flow rate set to {byteData} ml/min.')

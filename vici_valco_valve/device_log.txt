@@ -1,0 +1,69 @@
+[03/06/25 13:02:52] ViciValco device is connected.
+[03/06/25 13:03:32] ViciValco device is connected.
+[03/06/25 13:03:33] ViciValco moved to position B.
+[03/06/25 13:03:40] ViciValco moved to position A.
+[03/06/25 13:04:27] ViciValco device is connected.
+[03/06/25 13:04:29] ViciValco moved to position A.
+[03/06/25 13:04:36] ViciValco moved to position B.
+[03/06/25 13:04:40] ViciValco moved to position A.
+[03/06/25 13:05:10] ViciValco device is connected.
+[03/06/25 13:05:22] ViciValco moved to position A.
+[03/06/25 13:07:03] ViciValco device is connected.
+[03/06/25 13:07:43] ViciValco device is connected.
+[03/06/25 13:07:45] ViciValco moved to position A.
+[03/06/25 13:07:49] ViciValco already at the desired position.
+[03/06/25 13:08:00] ViciValco moved to position B.
+[03/06/25 13:08:07] ViciValco moved to position A.
+[03/06/25 13:08:14] ViciValco moved to position B.
+[03/06/25 13:12:21] ViciValco moved to position A.
+[03/06/25 13:15:31] ViciValco moved to position B.
+[03/06/25 13:33:33] ViciValco device is connected.
+[03/06/25 13:33:36] ViciValco already at the desired position.
+[03/06/25 13:33:40] ViciValco moved to position A.
+[03/06/25 13:35:42] ViciValco moved to position B.
+[03/06/25 13:37:44] ViciValco moved to position A.
+[03/06/25 13:39:46] ViciValco moved to position B.
+[03/06/25 13:41:48] ViciValco moved to position A.
+[03/06/25 13:43:50] ViciValco moved to position B.
+[03/06/25 13:45:52] ViciValco moved to position A.
+[03/06/25 13:47:54] ViciValco moved to position B.
+[03/06/25 13:49:56] ViciValco moved to position A.
+[03/06/25 13:51:58] ViciValco moved to position B.
+[03/06/25 13:54:00] ViciValco moved to position A.
+[03/06/25 13:56:02] ViciValco moved to position B.
+[03/06/25 13:58:04] ViciValco moved to position A.
+[03/06/25 14:00:06] ViciValco moved to position B.
+[03/06/25 14:02:08] ViciValco moved to position A.
+[03/06/25 14:04:10] ViciValco moved to position B.
+[03/06/25 14:04:15] ViciValco moved to position A.
+[03/06/25 14:06:00] ViciValco device is connected.
+[03/06/25 14:06:06] ViciValco moved to position B.
+[03/06/25 14:06:10] ViciValco moved to position A.
+[03/06/25 14:08:12] ViciValco moved to position B.
+[03/06/25 14:08:16] ViciValco moved to position A.
+[03/06/25 14:10:18] ViciValco moved to position B.
+[03/06/25 14:10:22] ViciValco moved to position A.
+[03/06/25 14:12:24] ViciValco moved to position B.
+[03/06/25 14:12:28] ViciValco moved to position A.
+[03/06/25 14:14:30] ViciValco moved to position B.
+[03/06/25 14:14:34] ViciValco moved to position A.
+[03/06/25 14:16:36] ViciValco moved to position B.
+[03/06/25 14:16:40] ViciValco moved to position A.
+[03/06/25 14:18:42] ViciValco moved to position B.
+[03/06/25 14:18:46] ViciValco moved to position A.
+[03/06/25 14:20:48] ViciValco moved to position B.
+[03/06/25 14:20:52] ViciValco moved to position A.
+[03/06/25 14:22:54] ViciValco moved to position B.
+[03/06/25 14:22:58] ViciValco moved to position A.
+[03/06/25 14:25:00] ViciValco moved to position B.
+[03/06/25 14:25:04] ViciValco moved to position A.
+[03/06/25 14:27:07] ViciValco moved to position B.
+[03/06/25 14:27:11] ViciValco moved to position A.
+[03/06/25 14:29:13] ViciValco moved to position B.
+[03/06/25 14:29:17] ViciValco moved to position A.
+[03/06/25 14:31:19] ViciValco moved to position B.
+[03/06/25 14:31:23] ViciValco moved to position A.
+[03/06/25 14:33:25] ViciValco moved to position B.
+[03/06/25 14:33:29] ViciValco moved to position A.
+[03/06/25 14:35:31] ViciValco moved to position B.
+[03/06/25 14:35:35] ViciValco moved to position A.

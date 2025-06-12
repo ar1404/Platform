@@ -92,10 +92,20 @@ class HBElite :
         print(f'Withdrawal rate is {flow_rate}.')
         log_action('device_log.txt', 'Syringe pump withdrawal rate has been requested.')
 
-    def withdraw(self):
-        self.command('wrun')
-        log_action('device_log.txt', 'Syringe pump has been set to withdraw.')
+    def withdraw(self, tvolume=None):
+        if tvolume is not None:
+            self.command(f'tvolume {tvolume}')
+            log_action('device_log.txt', f"The syringe pump's target volume has been set to {tvolume}.")
+            self.command(f'wrun')
+            wrate = self.get_wrate()
+            time.sleep(60 * (tvolume/wrate))
+            self.command('stop')
+            log_action('device_log.txt', f"{tvolume} has been withdrawn.")
 
+        else:
+            self.command('wrun')
+            log_action('device_log.txt', 'Syringe pump has been set to withdraw.')
+    
     def infuse(self):
         self.command('irun')
         log_action('device_log.txt', 'Syringe pump has been set to infuse.')

@@ -287,7 +287,7 @@ class gsioc_Protocol:
     ## General Commands ##
     def closeSerial(self):
         self.serial.close()
-        
+         
     def get_error(self):
         return self.iCommand('e')
 
@@ -303,17 +303,20 @@ class gsioc_Protocol:
         self.connect()
 
     def go_to_vial(self, vial):
+        self.bCommand('Z125')
         thing = rack1_commands.get_xy_command(vial)
         self.bCommand(thing[0])
         log_action('test_log.txt', f"Autosampler sent to {vial} position.")
 
     def go_to_dim(self):
+        self.bCommand('Z125')
         self.bCommand('X146.5/0')
-        self.bCommand('Z105') #test if this works
+        #self.bCommand('Z105') #test if this works
 
     def go_to_home(self):
+        self.bCommand('Z125')
         self.bCommand('H')
-        log_action('test_log.txt', 'Autosampler sent tp home position.')
+        log_action('test_log.txt', 'Autosampler sent to home position.')
 
 
 
