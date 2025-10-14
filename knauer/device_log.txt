@@ -6,3 +6,5 @@
 [03/04/25 11:25:37] Connection to Knauer pump successful.
 [03/04/25 11:25:46] Connection to Knauer pump successful.
 [03/04/25 11:29:03] Connection to Knauer pump successful.
+[03/07/25 14:05:04] Connection to Knauer pump successful.
+[02/10/25 16:38:12] Connection to Knauer pump successful.

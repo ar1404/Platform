@@ -306,17 +306,39 @@ class gsioc_Protocol:
         self.bCommand('Z125')
         thing = rack1_commands.get_xy_command(vial)
         self.bCommand(thing[0])
+        self.bCommand('Z85')
         log_action('test_log.txt', f"Autosampler sent to {vial} position.")
 
     def go_to_dim(self):
         self.bCommand('Z125')
         self.bCommand('X146.5/0')
-        #self.bCommand('Z105') #test if this works
+        self.bCommand('Z90:10')
+        log_action('test_log.txt', 'Autosampler sent to DIM.')
 
     def go_to_home(self):
         self.bCommand('Z125')
         self.bCommand('H')
         log_action('test_log.txt', 'Autosampler sent to home position.')
+
+    def go_to_solvent(self):
+        self.bCommand('Z125')
+        self.bCommand('X130/70')
+        self.bCommand('Z40')
+        log_action('test_log.txt', 'Autosampler sent to solvent bottle.')
+
+    def go_to_wash(self):
+        self.bCommand('Z125')
+        self.bCommand('X130/145')
+        time.sleep(0.2)
+        self.bCommand('Z40')
+        log_action('test_log.txt', 'Autosampler sent to wash bottle.')
+
+    def go_to_waste(self):
+        self.bCommand('Z125')
+        self.bCommand('X130/220')
+        time.sleep(0.2)
+        self.bCommand('Z40')
+        log_action('test_log.txt', 'Autosampler sent to waste bottle.')
 
 
 

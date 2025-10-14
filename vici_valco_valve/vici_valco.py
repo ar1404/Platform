@@ -13,24 +13,34 @@ class ViciValco:
     
     def connect(self): 
         """"" Connection of the valve to the computer via serial port """
-        COMPORT = 'COM14'
-        global ser
-        ser = serial.Serial()
-        ser.baudrate = 9600
-        ser.port = COMPORT #counter for port name starts at 0
+        COMPORT = 'COM9'
+        self.ser = serial.Serial(
+            port=COMPORT,
+            baudrate=9600,
+            parity=serial.PARITY_NONE,
+            stopbits=serial.STOPBITS_ONE,
+            bytesize=serial.EIGHTBITS,
+            timeout=5
+        )
+        self.ser = serial.Serial()
+        self.ser.baudrate = 9600
+        self.ser.port = COMPORT #counter for port name starts at 0
         parity=serial.PARITY_NONE
         stopbits=serial.STOPBITS_ONE
         bytesize=serial.EIGHTBITS
   
-        if (ser.isOpen() == False):
-            ser.timeout = 1
-            ser.open()
+        if (self.ser.isOpen() == False):
+            self.ser.timeout = 1
+            self.ser.open()
             print("Device is connected")
             log_action('device_log.txt', "ViciValco device is connected.")
 
         else:
             print ('The Port is closed: ' + ser1.portstr)
             log_action('device_log.txt', "Connection has failed.")
+
+
+    #go_to_pos, read_pos and change_pos have been written for the sampling valve EUHA and are only usable for a 2 position valve
 
     def go_to_pos(self, pos):
         """ Sends command to change positions to device in bytes, retrieves the response and adds to the activity log the relevant command """
@@ -73,3 +83,20 @@ class ViciValco:
         else:
             print(f"Unknown current position: {position}")
             log_action('device_log.txt', f"Failed to toggle position. Unknown current position: {position}")
+
+    #the command function has been written for the vici solvent selection valve, though can be used with the sampling valve. for the solvent selection valve, 'GOx' sends the valve to position x of 6. command 'VR' should be used to ensure connection - the expected output is: I-PD-EMHX88RN\r06-01-2001
+
+
+    def command(self, code):
+        """ Sends command to device in ASCII and retrieves the response """
+        if not self.ser or not self.ser.is_open:
+            raise Exception("Serial port is not open")
+    
+        # send command + carriage return
+        cmd = f"{code}\r".encode("ascii")
+        self.ser.write(cmd)
+    
+        # read response (increase timeout if needed)
+        response = self.ser.readline().decode(errors="ignore")
+    
+        return response.strip()
