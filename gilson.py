@@ -82,115 +82,190 @@ class gsioc_Protocol:
 
     # Checks if SerialPort is open; If not opens it
     def verify_open(self):
+
+        # Creates a debug message indicating that code is checking port status
         logger.debug('Check if port is open.')
+
+        # Checks whether port is closed
         if self.serial.isOpen() == False:
             try:
+                # Attempts to open serial port
                 self.serial.open()
             except Exception as e:
+                # Logs an exception message if port does not open
                 logger.exception('Port is not opening.')
                 raise e
- 
+        # If port already open or has successfully been opened, returns True
         return True
 
-    # Check that we are connected to the right device
+    # Verify that it is connected to the correct device (device_name) - especially important for gsioc when we are connected to both g and g_dim
     def verify_device(self):
-        
-        # Verify that it is connected to the correct device (device_name)
+
+        # Gives device time to process previous responses
         time.sleep(0.2)
+
+        # Command to request module identification
         device_version_string = self.iCommand('%')
+
+        # Gives device time to send a response (rather than the reponse of the previous command being parsed)
         time.sleep(0.2)
+
+        # Extracts the device name form the string (ignoring everything that comes after v)
         device_string = device_version_string.split(' v')[0]
-        # Return True if correct device, False otherwise
+        
+        # Returns True if correct device, False otherwise
         return device_string == self.device_name
 
-    # Connect to Device using UnitID (see manual + back of device)
-    # Verify that it's the right device
+    # Connects to Device using UnitID (see manual + back of device)
+    # Verifies that it's the right device
     def connect(self):
-        # Verify port is opened
+        # Verifies port is opened
         self.verify_open()
 
         # Connect to unit ID
+
+        # Within commands list, it is stated that ID falls between 0 and 63
         if( int(self.ID) not in range(64) ):
             raise Exception("ID out of range [0,63]")
 
+        # Converts the device ID into a byte value recognised by the Gilson protocol
         byte_ID = self.ID +  128
 
+        # Clears any existing input in the serial buffer (memory) to avoid carryover
         self.serial.flushInput()
+
+        # Sends a message that basically means 'clear the line' i.e. reset their connection state
         self.serial.write(bytes.fromhex('ff'))
-        time.sleep(0.2)   # Passively wait for all devices to disconnect
+
+        # Waits for all devices to disconnect
+        time.sleep(0.2)
+
+        # Sends the byte-encoded ID to connect specifically to the correct device
         self.serial.write(byte_ID.to_bytes(1,byteorder='big'))
 
-        resp = self.serial.read(10)    # Will return empty array after timeout
+        # Reads up to 10 bytes from the serial buffer as the device's response - returns empty if no response before timeout
+        resp = self.serial.read(10)    
+
+        # If no response received before timeout, logs critical error and retries connection
         if(len(resp) == 0) or resp == b'':
             logger.critical('No response from device')
+
+            # If attempts left, retries connection
             if self.connection_repeats > 0:
+                
+                # Changes number of attempts left to decrease after each try
                 self.connection_repeats = (self.connection_repeats - 1)
-                logger.error(f'Attempt {100-self.connection_repeats}/100: {str(datetime.datetime.now())} No response from device {byte_ID-128}')
-                log_action('test_log.txt', "Unable to connect to Gilson autosampler.")
+                
+                # Logs how many attempts have been made
+                logger.error(f'Attempt {100-self.connection_repeats}/5: {str(datetime.datetime.now())} No response from device {byte_ID-128}')
+                
+                # Adds to .txt that connection has failed
+                log_action('autosampler_log.txt', "Unable to connect to Gilson autosampler.")
+
+                # Attempts connection again
                 self.connect()
             else:
+                # If all attempts fail, raises an exception 
                 raise Exception(str(datetime.datetime.now()) + "No response from device")
 
         # Verifies that the correct device is connected
         if self.verify_device():
-            
+
+            # Logs that connection was successful
             logger.debug(f"Connected to device {byte_ID-128}")
-            log_action('test_log.txt', "Connected to autosampler.")
+            
+            # Adds to .txt that connection was successful
+            log_action('autosampler_log.txt', f"Connected to {byte_ID-128}.")
             print("Connected to autosampler")
             
         # Wrong Device ID
         else:
+            # Raises error that the device connected is not the desired
             logger.error(f'Connected to wrong device: connecting to device {byte_ID-128} failed.')
+
+            # If attempts left, retries connection
             if self.connection_repeats > 0:
+                # Changes number of attempts left to decrease after each try
                 self.connection_repeats = (self.connection_repeats - 1)
-                logger.error(f'Attempt {100-self.connection_repeats}/100: Tried connecting to device: {byte_ID-128}')
+                
+                # Logs how many attempts have been made
+                logger.error(f'Attempt {100-self.connection_repeats}/5: Tried connecting to device: {byte_ID-128}')
+
+                # Attempts connection again
                 self.connect()
             else:
+                # Logs error for connection to wrong device
                 logger.error('Connected to wrong device: {}'.format(self.iCommand('%')))
+
+                # Raises exception
                 raise Exception('Connected to wrong device: {}'.format(self.iCommand('%')))
 
     # Send immediate Command; One Character at most
     def iCommand(self,commandstring):
         
-        # Convert to binary
+        # Converts ASCII command to binary to be readable by device
         command = binascii.a2b_qp(commandstring)
 
-        # Write command
+        # Clears any existing input in the serial buffer (memory) to avoid carryover
         self.serial.flushInput()
+
+        # Sends command to the device
         self.serial.write(command)
 
-        # Retrieve Response - looks like this returns one byte at a time...
+        # Prepares empty bytearray where the response is collected
         resp = bytearray(0)
+        
         while(True):
-            resp_raw = self.serial.read(10)    # Will return empty array after timeout
 
+            # Reads up to 10 bytes from serial buffer - returns empty if timeout occurs
+            resp_raw = self.serial.read(10)
+
+            # If no response received
             if(len(resp_raw) == 0) or resp_raw == b'':
+
+                # If there are attempts left
                 if self.connection_repeats > 0:
+                    # Changes number of attempts left to decrease after each try
                     self.connection_repeats = (self.connection_repeats - 1)
-                    logger.error(f'Attempt {100-self.connection_repeats}/100: sent Immediate Command {commandstring}, in binascii: {command}')
+                    
+                    # Logs how many attempts have been made
+                    logger.error(f'Attempt {100-self.connection_repeats}/5: sent Immediate Command {commandstring}, in binascii: {command}')
+
+                    # Repeats trying to send command
                     self.iCommand(commandstring)
+
+                # When no attempts left
                 else:
+                    # Logs no response
                     logger.critical('No response from device')
+
+                    # Raises exception that device unresponse
                     raise Exception(str(datetime.datetime.now()) + "No response from device")
 
+            # Appends the first byte of the response to bytearray
             resp.append(resp_raw[0])
 
-            # Extended ASCII represents end of message
+            # Checks for end of message (ASCII > 127)
             if(resp[len(resp)-1] > 127):
+                # Adjusts the value of normal ASCII
                 resp[len(resp)-1] -= 128
 
+                # Logs command was successful
                 logger.debug(f'Sending immediate command complete.')
-                
+
+                # Exits loop
                 break
 
-            # Write Acknowledge to Device to signal next byte can be retrieved
+            # Acknowledges the device so it will send the next byte
             else:
                 self.serial.flushInput()
+                # 0x06 in ASCII is ACK for acknowledge
                 self.serial.write(bytes.fromhex("06"))
                 
-        # logger.debug('Received {} as response'.format(resp.decode("ascii")))
+        # Logs raw response received for debugging purposes
         logger.debug(f'received {resp} as response.')
 
+        # Returns reponse as ASCII string
         return resp.decode("ascii")
 
     # Buffered Command; More then one character
