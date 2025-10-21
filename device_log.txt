@@ -55245,3 +55245,276 @@
 [07/10/25 18:41:12] Autosampler sent to home position.
 [07/10/25 18:41:12] Autosampler sent to home position.
 [07/10/25 18:41:15] Connected to autosampler.
+[15/10/25 11:52:00] Connected to autosampler.
+[15/10/25 11:52:02] Autosampler sent to home position.
+[15/10/25 11:52:16] Autosampler sent to 1 position.
+[15/10/25 11:52:19] Autosampler sent to home position.
+[15/10/25 11:52:30] Connected to autosampler.
+[15/10/25 11:58:01] Connection to HB pump successful.
+[15/10/25 11:58:05] Syringe pump withdrawal rate has been set to 500 uL/min.
+[15/10/25 11:58:09] Connected to autosampler.
+[15/10/25 11:58:12] Autosampler sent to 1 position.
+[15/10/25 11:58:13] The syringe pump's target volume has been set to 100 uL.
+[15/10/25 11:58:14] Syringe pump has been set to withdraw.
+[15/10/25 11:58:30] Connected to autosampler.
+[15/10/25 11:58:32] Syringe pump infusion rate has been set to 1000 uL/min.
+[15/10/25 11:58:37] Connected to autosampler.
+[15/10/25 11:58:40] Autosampler sent to DIM.
+[15/10/25 11:58:41] The syringe pump's target volume has been set to 100 uL.
+[15/10/25 11:58:42] Syringe pump has been set to infuse.
+[15/10/25 11:58:50] Autosampler sent to home position.
+[15/10/25 11:58:50] Autosampler sent to home position.
+[15/10/25 11:58:53] Connected to autosampler.
+[15/10/25 12:00:43] Connected to autosampler.
+[15/10/25 12:00:45] Autosampler sent to home position.
+[15/10/25 12:00:51] Connected to autosampler.
+[15/10/25 12:00:58] Connected to autosampler.
+[15/10/25 12:01:02] Connection to HB pump successful.
+[15/10/25 12:01:39] Syringe pump withdrawal rate has been set to 500 uL/min.
+[15/10/25 12:01:44] Connected to autosampler.
+[15/10/25 12:01:46] Autosampler sent to 1 position.
+[15/10/25 12:01:48] The syringe pump's target volume has been set to 100 uL.
+[15/10/25 12:01:49] Syringe pump has been set to withdraw.
+[15/10/25 13:27:19] Syringe pump withdrawal rate has been set to 500 uL/min.
+[15/10/25 13:27:24] Connected to autosampler.
+[15/10/25 13:27:27] Autosampler sent to 1 position.
+[15/10/25 13:27:28] The syringe pump's target volume has been set to 100 uL.
+[15/10/25 13:27:29] Syringe pump has been set to withdraw.
+[15/10/25 13:27:45] Connected to autosampler.
+[15/10/25 13:27:47] Syringe pump infusion rate has been set to 1000 uL/min.
+[15/10/25 13:27:52] Connected to autosampler.
+[15/10/25 13:27:54] Autosampler sent to DIM.
+[15/10/25 13:27:55] The syringe pump's target volume has been set to 100 uL.
+[15/10/25 13:27:57] Syringe pump has been set to infuse.
+[15/10/25 13:28:05] Autosampler sent to home position.
+[15/10/25 13:28:05] Autosampler sent to home position.
+[15/10/25 13:28:07] Connected to autosampler.
+[15/10/25 13:29:35] Connected to autosampler.
+[15/10/25 13:29:57] Autosampler sent to waste bottle.
+[15/10/25 13:30:24] Autosampler sent to solvent bottle.
+[15/10/25 13:30:47] Autosampler sent to waste bottle.
+[15/10/25 13:31:07] Autosampler sent to solvent bottle.
+[15/10/25 13:31:38] Autosampler sent to home position.
+[15/10/25 13:31:38] Autosampler sent to home position.
+[15/10/25 13:33:55] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 13:34:00] Connected to autosampler.
+[15/10/25 13:34:02] The syringe pump's target volume has been set to 40 uL.
+[15/10/25 13:34:03] Syringe pump has been set to withdraw.
+[15/10/25 13:34:08] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 13:34:13] Connected to autosampler.
+[15/10/25 13:34:15] Autosampler sent to 8 position.
+[15/10/25 13:34:16] The syringe pump's target volume has been set to 20 uL.
+[15/10/25 13:34:17] Syringe pump has been set to withdraw.
+[15/10/25 13:34:22] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 13:34:26] Connected to autosampler.
+[15/10/25 13:34:28] The syringe pump's target volume has been set to 10 uL.
+[15/10/25 13:34:30] Syringe pump has been set to withdraw.
+[15/10/25 13:34:33] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 13:34:38] Connected to autosampler.
+[15/10/25 13:34:40] Autosampler sent to solvent bottle.
+[15/10/25 13:34:41] The syringe pump's target volume has been set to 80 uL.
+[15/10/25 13:34:42] Syringe pump has been set to withdraw.
+[15/10/25 13:34:50] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 13:34:54] Connected to autosampler.
+[15/10/25 13:34:56] The syringe pump's target volume has been set to 40 uL.
+[15/10/25 13:34:57] Syringe pump has been set to withdraw.
+[15/10/25 13:35:03] Connected to autosampler.
+[15/10/25 13:35:05] Syringe pump infusion rate has been set to 1000 uL/min.
+[15/10/25 13:35:10] Connected to autosampler.
+[15/10/25 13:35:12] Autosampler sent to DIM.
+[15/10/25 13:35:14] The syringe pump's target volume has been set to 190 uL.
+[15/10/25 13:35:15] Syringe pump has been set to infuse.
+[15/10/25 13:35:28] Autosampler sent to home position.
+[15/10/25 13:35:28] Autosampler sent to home position.
+[15/10/25 13:35:31] Connected to autosampler.
+[15/10/25 13:37:39] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 13:37:44] Connected to autosampler.
+[15/10/25 13:37:45] The syringe pump's target volume has been set to 40 uL.
+[15/10/25 13:37:47] Syringe pump has been set to withdraw.
+[15/10/25 13:37:51] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 13:37:56] Connected to autosampler.
+[15/10/25 13:37:59] Autosampler sent to 8 position.
+[15/10/25 13:38:00] The syringe pump's target volume has been set to 20 uL.
+[15/10/25 13:38:01] Syringe pump has been set to withdraw.
+[15/10/25 13:38:05] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 13:38:10] Connected to autosampler.
+[15/10/25 13:38:12] The syringe pump's target volume has been set to 10 uL.
+[15/10/25 13:38:12] Syringe pump has been set to withdraw.
+[15/10/25 13:38:15] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 13:38:20] Connected to autosampler.
+[15/10/25 13:38:22] Autosampler sent to solvent bottle.
+[15/10/25 13:38:23] The syringe pump's target volume has been set to 80 uL.
+[15/10/25 13:38:24] Syringe pump has been set to withdraw.
+[15/10/25 13:38:32] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 13:38:37] Connected to autosampler.
+[15/10/25 13:38:39] The syringe pump's target volume has been set to 40 uL.
+[15/10/25 13:38:40] Syringe pump has been set to withdraw.
+[15/10/25 13:38:46] Connected to autosampler.
+[15/10/25 13:38:48] Syringe pump infusion rate has been set to 1000 uL/min.
+[15/10/25 13:38:52] Connected to autosampler.
+[15/10/25 13:38:55] Autosampler sent to DIM.
+[15/10/25 13:38:56] The syringe pump's target volume has been set to 190 uL.
+[15/10/25 13:38:57] Syringe pump has been set to infuse.
+[15/10/25 13:39:11] Autosampler sent to home position.
+[15/10/25 13:39:11] Autosampler sent to home position.
+[15/10/25 13:39:13] Connected to autosampler.
+[15/10/25 13:40:40] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 13:40:45] Connected to autosampler.
+[15/10/25 13:40:47] The syringe pump's target volume has been set to 40 uL.
+[15/10/25 13:40:48] Syringe pump has been set to withdraw.
+[15/10/25 13:40:53] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 13:40:58] Connected to autosampler.
+[15/10/25 13:41:00] Autosampler sent to 8 position.
+[15/10/25 13:41:01] The syringe pump's target volume has been set to 20 uL.
+[15/10/25 13:41:02] Syringe pump has been set to withdraw.
+[15/10/25 13:41:07] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 13:41:11] Connected to autosampler.
+[15/10/25 13:41:13] The syringe pump's target volume has been set to 5 uL.
+[15/10/25 13:41:14] Syringe pump has been set to withdraw.
+[15/10/25 13:41:16] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 13:41:21] Connected to autosampler.
+[15/10/25 13:41:23] Autosampler sent to solvent bottle.
+[15/10/25 13:41:24] The syringe pump's target volume has been set to 80 uL.
+[15/10/25 13:41:25] Syringe pump has been set to withdraw.
+[15/10/25 13:41:33] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 13:41:38] Connected to autosampler.
+[15/10/25 13:41:40] The syringe pump's target volume has been set to 40 uL.
+[15/10/25 13:41:41] Syringe pump has been set to withdraw.
+[15/10/25 13:41:47] Connected to autosampler.
+[15/10/25 13:41:49] Syringe pump infusion rate has been set to 1000 uL/min.
+[15/10/25 13:41:53] Connected to autosampler.
+[15/10/25 13:41:56] Autosampler sent to DIM.
+[15/10/25 13:41:57] The syringe pump's target volume has been set to 190 uL.
+[15/10/25 13:41:58] Syringe pump has been set to infuse.
+[15/10/25 13:42:12] Autosampler sent to home position.
+[15/10/25 13:42:12] Autosampler sent to home position.
+[15/10/25 13:42:14] Connected to autosampler.
+[15/10/25 14:13:37] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 14:13:42] Connected to autosampler.
+[15/10/25 14:13:44] The syringe pump's target volume has been set to 40 uL.
+[15/10/25 14:13:45] Syringe pump has been set to withdraw.
+[15/10/25 14:13:50] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 14:13:54] Connected to autosampler.
+[15/10/25 14:13:57] Autosampler sent to 8 position.
+[15/10/25 14:13:58] The syringe pump's target volume has been set to 20 uL.
+[15/10/25 14:13:59] Syringe pump has been set to withdraw.
+[15/10/25 14:14:03] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 14:14:08] Connected to autosampler.
+[15/10/25 14:14:10] The syringe pump's target volume has been set to 5 uL.
+[15/10/25 14:14:10] Syringe pump has been set to withdraw.
+[15/10/25 14:14:13] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 14:14:18] Connected to autosampler.
+[15/10/25 14:14:20] Autosampler sent to solvent bottle.
+[15/10/25 14:14:21] The syringe pump's target volume has been set to 80 uL.
+[15/10/25 14:14:22] Syringe pump has been set to withdraw.
+[15/10/25 14:14:30] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 14:14:35] Connected to autosampler.
+[15/10/25 14:14:36] The syringe pump's target volume has been set to 40 uL.
+[15/10/25 14:14:38] Syringe pump has been set to withdraw.
+[15/10/25 14:14:44] Connected to autosampler.
+[15/10/25 14:14:45] Syringe pump infusion rate has been set to 1000 uL/min.
+[15/10/25 14:14:50] Connected to autosampler.
+[15/10/25 14:14:53] Autosampler sent to DIM.
+[15/10/25 14:14:54] The syringe pump's target volume has been set to 190 uL.
+[15/10/25 14:14:55] Syringe pump has been set to infuse.
+[15/10/25 14:15:08] Autosampler sent to home position.
+[15/10/25 14:15:08] Autosampler sent to home position.
+[15/10/25 14:15:11] Connected to autosampler.
+[15/10/25 16:10:57] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 16:11:02] Connected to autosampler.
+[15/10/25 16:11:04] The syringe pump's target volume has been set to 40 uL.
+[15/10/25 16:11:05] Syringe pump has been set to withdraw.
+[15/10/25 16:11:10] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 16:11:15] Connected to autosampler.
+[15/10/25 16:11:17] Autosampler sent to 8 position.
+[15/10/25 16:11:18] The syringe pump's target volume has been set to 20 uL.
+[15/10/25 16:11:19] Syringe pump has been set to withdraw.
+[15/10/25 16:11:23] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 16:11:28] Connected to autosampler.
+[15/10/25 16:11:30] The syringe pump's target volume has been set to 5 uL.
+[15/10/25 16:11:30] Syringe pump has been set to withdraw.
+[15/10/25 16:11:33] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 16:11:38] Connected to autosampler.
+[15/10/25 16:11:40] Autosampler sent to solvent bottle.
+[15/10/25 16:11:41] The syringe pump's target volume has been set to 80 uL.
+[15/10/25 16:11:42] Syringe pump has been set to withdraw.
+[15/10/25 16:11:50] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 16:11:55] Connected to autosampler.
+[15/10/25 16:11:57] The syringe pump's target volume has been set to 40 uL.
+[15/10/25 16:11:58] Syringe pump has been set to withdraw.
+[15/10/25 16:12:04] Connected to autosampler.
+[15/10/25 16:12:06] Syringe pump infusion rate has been set to 1000 uL/min.
+[15/10/25 16:12:10] Connected to autosampler.
+[15/10/25 16:12:13] Autosampler sent to DIM.
+[15/10/25 16:12:14] The syringe pump's target volume has been set to 190 uL.
+[15/10/25 16:12:15] Syringe pump has been set to infuse.
+[15/10/25 16:12:29] Autosampler sent to home position.
+[15/10/25 16:12:29] Autosampler sent to home position.
+[15/10/25 16:12:31] Connected to autosampler.
+[15/10/25 16:15:02] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 16:15:07] Connected to autosampler.
+[15/10/25 16:15:09] The syringe pump's target volume has been set to 40 uL.
+[15/10/25 16:15:10] Syringe pump has been set to withdraw.
+[15/10/25 16:15:14] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 16:15:19] Connected to autosampler.
+[15/10/25 16:15:22] Autosampler sent to 8 position.
+[15/10/25 16:15:23] The syringe pump's target volume has been set to 20 uL.
+[15/10/25 16:15:24] Syringe pump has been set to withdraw.
+[15/10/25 16:15:28] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 16:15:33] Connected to autosampler.
+[15/10/25 16:15:35] The syringe pump's target volume has been set to 5 uL.
+[15/10/25 16:15:35] Syringe pump has been set to withdraw.
+[15/10/25 16:15:38] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 16:15:43] Connected to autosampler.
+[15/10/25 16:15:45] Autosampler sent to solvent bottle.
+[15/10/25 16:15:46] The syringe pump's target volume has been set to 80 uL.
+[15/10/25 16:15:47] Syringe pump has been set to withdraw.
+[15/10/25 16:15:55] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[15/10/25 16:16:00] Connected to autosampler.
+[15/10/25 16:16:01] The syringe pump's target volume has been set to 40 uL.
+[15/10/25 16:16:03] Syringe pump has been set to withdraw.
+[15/10/25 16:16:09] Connected to autosampler.
+[15/10/25 16:16:10] Syringe pump infusion rate has been set to 1000 uL/min.
+[15/10/25 16:16:15] Connected to autosampler.
+[15/10/25 16:16:18] Autosampler sent to DIM.
+[15/10/25 16:16:19] The syringe pump's target volume has been set to 190 uL.
+[15/10/25 16:16:20] Syringe pump has been set to infuse.
+[15/10/25 16:16:33] Autosampler sent to home position.
+[15/10/25 16:16:33] Autosampler sent to home position.
+[15/10/25 16:16:36] Connected to autosampler.
+[16/10/25 11:55:09] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[16/10/25 11:55:14] Connected to autosampler.
+[16/10/25 11:55:15] The syringe pump's target volume has been set to 40 uL.
+[16/10/25 11:55:16] Pump withdrawing.
+[16/10/25 11:55:16] Syringe pump has been set to withdraw.
+[16/10/25 11:55:19] Target volume reached.
+[16/10/25 11:55:20] Target volume reached.
+[16/10/25 11:55:21] Target volume reached.
+[16/10/25 11:55:21] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[16/10/25 11:55:26] Connected to autosampler.
+[16/10/25 11:55:29] Autosampler sent to 8 position.
+[16/10/25 11:55:30] The syringe pump's target volume has been set to 100 uL.
+[16/10/25 11:55:31] Pump withdrawing.
+[16/10/25 11:55:31] Syringe pump has been set to withdraw.
+[16/10/25 11:55:37] Target volume reached.
+[16/10/25 11:55:39] Target volume reached.
+[16/10/25 11:55:39] Syringe pump withdrawal rate has been set to 1000 uL/min.
+[16/10/25 11:55:44] Connected to autosampler.
+[16/10/25 11:55:46] The syringe pump's target volume has been set to 40 uL.
+[16/10/25 11:55:47] Pump withdrawing.
+[16/10/25 11:55:47] Syringe pump has been set to withdraw.
+[16/10/25 11:55:49] Target volume reached.
+[16/10/25 11:55:50] Target volume reached.
+[16/10/25 11:55:53] Connected to autosampler.
+[16/10/25 11:55:55] Target volume reached.
+[16/10/25 11:55:55] Syringe pump infusion rate has been set to 1000 uL/min.
+[16/10/25 11:55:59] Connected to autosampler.
+[16/10/25 11:56:02] Autosampler sent to DIM.
+[16/10/25 11:56:03] The syringe pump's target volume has been set to 180 uL.
+[16/10/25 11:56:04] Pump infusing.
+[16/10/25 11:56:04] Syringe pump has been set to infuse.
+[16/10/25 11:56:15] Target volume reached.
+[16/10/25 11:56:16] Target volume reached.
+[16/10/25 11:56:17] Autosampler sent to home position.
+[16/10/25 11:56:17] Autosampler sent to home position.
+[16/10/25 11:56:20] Connected to autosampler.

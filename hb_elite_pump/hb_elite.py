@@ -50,20 +50,20 @@ class HBElite :
                 byte_data = self.ser.readline().decode().strip()  # Read one line of data
 
                 if byte_data == '<':
-                    print('Pump withdrawing')
+                    log_action('device_log.txt', "Pump withdrawing.")
 
                 elif byte_data == '>':
-                    print('Pump infusing')
+                    log_action('device_log.txt', "Pump infusing.")
 
                 elif byte_data == 'T*':
                     print('Target volume reached')
+                    log_action('device_log.txt', "Target volume reached.")
                     
                 response.append(byte_data)  # Add it to the response list
             else:
                 break  # Exit if no more data is available
 
         return response
-
             
         # Join the list of responses into a single string with newlines
         formatted_response = '\n'.join(response)  # Combine lines into a single string
@@ -71,6 +71,28 @@ class HBElite :
         # Print the formatted response
         print(formatted_response)
 
+    def read(self):
+        """
+        Reads any available response from the syringe pump.
+        Returns:
+            str or None: The line read from the pump (e.g. '<', '>', 'T*', or other messages),
+                         or None if no data is available.
+        """
+        if self.ser.in_waiting > 0:
+            byte_data = self.ser.readline().decode().strip()
+    
+            if byte_data == '<':
+                log_action('device_log.txt', "Pump withdrawing.")
+            elif byte_data == '>':
+                log_action('device_log.txt', "Pump infusing.")
+            elif byte_data == 'T*':
+                log_action('device_log.txt', "Target volume reached.")
+            elif byte_data != '':
+                print(f'Pump says: {byte_data}')
+    
+            return byte_data
+        else:
+            return None
 
     def set_wrate(self, flow_rate):
         self.command(f'wrate {flow_rate}')
