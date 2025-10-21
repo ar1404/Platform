@@ -33,30 +33,50 @@ class gsioc_Protocol:
     import logging
 
     def __init__(self, serial, device_name, ID):
+    # To initialise a new instance of this class, this is required
+
+        # Serial connection parameters (which are defined in the control notebook) are referenced here
         self.serial = serial
+
+        # Device name string 'GX-241 II' or 'GX D Inject' required to identify which bit of equipment we are talking to
         self.device_name = device_name
+
+        # ID no. 30 or 3 required to identify which bit of equipment we are talking to
         self.ID = ID
+
+        # Common with serial control - sets how many times the code should try to connect to the device before giving up 
         self.connection_repeats = 5
 
-        self.logging_enabled = True  # ✅ Start with logging ON
+        # Logging is enabled by default - though can be disabled after initiation
+        self.logging_enabled = True 
+
+        # Included here so it does not have to be called later (reducing the number of commands that need to be run in setup)
         self.create_logger()
 
     def create_logger(self):
-        logger.remove()  # ✅ Prevent duplicate handlers
+
+        # Removes previously attached log handlers to avoid duplicate log messages
+        logger.remove()
+        
+        # Adds logging to .txt file to be saved in case of errors or malfunctions
         logger.add("autosampler_log.txt", level="DEBUG", format="[{time:DD/MM/YY HH:mm:ss}] - {level} - {message}")
-        logger.disable(__name__)  # ✅ Logging is OFF by default
 
     def enable_logging(self):
+    # If logging is disabled, this function enables it again
+        
+        # Sets internal flag to indicate logging is on
         self.logging_enabled = True
+
+        # Enables logging so log messages are recorded in .txt file
         logger.enable(__name__)  # ✅ Turn logging ON
-        print("Logging enabled.")
 
     def disable_logging(self):
+    # This function turns off logging - nothing will be recorded to .txt
         self.logging_enabled = False
         logger.disable(__name__)  # ✅ Turn logging OFF
 
     def log_info(self, message):
-        """Wrapper to log messages only when enabled"""
+        """ Allows us to add a message to the log, should it be needed - only works if logging is enabled """
         if self.logging_enabled:
             logger.info(message)
 
