@@ -125,7 +125,7 @@ class gsioc_Protocol:
         # Connect to unit ID
 
         # Within commands list, it is stated that ID falls between 0 and 63
-        if( int(self.ID) not in range(64) ):
+        if( int(self.ID) not in range(64)):
             raise Exception("ID out of range [0,63]")
 
         # Converts the device ID into a byte value recognised by the Gilson protocol
@@ -200,7 +200,8 @@ class gsioc_Protocol:
                 # Raises exception
                 raise Exception('Connected to wrong device: {}'.format(self.iCommand('%')))
 
-    # Send immediate Command; One Character at most
+    # Sends immediate command; One Character at most
+    # Immediate commands request status information from the device and are executed immediately
     def iCommand(self,commandstring):
         
         # Converts ASCII command to binary to be readable by device
@@ -268,109 +269,162 @@ class gsioc_Protocol:
         # Returns reponse as ASCII string
         return resp.decode("ascii")
 
-    # Buffered Command; More then one character
+    # Sends buffered command; More then one character
+    # Buffered commands send instructions to the device and are executed one at a time
     def bCommand(self, commandstring):
 
-        # Convert to byte, \n signifies start of command, \r signals end of command
+        # Converts ASCII command to binary to be readable by device - \n signifies start of command, \r signals end of command
         data = binascii.a2b_qp("\n" + commandstring + "\r")
+
+        # Logs that command is being sent out
         logger.info(f'GSIOC <<< {commandstring}')
+
+        # Clears any existing input in the serial buffer (memory) to avoid carryover
         self.serial.flushInput()
+
+        # Prepares empty bytearray where the response is collected
         resp = bytearray(0)
 
-        # begin buffered command by sending \n until the device echos \n or times out
-        firstErrorPrinted = False # This is used to prevent repetitive printing
+        # Stops 'device busy' from being repeatedly added to log - just adds once
+        firstErrorPrinted = False
 
+        # Loops until we get a 'ready' signal from device
         while(True):
-            self.serial.write(data[0:1])    # send \n
-            resp_raw = self.serial.read(10)    # Will return empty array after timeout J.F.W.>>> changed to 2 bytes. If no timeout is defined in serial, it will simply wait forever!
-            
+            # Sends the first byte \n to tell device a bCommand is going to be sent
+            self.serial.write(data[0:1])
+
+            # Reads up to 10 bytes from device, returns empty array after timeout
+            resp_raw = self.serial.read(10)
+
+            # If no response received
             if(len(resp_raw) == 0) or resp_raw == b'':
+
+                # If there are attempts left
                 if self.connection_repeats > 0:
+                    # Changes number of attempts left to decrease after each try
                     self.connection_repeats = (self.connection_repeats - 1)
-                    logger.error(f'Attempt {100-self.connection_repeats}/100: sent buffered Command {commandstring}, in binascii: {data}')
+
+                    # Logs how many attempts have been made
+                    logger.error(f'Attempt {100-self.connection_repeats}/5: sent buffered Command {commandstring}, in binascii: {data}')
+
+                    # Attempts to send command again
                     self.bCommand(commandstring)
+
+                # If no attempts left
                 else:
+                    # Logs no response
                     logger.critical('No response from device')
+
+                    # Raises exception that device unresponsive
                     raise Exception(str(datetime.datetime.now()) + "No response from device")
+            
+            # Logs response received from device
             logger.debug(f'ready signal: {resp_raw}')
-            ################################################################################################################
-            # TODO CHECK IF THE FOLLOWING CONIDTION RAISES MORE PROBLEMS!!! IT IS MEANT TO FIX THE INDEX OUT OF RANGE ERROR!
+
+            # Prevents index out of range errors
             if not resp_raw:
                 return
-            ################################################################################################################
+
+            # Takes first byte of response, which indicates device status
             readySig = resp_raw[0]
-            # If devices answers \n signifies device is ready
-            if(readySig == 10): #J.F.W.>>> 10 is ascii code for Line Feed LF
+            
+            # If readySig == 10 (ASCII for Line Feed), device ready for command
+            if(readySig == 10):
+                # Logs that command being sent
                 logger.debug('Starting to send buffered command.')
                 break
 
-            # Device is busy
-            elif(readySig == 35): #J.F.W>>> 35 is ascii code for "#"-symbol
+            # If readySig == 25 (ASCII for #), meaning device is busy
+            elif(readySig == 35):
+                # If error has not been printed already
                 if(not firstErrorPrinted):
+                    # Logs device busy
                     logger.debug('Device busy. Waiting....')
+                    
+                    # Changes this variable to true to prevent repeated logging of same message
                     firstErrorPrinted = True
+
+            # If an unexpected response was received
             else:
+                # Logs that we did not receive either of the two responses we expected
                 logger.error("Did not recieve \\n (0x0A) or # as response")
                 # raise Exception("Did not recieve \\n (0x0A) or # as response")
-        logger.debug(readySig)#.decode("ascii")) #JFW>>>
-        resp.append(readySig)
-        self.serial.flushInput()
-        # Send buffered data, one byte at a time, Device echo's byte send
-        for i in range(1,len(data)):
-            logger.debug(f'Writes buffered Command character {data[i:i+1]} to the device {self.device_name}.')
-            self.serial.write(data[i:i+1])
-            logger.debug(f'Starts reading character from the device {self.device_name}.')
-            resp_raw = self.serial.read(3)    # Will return empty array after timeout
-            logger.debug(f'got back {resp_raw} from the device {self.device_name}.')
-        # for i in range(len(data)):
-        #     self.serial.write(data[i:i+1])
-        #     resp_raw = self.serial.read(3) 
-            logger.debug("resp_raw: "+str(resp_raw)) #JFW>>>
 
-            # self.serial.flushInput()
+        # Logs the readySig for debugging
+        logger.debug(readySig)
+
+        # Adds the ready signal to serial buffer
+        resp.append(readySig)
+
+        # Clears any existing input in the serial buffer (memory) to avoid carryover
+        self.serial.flushInput()
+        
+        # Loops through each byte of the command (excluding the \n sent previously)
+        for i in range(1,len(data)):
+            # Logs the byte being sent
+            logger.debug(f'Writes buffered Command character {data[i:i+1]} to the device {self.device_name}.')
+            
+            # Sends the next byte of bCommand
+            self.serial.write(data[i:i+1])
+
+            # Logs that we're expecting a response from the device
+            logger.debug(f'Starts reading character from the device {self.device_name}.')
+
+            # Reads up to 3 bytes as device should echo back the sent byte
+            resp_raw = self.serial.read(3)
+
+            # Logs response received
+            logger.debug(f'got back {resp_raw} from the device {self.device_name}.')
+
+            # Additional debug log showing raw response as string
+            logger.debug("resp_raw: "+str(resp_raw))
+
+            # If no response received
             if(len(resp_raw) == 0) or resp_raw == b'':
+                # If attempts are left
                 if self.connection_repeats > 0:
+                    # Changes number of attempts left to decrease after each try
                     self.connection_repeats = (self.connection_repeats - 1)
-                    logger.error(f'Attempt {100-self.connection_repeats}/100: sent buffered Command {commandstring}, in binascii: {data}')
+
+                    # Logs how many attempts made
+                    logger.error(f'Attempt {5-self.connection_repeats}/5: sent buffered Command {commandstring}, in binascii: {data}')
+
+                    # Tries again to send command
                     self.bCommand(commandstring)
                 else:
+                    # When no attempts left, logs error
                     logger.critical('No response from device')
-                    raise Exception(str(datetime.datetime.now()) + "No response from device")
-                # logger.debug(resp_raw) #JFW>>>
 
-            # logger.debug("resp_raw: "+str(resp_raw))
-            
+                    # Raises exception that device unresponsive
+                    raise Exception(str(datetime.datetime.now()) + "No response from device")
+
+            # If 3 bytes returned, response is the middle one
             if len(resp_raw)==3:
                 resp.append(resp_raw[1])
             else:
+                # Otherwise, appends first byte
                 logger.debug(f'resp_raw 2: {resp_raw[0]}')
                 resp.append(resp_raw[0])
 
-            # resp=binascii.a2b_qp(resp)
-            # if(resp[len(resp)-1] > 127):
-            #     resp[len(resp)-1] -= 128
-           
-
+            # Checks that byte sent and byte received are the same
             if( resp[i] != data[i] ):
-                logger.debug("Response:" + str(resp[:])) #JFW>>>
-                logger.debug("Data:" + str(data[:])) #JFW>>>
+                logger.debug("Response:" + str(resp[:]))
+                logger.debug("Data:" + str(data[:])) 
                 logger.error('Received ' + str(resp) + " instead of " + str(data[i:i+1]))
                 # raise Exception("Received " + str(resp) + " instead of " + str(data[i:i+1]))
-            
+
+            # If echoed byte is 13 (ASCII for carriage return), command transmission complete
             if( resp[i] == 13 ):
                 logger.debug('Buffered command complete.')
                 logger.debug(f'Received {resp} from device.')    
                 logger.info(f'GSIOC >>> {resp}')
+                # Returns response
                 return resp
             
-            if commandstring == 'H':
-                log_action('test_log.txt', "Autosampler sent to home position.")           
-
-            elif commandstring == 'e[n]':
-                log_action('test_log.txt', "Autosampler has cleared errors.")  
-
-        # This will happen if sending the data failed
+        # If loop finishes without sending command, logs failure to send command
         logger.error("Buffered command FAILED")
+
+        # Strips the \n and \r to convert to string
         resp_no_whitespace = resp[1:len(resp)-2]
         return resp_no_whitespace.decode("ascii")
 
@@ -398,58 +452,94 @@ class gsioc_Protocol:
         self.connect()
 
     def go_to_vial(self, vial):
+        # Raises Z to safe height
         self.bCommand('Z125')
+
+        # AR TODO - Need to rename 'thing'
+        # xy coordinates for rack obtained using get_xy_command
         thing = rack1_commands.get_xy_command(vial)
+
+        # Moves probe to xy coordinates of given vial
         self.bCommand(thing[0])
+
+        # Lowers Z height to be inside the vial
         self.bCommand('Z85')
-        log_action('test_log.txt', f"Autosampler sent to {vial} position.")
+
+        log_action('autosampler_log.txt', f"Autosampler sent to {vial} position.")
 
     def go_to_dim(self):
+        # Raises Z to safe height
         self.bCommand('Z125')
+
+        # Moves probe to xy coordinates of DIM
         self.bCommand('X146.5/0')
+
+        # Lowers Z height to be inserted into injection port - speed set to 10 mm/s
         self.bCommand('Z90:10')
-        log_action('test_log.txt', 'Autosampler sent to DIM.')
+        
+        log_action('autosampler_log.txt', 'Autosampler sent to DIM.')
 
     def go_to_home(self):
+        # Raises Z to safe height
         self.bCommand('Z125')
+
+        # Goes to home position
         self.bCommand('H')
+        
         log_action('test_log.txt', 'Autosampler sent to home position.')
 
     def go_to_solvent(self):
+        # Raises Z to safe height
         self.bCommand('Z125')
+
+        # Moves probe to xy coordinates of solvent bottle in rack
         self.bCommand('X130/70')
+
+        # Lowers Z height to be lowered into solvent bottle
         self.bCommand('Z40')
+        
         log_action('test_log.txt', 'Autosampler sent to solvent bottle.')
 
     def go_to_wash(self):
+        # Raises Z to safe height
         self.bCommand('Z125')
+
+        # Moves prove to xy coordinates of wash solvent bottle in rack
         self.bCommand('X130/145')
+
+        # Waits 0.2 s so it does not start lowering probe until it has reached correct xy position 
         time.sleep(0.2)
+
+        # Lowers Z height to be lowered into wash solvent bottle
         self.bCommand('Z40')
+        
         log_action('test_log.txt', 'Autosampler sent to wash bottle.')
 
     def go_to_waste(self):
+        # Raises Z to safe height
         self.bCommand('Z125')
+
+        # Moves probe to xy coordinates of waste bottle
         self.bCommand('X130/220')
+
+        # Waits 0.2 s so it does not start lowering probe until it has reached correct xy position
         time.sleep(0.2)
+        
+        # Lowers Z height to be lowered into waste bottle
         self.bCommand('Z40')
+
         log_action('test_log.txt', 'Autosampler sent to waste bottle.')
 
-
-
 class rack1:
-    rack_position_offset_x=92       #distance in mm between rack_position=1 and =2 on x-axis
-    rack_position_offset_y=0        #distance in mm between rack_position=1 and =2 on y-axis
+    rack_position_offset_x=92       # distance in mm between rack_position=1 and =2 on x-axis
+    rack_position_offset_y=0        # distance in mm between rack_position=1 and =2 on y-axis
     
     ############################# RACK 1 DEFINITION #################################
-    
-    # From platform_setup.py 
+
     rack1 = Rack([4,16], 7.5, 39.5, 18.5, 13.75, 65) # groundlevel_height assumed the minimum Z
     
-    #  array_dimensions, offset_x, offset_y=offset_y, vial2vial_x, vial2vial_y, groundlevel_height
-    
-    # Previous vial2vialx = (2.11+15.6)
-    # Previous vial2vial7 = (2.72+15.6+0.35)
+    # array_dimensions, offset_x, offset_y=offset_y, vial2vial_x, vial2vial_y, groundlevel_height
+
     
     array_order1 = np.array([      #user is obliged to define a integer number i>=1 for each vial in the rack in ascending order 
         [1, 2, 3, 4],
@@ -481,10 +571,6 @@ class rack1:
     global vial_selfmade
     
     vial_selfmade = Vial(1.5, 1, 33, 31.08)
-
-
-
-
 
 
 class DeviceController:
