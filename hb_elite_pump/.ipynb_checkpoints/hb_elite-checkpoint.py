@@ -95,26 +95,31 @@ class HBElite :
             return None
 
     def set_wrate(self, flow_rate):
+        """ Sends  command string to set withdrawal rate as the given argument flow_rate """
         self.command(f'wrate {flow_rate}')
         print(f'Withdrawal rate set to {flow_rate}.')
         log_action('device_log.txt', f'Syringe pump withdrawal rate has been set to {flow_rate}.')
 
     def set_irate(self, flow_rate):
+        """ Sends  command string to set infusion rate as the given argument flow_rate """
         self.command(f'irate {flow_rate}')
         print(f'Infusion rate set to {flow_rate}.')
         log_action('device_log.txt', f'Syringe pump infusion rate has been set to {flow_rate}.')
 
     def get_irate(self):
+        """ Sends  command string to request information on infusion rate """
         flow_rate = self.command('irate')
         print(f'Infusion rate is {flow_rate}.')
         log_action('device_log.txt', 'Syringe pump infusion rate has been requested.')
 
     def get_wrate(self):
+        """ Sends  command string to request information on infusion rate """
         flow_rate = self.command('wrate')
         print(f'Withdrawal rate is {flow_rate}.')
         log_action('device_log.txt', 'Syringe pump withdrawal rate has been requested.')
 
     def withdraw(self, tvolume=None):
+        """ Sets target volume to be picked up, if no target volume given as argument or not previously stated, pump will withdraw until told to stop """
         if tvolume is not None:
             self.command(f'tvolume {tvolume}')
             log_action('device_log.txt', f"The syringe pump's target volume has been set to {tvolume}.")
@@ -129,20 +134,24 @@ class HBElite :
             log_action('device_log.txt', 'Syringe pump has been set to withdraw.')
     
     def infuse(self):
+        """ Sets target volume to be dispensed, if no target volume given as argument or not previously stated, pump will dispense until told to stop """
         self.command('irun')
         log_action('device_log.txt', 'Syringe pump has been set to infuse.')
 
     def set_tvolume(self, tvolume):
+        """ Sets target volume to be picked up or dispensed """
         self.command(f'tvolume {tvolume}')
         print(f'Target volume set to {tvolume}.')
         log_action('device_log.txt', f"The syringe pump's target volume has been set to {tvolume}.")
 
     def clear_volume(self):
+        """ Clears volume and target volume """
         self.command('cvolume')
         self.command('ctvolume')
         print('Volumes reset to zero.')
 
     def stop(self):
+        """ Stops withdrawal or infusion """
         self.command('stop')
         print('Pump action halted.')
         

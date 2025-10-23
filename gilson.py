@@ -457,6 +457,10 @@ class gsioc_Protocol:
 
         # AR TODO - Need to rename 'thing'
         # xy coordinates for rack obtained using get_xy_command
+        vial_xy = rack1_commands.get_xy_command(vial)
+
+        # Moves probe to xy coordinates of given vial
+        self.bCommand(vial_xy[0])
         thing = rack1_commands.get_xy_command(vial)
 
         # Moves probe to xy coordinates of given vial
