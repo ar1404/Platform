@@ -461,6 +461,10 @@ class gsioc_Protocol:
 
         # Moves probe to xy coordinates of given vial
         self.bCommand(vial_xy[0])
+        thing = rack1_commands.get_xy_command(vial)
+
+        # Moves probe to xy coordinates of given vial
+        self.bCommand(thing[0])
 
         # Lowers Z height to be inside the vial
         self.bCommand('Z85')
@@ -530,50 +534,6 @@ class gsioc_Protocol:
 
         log_action('test_log.txt', 'Autosampler sent to waste bottle.')
 
-class Rack():
-    """
-    Representation for a Rack within the flow setup.
-
-    Parameters:
-    array_dimensions: number of vials in each direction (i.e. [4, 16] means 4 by 16 grid)
-    offset_x: x distance from home to vial 1
-    offset_y: y distance from home to vial 1
-    vial2vial_x: x distance from vial 1 to vial 2 (one column to the next)
-    vial2vial_y: y distance from vial 1 to vial 5 (one row to the next)
-    groundlevel_height: ???
-    
-    """
-    
-    def __init__(self, array_dimensions, offset_x, offset_y, vial2vial_x, vial2vial_y, groundlevel_height):
-        self.array_dimensions=array_dimensions
-        self.offset_x=offset_x
-        self.offset_y=offset_y
-        self.vial2vial_x=vial2vial_x
-        self.vial2vial_y=vial2vial_y
-        self.groundlevel_height=groundlevel_height    
-    
-    def get_vial_indices(self, vial_position, array_order, tolerance):
-        """get indices of a specific vial in a rack with a certain order of the vials
-        :returns: a tuple of (i,j) with i=vial-position along x-axis, and j=vial-position along y-axis
-        TODO: verify that input is valid type, array dimensions and validation of the inputted values
-        """
-        indices=np.where(array_order==vial_position)
-        # print(str(f'indices are: {indices}'))
-        if len(indices)==2 and len(indices[0])==1:
-            
-            return indices
-        elif len(indices)==2 and len(indices[0])==0 and tolerance.lower()=='no':                #tolerance settings
-            #REMOVE THIS STATEMENT!!!
-            sys.exit(f'fatal error: zero vials with position number {vial_position}')                        #REMOVE THIS STATEMENT!!!
-        else:
-            logger.warning(f'warning: multiple vials with position number {vial_position}')
-            return indices
-
-
-
-
-
-
 class rack1:
     rack_position_offset_x=92       # distance in mm between rack_position=1 and =2 on x-axis
     rack_position_offset_y=0        # distance in mm between rack_position=1 and =2 on y-axis
@@ -615,6 +575,155 @@ class rack1:
     global vial_selfmade
     
     vial_selfmade = Vial(1.5, 1, 33, 31.08)
+
+
+class DeviceController:
+    def __init__(self, serial_connection, max_repeats=100):
+        self.serial = serial_connection
+        self.max_repeats = max_repeats
+        self.connection_repeats = max_repeats
+
+    # 3. Method Definition
+    def iCommand(self, commandstring):
+        logger.debug(f'Sending immediate command {commandstring} to device.')
+        
+        # Convert to binary
+        command = binascii.a2b_qp(commandstring)
+        logger.debug(f'Converted command to binary: {command}')
+
+        # Write command
+        self.serial.flushInput()
+        self.serial.write(command)
+        logger.debug('Command written to serial port.')
+
+        # Retrieve Response
+        resp = bytearray()
+        while True:
+            resp_raw = self.serial.read(10)    # Will return empty array after timeout
+            logger.debug(f'Received raw response: {resp_raw}')
+
+            if len(resp_raw) == 0:
+                logger.debug(f'No response received. Connection repeats left: {self.connection_repeats}')
+                if self.connection_repeats > 0:
+                    self.connection_repeats -= 1
+                    logger.error(f'Attempt {self.max_repeats - self.connection_repeats}/{self.max_repeats}: sent Immediate Command {commandstring}, in binascii: {command}')
+                    return self.iCommand(commandstring)  # Safe recursion
+                else:
+                    logger.critical('No response from device after maximum retries.')
+                    raise Exception(str(datetime.datetime.now()) + " No response from device")
+
+            resp.extend(resp_raw)
+            logger.debug(f'Current response buffer: {resp}')
+
+            # Extended ASCII represents end of message
+            if resp[-1] > 127:
+                resp[-1] -= 128
+                logger.debug(f'End of message detected, adjusted last byte: {resp[-1]}')
+                logger.debug('Sending immediate command complete.')
+                break
+
+            # Write Acknowledge to Device to signal next byte can be retrieved
+            else:
+                self.serial.flushInput()
+                self.serial.write(bytes.fromhex("06"))
+                logger.debug('Acknowledgement sent to device.')
+
+        logger.debug(f'Received full response: {resp}')
+        return resp.decode("ascii")
+
+def check_xy_position_change(gsioc_lh, logging_entity, destination_command, TESTING_ACTIVE=False):
+    """Checks if current x/y-position is close to the expected destination. 
+    Returns True if position is the expected one, False if not."""
+    
+    logging_entity.info(f'The following command is checked: {destination_command}')
+    match =  re.search('^X(\d+\.?(\d+)?)/(\d+\.?(\d+)?)$',destination_command)
+    if match:
+        gsioc_lh.connect()
+        current_xy_position = str(gsioc_lh.iCommand('X'))
+        # Reformat destination and current position (expected gsioc command "X###.######/###.######")
+        dest_posx, dest_posy = str(destination_command).replace('X','').split('/')
+        current_posx, current_posy = str(current_xy_position).replace('X','').split('/')
+        if TESTING_ACTIVE == True:
+            current_posx = dest_posx
+            current_posy = dest_posy
+        coords = [dest_posx,dest_posy,current_posx,current_posy]
+        for i in range(len(coords)):
+            coords[i]=float(coords[i])
+        cond_x = isclose(coords[0],coords[2],abs_tol=0.6)
+        cond_y = isclose(coords[1],coords[3],abs_tol=0.6)
+        if cond_x and cond_y:
+            return True
+        else:
+            logging_entity.critical(f'X/Y-POSITION {current_xy_position} UNEXPECTED. Expected: {destination_command}, equality up to a difference of 0.6 mm.')
+            return False
+    else:
+        logging_entity.critical(f'INVALID USE OF FUNCTION. Expected X/Y-command, not {destination_command}')
+        return True
+
+def ensure_xy_position_will_be_reached(gsioc_liqhan,attempts,logging_entity,xy_positioning_command, TESTING_ACTIVE = False):
+    logging_entity.info(f'The following command is ensured to get reached: {xy_positioning_command}')
+    gsioc_liqhan.connect()
+    time.sleep(5)
+    # gsioc_liqhan.bCommand('H')
+    gsioc_liqhan.bCommand('Z125')
+    for i in range(attempts):
+        gsioc_liqhan.bCommand(xy_positioning_command)
+        approval = check_xy_position_change(gsioc_liqhan,logging_entity,xy_positioning_command, TESTING_ACTIVE)
+        if i > 0:
+            logging_entity.critical(f'X/Y-POSITION UNEXPECTED')
+            if i == attempts-1:
+                g.bCommand('H')
+                time.sleep(15)
+                raise TimeoutError(f'This Error was raised after {attempts} attemps of repositioning to {xy_positioning_command}.')
+        if approval:
+            break
+        else:
+            continue
+
+
+if __name__ == '__main__':
+    PORT1   = 'COM1'
+    ser=serial.Serial(PORT1,19200,8,"N",1,0.1) 
+    g = gsioc_Protocol(ser,'GX-241 II',33)
+    #g1 = gsioc_Protocol(ser,'GX D Inject',3)
+
+    g.connect()
+    ###### COMMANDS TO THE LIQUID HANDLER ######
+    g.iCommand("%")
+    g.bCommand('H')
+    time.sleep(5)
+
+    #g1.connect()
+    ##### COMMANDS TO THE VALVE ######
+    #g1.iCommand("%")
+    #g1.bCommand('VL')
+
+class Rack():
+    """Representation for a Rack within the flow setup."""
+    def __init__(self, array_dimensions, offset_x, offset_y, vial2vial_x, vial2vial_y, groundlevel_height):
+        self.array_dimensions=array_dimensions
+        self.offset_x=offset_x
+        self.offset_y=offset_y
+        self.vial2vial_x=vial2vial_x
+        self.vial2vial_y=vial2vial_y
+        self.groundlevel_height=groundlevel_height    
+    
+    def get_vial_indices(self, vial_position, array_order, tolerance):
+        """get indices of a specific vial in a rack with a certain order of the vials
+        :returns: a tuple of (i,j) with i=vial-position along x-axis, and j=vial-position along y-axis
+        TODO: verify that input is valid type, array dimensions and validation of the inputted values
+        """
+        indices=np.where(array_order==vial_position)
+        # print(str(f'indices are: {indices}'))
+        if len(indices)==2 and len(indices[0])==1:
+            
+            return indices
+        elif len(indices)==2 and len(indices[0])==0 and tolerance.lower()=='no':                #tolerance settings
+            #REMOVE THIS STATEMENT!!!
+            sys.exit(f'fatal error: zero vials with position number {vial_position}')                        #REMOVE THIS STATEMENT!!!
+        else:
+            logger.warning(f'warning: multiple vials with position number {vial_position}')
+            return indices
 
 
 class Rackcommands(): 
